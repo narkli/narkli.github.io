@@ -1,0 +1,132 @@
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+// Creation Date: Wed Feb  4 11:46:29 PST 2015
+// Last Modified: Wed Feb  4 11:46:32 PST 2015
+// Filename:      _includes/js/turnoff-sticky.html
+// Syntax:        JavaScript 1.5 (EMCAScript 5)
+// vim:           ts=3 ft=javascript hlsearch
+//
+// Description:   This code is used on the About page and other
+//                pages to highlight matching PMX and SVG items that 
+//                a mouse is hovering over.
+//
+//                The PMX data should be in a scrollable div 
+//                with id="pmxlist".
+//
+
+var lastglyph;
+var lastspan;
+
+//////////////////////////////
+//
+// turnon -- When the mouse moves over either a PMX entry or its 
+//    equivalent SVG entry, highlight both of them in red.
+//
+
+function turnon(klass) {
+	var pmxlist = document.getElementById('pmxlist');
+	var svglist = document.getElementById('svglist');
+
+	var items = document.getElementsByClassName(klass);
+	var items2 = document.getElementsByClassName(klass + 'back');
+	var info = '';
+	for (var i=0; i<items.length; i++) {
+		if (items[i].tagName == 'SPAN') {
+			if (lastspan != null) {
+				lastspan.style.color = 'black';
+				lastspan.style.stroke = 'black';
+			}
+			info = items[i].innerHTML;
+			items[i].style.color = 'red';
+			items[i].style.stroke = 'red';
+
+			if (pmxlist) {
+				makeEntryVisible(pmxlist, items[i]);
+			}
+
+			lastspan = items[i];
+		}
+		if (items[i].tagName == 'g') {
+			if (lastglyph != null) {
+				if (lastglyph.getAttribute('class').match(/staff/)) {
+						lastglyph.style.color = '#999999';
+						lastglyph.style.stroke = '#999999';
+				} else {
+						lastglyph.style.color = 'black';
+						lastglyph.style.stroke = 'black';
+				}
+			}
+			items[i].style.color = 'red';
+			items[i].style.stroke = 'red';
+			lastglyph = items[i];
+
+			if (svglist) {
+				makeEntryVisible(svglist, items[i]);
+			}
+		}
+	}
+	var re = /[0-9]+/;
+	var infobox = document.getElementById(klass.replace(re, 'info'));
+	if (infobox != null) {
+		infobox.innerHTML = info;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// makeEntryVisible -- 
+//
+
+function makeEntryVisible(container, item) {
+	var cpos = {
+		top:     container.offsetTop,
+		height:  container.clientHeight,
+		sheight: container.scrollHeight,
+		stop:    container.scrollTop
+	};
+	var ipos = {
+		top:     item.offsetTop,
+		height:  item.clientHeight,
+		sheight: item.scrollHeight,
+		stop:    item.scrollTop
+	};
+
+	var toppos     = cpos.top;
+	var minvisible = toppos + cpos.stop;
+	var maxvisible = toppos + cpos.height + cpos.stop;
+	var itoppos    = ipos.top;
+	var diff;
+
+	if (container.id === 'svglist') {
+		item.scrollIntoViewIfNeeded();
+	} else {
+		if (itoppos > maxvisible - 20) {
+			// If the PMX entry is hidden below the view, raise it.
+			diff = itoppos - maxvisible;
+			container.scrollTop = container.scrollTop + diff + 50;
+		} else if (itoppos < minvisible + 20) {
+			// If the PMX entry is hidden above the view, lowerit it.
+			diff = maxvisible - itoppos;
+			container.scrollTop = container.scrollTop - diff;
+		}
+	}
+
+}
+
+
+//////////////////////////////
+//
+// turnoff -- No longer used (last selected item remained highlighted).
+//
+
+function turnoff(klass) {
+	// not turning off last item in this function anymore.
+}
+
+
+</script>
+

@@ -1,0 +1,12 @@
+_site
+Gemfile.lock
+
+.*
+!.gitignore
+!.serve
+
+lib/
+obj/
+obj-edit/
+
+bin
