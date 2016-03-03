@@ -1,0 +1,2130 @@
+<!doctype html>
+<html lang="en">	           
+	<head id="newhead">
+		<title>Bartok Mikrokosmos I/2a</title>
+
+<!-- styles -->
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lusitana:400,700" rel="stylesheet" type="text/css">
+<!-- link rel="stylesheet" type="text/css" href="/css/normalize.css"/ -->
+<!-- link rel="stylesheet" type="text/css" href="/css/style.css"/ -->
+
+<style>
+
+body#white {
+    background: white;
+}
+
+div#home-page {
+   width: 100%;
+}
+
+
+</style>
+
+
+</head>
+
+	<body id="white">
+
+		<div id="help" style="display:none;";>
+
+<div style="position: fixed; bottom:0%; right:0%; background:#ffdddd; margin-bottom:5px; width:290px; padding:30px">
+
+<style>
+
+table#help-table td {
+   text-align: left;
+   vertical-align:top; 
+}
+
+table#help-table tr {
+   vertical-align:top; 
+}
+
+</style>
+
+<table id="help-table">
+
+<tr><td colspan="2">
+   <b style="font-size:110%;">Keyboard commands</b>
+</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>?</b></td>
+    <td> Hide this help menu.</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>C</b></td>
+    <td> Toggle display of control panel </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>H</b></td>
+    <td> Toggle full-height view </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>W</b></td>
+    <td> Toggle full-width view </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>[</b></td>
+    <td> Zoom out </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>]</b></td>
+    <td> Zoom in </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>G</b></td>
+    <td> Toggle grand-staff display</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>R</b></td>
+    <td> Toggle round/square notes</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>1-9</b></td>
+    <td> Toggle display of first-ninth voice </td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b><nobr>shift-1</nobr></b></td>
+    <td> Toggle showing only first voice</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>0</b></td>
+    <td> Toggle display of all voices</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>X</b></td>
+    <td> Toggle display of lowest pitch in each voice</td>
+</tr>
+
+<tr><td style="padding-right:20px;"><b>N</b></td>
+    <td> Toggle display of hightest pitch in each voice</td>
+</tr>
+
+</table>
+
+</div>
+
+		</div>
+
+		<div class="page container" id="home-page">
+
+			<section id="content">
+
+<style>
+
+svg {
+   display: none;
+}
+
+
+svg rect.highlight {
+   fill:  #786D5F;
+   opacity: 1;
+}
+
+
+svg rect.note:hover {
+   /* fill:    red; */
+   stroke:  silver;
+   stroke-width: 10;
+}
+
+table#controls {
+   position:      fixed; 
+   background:    white; 
+   margin-left:   30px; 
+   margin-bottom: 30px;
+}
+
+table#controls tr td {
+   padding: 7px;
+   min-width: 150px;
+}
+
+table#table-svg, table#table-svg tr td {
+   padding: 0;
+   margin: 0;
+}
+
+
+</style>
+
+<div id="interface">
+<table id="controls">
+<tr><td colspan=3>
+<h1> <i>Mikrokosmos</i>, Vol. I, No. 2a, B&eacute;la Bart&oacute;k
+ 
+<style>
+
+.play {
+	display: inline-block;
+	text-indent: -19999px;
+	background: url(mp3.png) no-repeat 0 0;
+	width: 56px;
+	height: 27px;
+	margin-left: 15px;
+	position: relative;
+	top: 3px;
+}
+
+.pause {
+	display: inline-block;
+	text-indent: -19999px;
+	background: url(mp3-pause.png) no-repeat 0 0;
+	width: 56px;
+	height: 27px;
+	margin-left: 15px;
+	position: relative;
+	top: 3px;
+}
+
+
+</style>
+
+<span id="audio2" 
+   style="position:relative; cursor:hand; cursor:pointer; top:15px" 
+   onclick="PlayAudioFile2('Jos2824', this);" href class="play">play</span>
+
+
+</h1>
+</td></tr>
+<tr>
+
+<td style="text-align:right;">
+width <input id="width" style="width:50px; text-align:right;" onchange="displayWidth(this.value);" value="100" min="100" step="50" max="800" type="number">% <br>
+round notes <input id="round-notes" onchange="displayRound(this.checked);" type=checkbox checked><br>
+note connectors <input id="note-connectors" onchange="displayLines(this.checked);" type=checkbox checked><br>
+</td>
+
+<td style="text-align:right;">
+grand staff <input id="grand-staff" onchange="displayStafflines(this.checked);" type=checkbox><br>
+maxima <input id="maxima" onchange="displayMaxima(this.checked);" type=checkbox><br>
+minima <input id="minima" onchange="displayMinima(this.checked);" type=checkbox><br>
+</td>
+
+<td style="text-align:right;">
+Superius <input onchange="displayVoice(this.checked, 4);" id="v1" type=checkbox checked><br>
+Altus <input onchange="displayVoice(this.checked, 3);" id="v2" type=checkbox checked><br>
+Tenor <input onchange="displayVoice(this.checked, 2);" id="v3" type=checkbox checked><br>
+Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox checked><br>
+</td>
+
+
+<td>
+<div id="info"></div>
+</td>
+
+</tr>
+
+
+</table>
+
+<div style="height:200px"></div>
+</div>
+
+<table id="svg-table">
+<tr><td>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 36 22.1185 45" viewBox="-1 -1 267.422 47" width="267.422" height="47">
+<filter id="constantOpacity">
+	<feComponentTransfer>
+		<feFuncA type="table" tableValues="0 .5 .5" />
+	</feComponentTransfer>
+</filter>
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
+<g transform="scale(12, -1) translate(0, -81)" >
+	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
+		<path d="M0 64.5 L22.1185 64.5" />
+		<path d="M0 67.5 L22.1185 67.5" />
+		<path d="M0 71.5 L22.1185 71.5" />
+		<path d="M0 74.5 L22.1185 74.5" />
+		<path d="M0 77.5 L22.1185 77.5" />
+		<path d="M0 43.5 L22.1185 43.5" />
+		<path d="M0 47.5 L22.1185 47.5" />
+		<path d="M0 50.5 L22.1185 50.5" />
+		<path d="M0 53.5 L22.1185 53.5" />
+		<path d="M0 57.5 L22.1185 57.5" />
+	</g>
+	<g style="stroke-width:0.1; stroke:black;">
+		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
+			<path d=" M3.11979 36.5 L3.125 36.5 L3.125 38.5" />
+			<path d=" M3.74479 38.5 L3.75 38.5 L3.75 40.5" />
+			<path d=" M4.36979 40.5 L4.375 40.5 L4.375 38.5" />
+			<path d=" M4.99479 38.5 L5 38.5 L5 40.5" />
+			<path d=" M5.61979 40.5 L5.625 40.5 L5.625 41.5" />
+			<path d=" M6.24479 41.5 L6.25 41.5 L6.25 43.5" />
+			<path d=" M7.47135 43.5 L7.5 43.5 L7.5 41.5" />
+			<path d=" M8.11979 41.5 L8.125 41.5 L8.125 40.5" />
+			<path d=" M8.74479 40.5 L8.75 40.5 L8.75 38.5" />
+			<path d=" M9.36979 38.5 L9.375 38.5 L9.375 36.5" />
+			<path d=" M9.99479 36.5 L10 36.5 L10 38.5" />
+			<path d=" M11.2448 38.5 L11.25 38.5 L11.25 40.5" />
+			<path d=" M12.4948 40.5 L12.5 40.5 L12.5 41.5" />
+			<path d=" M13.1198 41.5 L13.125 41.5 L13.125 43.5" />
+			<path d=" M13.7448 43.5 L13.75 43.5 L13.75 41.5" />
+			<path d=" M14.3685 41.5 L14.375 41.5 L14.375 40.5" />
+			<path d=" M14.9948 40.5 L15 40.5 L15 38.5" />
+			<path d=" M15.6198 38.5 L15.625 38.5 L15.625 36.5" />
+			<path d=" M16.2448 36.5 L16.25 36.5 L16.25 38.5" />
+			<path d=" M17.3997 38.5 L17.5 38.5 L17.5 40.5" />
+			<path d=" M18.1198 40.5 L18.125 40.5 L18.125 41.5" />
+			<path d=" M18.7448 41.5 L18.75 41.5 L18.75 40.5" />
+			<path d=" M19.3698 40.5 L19.375 40.5 L19.375 38.5" />
+			<path d=" M19.9948 38.5 L20 38.5 L20 36.5" />
+		</g>
+		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
+			<path d=" M3.11979 60.5 L3.125 60.5 L3.125 62.5" />
+			<path d=" M3.74479 62.5 L3.75 62.5 L3.75 64.5" />
+			<path d=" M4.36979 64.5 L4.375 64.5 L4.375 62.5" />
+			<path d=" M4.99479 62.5 L5 62.5 L5 64.5" />
+			<path d=" M5.61979 64.5 L5.625 64.5 L5.625 65.5" />
+			<path d=" M6.24479 65.5 L6.25 65.5 L6.25 67.5" />
+			<path d=" M7.47135 67.5 L7.5 67.5 L7.5 65.5" />
+			<path d=" M8.11979 65.5 L8.125 65.5 L8.125 64.5" />
+			<path d=" M8.74479 64.5 L8.75 64.5 L8.75 62.5" />
+			<path d=" M9.36979 62.5 L9.375 62.5 L9.375 60.5" />
+			<path d=" M9.99479 60.5 L10 60.5 L10 62.5" />
+			<path d=" M11.2448 62.5 L11.25 62.5 L11.25 64.5" />
+			<path d=" M12.4948 64.5 L12.5 64.5 L12.5 65.5" />
+			<path d=" M13.1198 65.5 L13.125 65.5 L13.125 67.5" />
+			<path d=" M13.7448 67.5 L13.75 67.5 L13.75 65.5" />
+			<path d=" M14.3685 65.5 L14.375 65.5 L14.375 64.5" />
+			<path d=" M14.9948 64.5 L15 64.5 L15 62.5" />
+			<path d=" M15.6198 62.5 L15.625 62.5 L15.625 60.5" />
+			<path d=" M16.2448 60.5 L16.25 60.5 L16.25 62.5" />
+			<path d=" M17.3997 62.5 L17.5 62.5 L17.5 64.5" />
+			<path d=" M18.1198 64.5 L18.125 64.5 L18.125 65.5" />
+			<path d=" M18.7448 65.5 L18.75 65.5 L18.75 64.5" />
+			<path d=" M19.3698 64.5 L19.375 64.5 L19.375 62.5" />
+			<path d=" M19.9948 62.5 L20 62.5 L20 60.5" />
+		</g>
+		<g opacity="0.5" class="note-backdrops track-2" style="fill:white;" >
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-2d500 offt-3d120 minima"	rx="1"	ry="1"	x="2.5"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-3d125 offt-3d745"	rx="1"	ry="1"	x="3.125"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-3d750 offt-4d370"	rx="1"	ry="1"	x="3.75"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-4d375 offt-4d995"	rx="1"	ry="1"	x="4.375"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-5d000 offt-5d620"	rx="1"	ry="1"	x="5"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-5d625 offt-6d245"	rx="1"	ry="1"	x="5.625"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-43 ont-6d250 offt-7d471 maxima"	rx="1"	ry="1"	x="6.25"	y="43"	width="1.22135"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-7d500 offt-8d120"	rx="1"	ry="1"	x="7.5"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-8d125 offt-8d745"	rx="1"	ry="1"	x="8.125"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-8d750 offt-9d370"	rx="1"	ry="1"	x="8.75"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-9d375 offt-9d995 minima"	rx="1"	ry="1"	x="9.375"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-10d000 offt-11d245"	rx="1"	ry="1"	x="10"	y="38"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-11d250 offt-12d495"	rx="1"	ry="1"	x="11.25"	y="40"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-12d500 offt-13d120"	rx="1"	ry="1"	x="12.5"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-43 ont-13d125 offt-13d745 maxima"	rx="1"	ry="1"	x="13.125"	y="43"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-13d750 offt-14d368"	rx="1"	ry="1"	x="13.75"	y="41"	width="0.61849"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-14d375 offt-14d995"	rx="1"	ry="1"	x="14.375"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-15d000 offt-15d620"	rx="1"	ry="1"	x="15"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-15d625 offt-16d245 minima"	rx="1"	ry="1"	x="15.625"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-16d250 offt-17d400"	rx="1"	ry="1"	x="16.25"	y="38"	width="1.14974"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-17d500 offt-18d120"	rx="1"	ry="1"	x="17.5"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-18d125 offt-18d745"	rx="1"	ry="1"	x="18.125"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-18d750 offt-19d370"	rx="1"	ry="1"	x="18.75"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-19d375 offt-19d995"	rx="1"	ry="1"	x="19.375"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-20d000 offt-22d118 minima"	rx="1"	ry="1"	x="20"	y="36"	width="2.11849"	height="1" />
+		</g>
+		<g opacity="0.5" class="note-backdrops track-1" style="fill:white;" >
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-2d500 offt-3d120 minima"	rx="1"	ry="1"	x="2.5"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-3d125 offt-3d745"	rx="1"	ry="1"	x="3.125"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-3d750 offt-4d370"	rx="1"	ry="1"	x="3.75"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-4d375 offt-4d995"	rx="1"	ry="1"	x="4.375"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-5d000 offt-5d620"	rx="1"	ry="1"	x="5"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-5d625 offt-6d245"	rx="1"	ry="1"	x="5.625"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-6d250 offt-7d471 maxima"	rx="1"	ry="1"	x="6.25"	y="67"	width="1.22135"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-7d500 offt-8d120"	rx="1"	ry="1"	x="7.5"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-8d125 offt-8d745"	rx="1"	ry="1"	x="8.125"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-8d750 offt-9d370"	rx="1"	ry="1"	x="8.75"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-9d375 offt-9d995 minima"	rx="1"	ry="1"	x="9.375"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-10d000 offt-11d245"	rx="1"	ry="1"	x="10"	y="62"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-11d250 offt-12d495"	rx="1"	ry="1"	x="11.25"	y="64"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-12d500 offt-13d120"	rx="1"	ry="1"	x="12.5"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-13d125 offt-13d745 maxima"	rx="1"	ry="1"	x="13.125"	y="67"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-13d750 offt-14d368"	rx="1"	ry="1"	x="13.75"	y="65"	width="0.61849"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-14d375 offt-14d995"	rx="1"	ry="1"	x="14.375"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-15d000 offt-15d620"	rx="1"	ry="1"	x="15"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-15d625 offt-16d245 minima"	rx="1"	ry="1"	x="15.625"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-16d250 offt-17d400"	rx="1"	ry="1"	x="16.25"	y="62"	width="1.14974"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-17d500 offt-18d120"	rx="1"	ry="1"	x="17.5"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-18d125 offt-18d745"	rx="1"	ry="1"	x="18.125"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-18d750 offt-19d370"	rx="1"	ry="1"	x="18.75"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-19d375 offt-19d995"	rx="1"	ry="1"	x="19.375"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-20d000 offt-22d118 minima"	rx="1"	ry="1"	x="20"	y="60"	width="2.11849"	height="1" />
+		</g>
+		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-2d500 offt-3d120 minima"	rx="1"	ry="1"	x="2.5"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-3d125 offt-3d745"	rx="1"	ry="1"	x="3.125"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-3d750 offt-4d370"	rx="1"	ry="1"	x="3.75"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-4d375 offt-4d995"	rx="1"	ry="1"	x="4.375"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-5d000 offt-5d620"	rx="1"	ry="1"	x="5"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-5d625 offt-6d245"	rx="1"	ry="1"	x="5.625"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-43 ont-6d250 offt-7d471 maxima"	rx="1"	ry="1"	x="6.25"	y="43"	width="1.22135"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-7d500 offt-8d120"	rx="1"	ry="1"	x="7.5"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-8d125 offt-8d745"	rx="1"	ry="1"	x="8.125"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-8d750 offt-9d370"	rx="1"	ry="1"	x="8.75"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-9d375 offt-9d995 minima"	rx="1"	ry="1"	x="9.375"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-10d000 offt-11d245"	rx="1"	ry="1"	x="10"	y="38"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-11d250 offt-12d495"	rx="1"	ry="1"	x="11.25"	y="40"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-12d500 offt-13d120"	rx="1"	ry="1"	x="12.5"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-43 ont-13d125 offt-13d745 maxima"	rx="1"	ry="1"	x="13.125"	y="43"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-13d750 offt-14d368"	rx="1"	ry="1"	x="13.75"	y="41"	width="0.61849"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-14d375 offt-14d995"	rx="1"	ry="1"	x="14.375"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-15d000 offt-15d620"	rx="1"	ry="1"	x="15"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-15d625 offt-16d245 minima"	rx="1"	ry="1"	x="15.625"	y="36"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-16d250 offt-17d400"	rx="1"	ry="1"	x="16.25"	y="38"	width="1.14974"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-17d500 offt-18d120"	rx="1"	ry="1"	x="17.5"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-41 ont-18d125 offt-18d745"	rx="1"	ry="1"	x="18.125"	y="41"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-40 ont-18d750 offt-19d370"	rx="1"	ry="1"	x="18.75"	y="40"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-38 ont-19d375 offt-19d995"	rx="1"	ry="1"	x="19.375"	y="38"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-36 ont-20d000 offt-22d118 minima"	rx="1"	ry="1"	x="20"	y="36"	width="2.11849"	height="1" />
+		</g>
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-2d500 offt-3d120 minima"	rx="1"	ry="1"	x="2.5"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-3d125 offt-3d745"	rx="1"	ry="1"	x="3.125"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-3d750 offt-4d370"	rx="1"	ry="1"	x="3.75"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-4d375 offt-4d995"	rx="1"	ry="1"	x="4.375"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-5d000 offt-5d620"	rx="1"	ry="1"	x="5"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-5d625 offt-6d245"	rx="1"	ry="1"	x="5.625"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-6d250 offt-7d471 maxima"	rx="1"	ry="1"	x="6.25"	y="67"	width="1.22135"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-7d500 offt-8d120"	rx="1"	ry="1"	x="7.5"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-8d125 offt-8d745"	rx="1"	ry="1"	x="8.125"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-8d750 offt-9d370"	rx="1"	ry="1"	x="8.75"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-9d375 offt-9d995 minima"	rx="1"	ry="1"	x="9.375"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-10d000 offt-11d245"	rx="1"	ry="1"	x="10"	y="62"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-11d250 offt-12d495"	rx="1"	ry="1"	x="11.25"	y="64"	width="1.24479"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-12d500 offt-13d120"	rx="1"	ry="1"	x="12.5"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-13d125 offt-13d745 maxima"	rx="1"	ry="1"	x="13.125"	y="67"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-13d750 offt-14d368"	rx="1"	ry="1"	x="13.75"	y="65"	width="0.61849"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-14d375 offt-14d995"	rx="1"	ry="1"	x="14.375"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-15d000 offt-15d620"	rx="1"	ry="1"	x="15"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-15d625 offt-16d245 minima"	rx="1"	ry="1"	x="15.625"	y="60"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-16d250 offt-17d400"	rx="1"	ry="1"	x="16.25"	y="62"	width="1.14974"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-17d500 offt-18d120"	rx="1"	ry="1"	x="17.5"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-18d125 offt-18d745"	rx="1"	ry="1"	x="18.125"	y="65"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-18d750 offt-19d370"	rx="1"	ry="1"	x="18.75"	y="64"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-19d375 offt-19d995"	rx="1"	ry="1"	x="19.375"	y="62"	width="0.619792"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-20d000 offt-22d118 minima"	rx="1"	ry="1"	x="20"	y="60"	width="2.11849"	height="1" />
+		</g>
+	</g>
+</g>
+</svg>
+<?mid2svg
+	--dark --staff -l -r --gs --dash -a 12 no2a.mid
+?>
+
+
+</td></tr></table>
+
+
+
+
+			</section>
+
+		</div>
+
+<script>
+// vim: ts=3 ft=javascript
+
+var LASTHEIGHT     = -1;
+var LASTWIDTH      = -1;
+var POLL_FREQUENCY = 20;
+var LAST_TIME      = -1;
+var CURRENT_TIME   = -1;
+var REFRESH;
+var ANCHOR_STOP;
+var STARTTIME      = -1;
+//var OFFSET         = 0.83;
+var OFFSET         = 0.0
+
+var NOTE_OFF_TIMES = [];
+var NOTE_ON_TIMES  = [];
+var RECTS          = [];
+
+var PLAY_STATE = 0;
+
+// used to monitor track states with "0" command.
+
+window.addEventListener("DOMContentLoaded", function(event) {
+
+	prepareTimemap();
+
+	// Set up display according to options on page:
+	var voice1 = document.querySelector("#v1");
+	var voice2 = document.querySelector("#v2");
+	var voice3 = document.querySelector("#v3");
+	var voice4 = document.querySelector("#v4");
+
+	voice1.checked = true;
+	voice2.checked = true;
+	voice3.checked = true;
+	voice4.checked = true;
+
+	displayVoice(voice1.checked, 4);
+	displayVoice(voice2.checked, 3);
+	displayVoice(voice3.checked, 2);
+	displayVoice(voice4.checked, 1);
+
+	var grandstaff = document.querySelector("#grand-staff");
+	displayStafflines(grandstaff.checked);
+
+	var rounded = document.querySelector("#round-notes");
+	displayRound(rounded.checked);
+
+	var lines = document.querySelector("#note-connectors");
+	displayLines(lines.checked);
+
+	var maxima = document.querySelector("#maxima");
+	displayMaxima(maxima.checked);
+
+	var width = document.querySelector("#width");
+	displayWidth(width.value);
+
+	var svg = document.querySelector("svg");
+	svg.style.display = 'block';
+
+});
+
+
+window.addEventListener("click", function(event) {
+	if (event.target.nodeName !== "rect") {
+		return;
+	}
+	var clas = event.target.className.baseVal;
+	if (!clas) {
+		return;
+	}
+	var matches;
+	var info = document.querySelector("#info");
+	if (matches = clas.match(/key-(\d+)/)) {
+		var key = matches[1];
+		console.log("KEY = ", key);
+		info.innerHTML = "Pitch: " + MidiToDiatonicPC(key);
+	}
+
+   // start playing at that point in music
+   var audio = document.querySelector("audio");
+   if (!audio) {
+      PlayAudioFile2('Jos2824');
+      var audio = document.querySelector("audio");
+      if (audio) {
+         audio.pause();
+      }
+   }
+   var child = audio.firstChild;
+   if (child.nodeName !== "SOURCE") {
+      console.log("CHILD IS NOT SOURCE");
+      PlayAudioFile2('Jos2824');
+      audio.pause();
+   } else {
+      console.log("CHILD IS SOURCE");
+   }
+   var matches;
+   var ontime = 0;
+   if (!audio.paused) {
+      audio.pause();
+   }
+   if (matches = clas.match(/ont-([^\s]+)/)) {
+      ontime = matches[1].replace(/d/, '.');
+      STARTTIME = parseFloat(ontime) - OFFSET - 0.01;
+      if (STARTTIME < 0) {
+         STATTIME = 0.001;
+      }
+      audio.play();
+
+   }
+});
+
+
+function MidiToDiatonicPC(value) {
+	value = parseInt(value);
+	var octave = parseInt(value / 12);
+	var pc12 = parseInt(value % 12);
+	var output = "";
+	switch (pc12) {
+		case 0:	output += "C";	break;
+		case 1:	output += "C#";  break;
+		case 2:	output += "D";	break;
+		case 3:	output += "Eb";  break;
+		case 4:	output += "E";	break;
+		case 5:	output += "F";	break;
+		case 6:	output += "F#";  break;
+		case 7:	output += "G";	break;
+		case 8:	output += "G#";  break;
+		case 9:	output += "A";	break;
+		case 10:  output += "Bb";  break;
+		case 11:  output += "B";	break;
+	}
+	output += octave;
+	return output;
+}
+
+
+
+////////////////////////
+//
+// prepareTimemap --
+//
+
+function prepareTimemap() {
+	var svg = document.querySelector("svg");
+	// var offt = svg.querySelectorAll("[class^='offt-']");
+	RECTS = svg.querySelectorAll("rect");
+	NOTE_OFF_TIMES = [];
+	NOTE_OFF_TIMES = [];
+	var matches;
+	var offtime;
+	var ontime;
+	for (var i=0; i<RECTS.length; i++) {
+
+		if (matches = RECTS[i].className.baseVal.match(/ont-([^\s]+)/)) {
+			ont = parseFloat(matches[1].replace(/d/, "."));
+			NOTE_ON_TIMES.push({time: ont - OFFSET, index: i});
+		}
+
+		if (matches = RECTS[i].className.baseVal.match(/offt-([^\s]+)/)) {
+			offtime = parseFloat(matches[1].replace(/d/, "."));
+			NOTE_OFF_TIMES.push({time: offtime - OFFSET, index: i});
+		}
+
+	}
+}
+
+
+
+//////////////////////////////
+//
+// PlayAudioFile2 -- play/pause an audio file.
+//
+
+function PlayAudioFile2(jrpid, element, time) {
+   if (!element) {
+      element = document.querySelector("#audio2");
+   }
+
+	// The JRPID is not the same as the currently playing file
+	// (or there is no file playing).  So start the new one.
+	if (!AUDIO) {
+		AUDIO = document.getElementById('audio');
+	}
+	if (!AUDIO) {
+		document.body.innerHTML += '<audio id="audio"></audio>\n';
+		AUDIO = document.getElementById('audio');
+	}
+	if (!AUDIO) {
+		console.log('Error: could not set up audio interface\n');
+		return false;
+	}
+	AUDIO.setAttribute('controls', 'controls');
+	AUDIO.style.position = 'fixed';
+	AUDIO.style.bottom = '0';
+	AUDIO.style.right = '0';
+	AUDIO.style.zIndex = '1';
+
+   if (time) {
+      AUDIO.currentTime(time);
+   }
+
+   AUDIO.addEventListener('pause', pauseCallback);
+   AUDIO.addEventListener('play', playCallback);
+
+	var audiobutton;
+	if (jrpid != AUDIOjrpid) {
+		if (!!AUDIOid) {
+			// turn of previously playing audio file:
+			audiobutton = document.getElementById(AUDIOid);
+			if (!!audiobutton && !!audiobutton.className) {
+				if (audiobutton.className.match(/mp3/)) {
+					audiobutton.className = 'mp3play';
+				} else {
+					audiobutton.className = 'play';
+				}
+			}
+		}
+		AUDIO.removeAttribute('controls');
+		AUDIO.pause();
+		
+		AUDIOid = element.id;
+		var source = '';
+		// Can't have seekable dynamic content in audio element:
+		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
+		if (window.location.href.match(/tasso/i)) {
+			source += '<source src="no49.mp3" ';
+		} else {
+			source += '<source src="no49.mp3" ';
+		}
+		source += 'type="audio/mpeg"/>\n';
+		AUDIO.innerHTML = source;
+
+		AUDIOjrpid = jrpid;
+		AUDIO.load();
+		AUDIO.play();
+		AUDIO.setAttribute('controls', 'controls');
+		var newelement = document.getElementById(AUDIOid);
+		
+		if (newelement.className.match(/mp3/)) {
+			newelement.className = 'mp3pause';
+		} else {
+			newelement.className = 'pause';
+		}
+		return;
+	}
+
+	// The audio file is the same, so start it or pause it depending
+	// on its current state:
+	if (AUDIO.paused) {
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		if (audiobutton.className.match(/mp3/)) {
+			audiobutton.className = 'mp3play';
+		} else {
+			audiobutton.className = 'play';
+		}
+		if (element.className.match(/mp3/)) {
+			element.className = 'mp3pause';
+		} else {
+			element.className = 'pause';
+		}
+		AUDIO.play();
+		AUDIO.setAttribute('controls', 'controls');
+	} else {
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		if (audiobutton.className.match(/mp3/)) {
+			audiobutton.className = 'mp3pause';
+		} else {
+			audiobutton.className = 'pause';
+		}
+		if (element.className.match(/mp3/)) {
+			element.className = 'mp3play';
+		} else {
+			element.className = 'play';
+		}
+		AUDIO.pause();
+		AUDIO.removeAttribute('controls');
+	}
+}
+
+
+//////////////////////////////
+//
+// pauseCallback -- What to do when the audio is stopped.
+//
+
+function pauseCallback() {
+	console.log("PAUSING AUDIO");
+   PLAY_STATE = 0;
+   unhighlightAll(NOTE_ON_TIMES);
+}
+
+
+//////////////////////////////
+//
+// unhighlightAll -- Remove "highlight" class from all given elemments.
+//
+
+function unhighlightAll(list) {
+   var cn;
+   var matches;
+   for (var i=0; i<list.length; i++) {
+      turnOffNote(list[i].index);
+   }
+}
+
+
+
+//////////////////////////////
+//
+// turnOnNote --
+//
+
+function turnOnNote(index) {
+   var rects = document.querySelectorAll("svg rect");
+   // var note = RECTS[index];
+   var note = rects[index];
+   var cn = note.className.baseVal;
+   if (!cn.match(/highlight/)) {
+      cn += " highlight";
+      note.className.baseVal = cn;
+   }
+}
+
+
+
+//////////////////////////////
+//
+// tunOffNote --
+//
+
+function turnOffNote(index) {
+   var rects = document.querySelectorAll("svg rect");
+   var note = rects[index];
+   var cn = note.getAttribute('class');
+   if (cn.match(/highlight/)) {
+      cn = cn.replace(/highlight/, '');
+      note.setAttribute('class', cn);
+   }
+}
+
+
+
+//////////////////////////////
+//
+// playCallback -- What to do when the audio starts playing.
+//
+
+function playCallback(event) {
+	var iface = document.querySelector("audio");
+   if (STARTTIME > 0) {
+      console.log("PLAYING AT", STARTTIME);
+      iface.currentTime = STARTTIME;
+      STARTTIME = -1;
+   }
+	LAST_TIME = iface.currentTime;
+	PLAY_STATE = 1;
+	var that = this;
+	REFRESH = setInterval(function() {
+		if (PLAY_STATE == 0) {
+			clearInterval(REFRESH);
+			return;
+		}
+		var a = iface;
+		var delta = a.currentTime - LAST_TIME;
+		if (delta == 0.0) {
+			return;
+		}
+		checkTimeMaps(a.currentTime);
+		LAST_TIME = a.currentTime;
+	}, POLL_FREQUENCY);
+}
+
+
+
+//////////////////////////////
+//
+// checkTimeMaps --  See if any notes should be turned on or off.
+//
+
+function checkTimeMaps(nowtime) {
+	var tmon  = NOTE_ON_TIMES;
+	var tmoff = NOTE_OFF_TIMES;
+
+	if (!tmon)  { return; }
+	if (!tmoff) { return; }
+
+   var i;
+	var ttime;
+	var lasttime = LAST_TIME;
+
+	for (i=0; i<tmon.length; i++) {
+		ttime = tmon[i].time;
+      if ((ttime >= lasttime) && (ttime <= nowtime + 0.015)) {
+         turnOnNote(tmon[i].index);
+      }
+   }
+
+	for (i=0; i<tmoff.length; i++) {
+		ttime = tmoff[i].time;
+      if ((ttime >= lasttime) && (ttime <= nowtime + 0.015)) {
+         turnOffNote(tmon[i].index);
+      }
+   }
+
+}
+
+
+
+
+</script>
+
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Thu Aug 21 12:59:01 PDT 2014
+// Last Modified: Mon Sep  1 22:01:13 PDT 2014
+// Filename:      .../scripts/scripts-common.js
+// Web Address:   http://josquin.stanford.edu/scripts/scripts-common.js
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:				ts=3: ft=javascript
+//
+// Description:   JRP-specific JavaScript functions common to all pages.
+//
+
+// GLOBAL VARIABLES:
+var WORKLIST;										 // Master index of works in JRP database.
+var WORKLISTrecent = [];						 // List of works reverse sorted by add date.
+var WORKLISTjrpid  = {};						 // Hash of works by JRP ID.
+var BASEADDR       = window.location.host; // Base address of URL.
+var PDFTARGET      = 'target="new"';		 // Display PDF files in separate tab/window.
+var AUDIO          = null;						 // HTML5 audio interface ID.
+var AUDIOjrpid     = '';  						 // currently playing audio file.
+var AUDIOid        = '';                   // currently playing audio button.
+
+
+// List of Key Codes.  More can be extracted from this page:
+// http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+const AKey            = 65; // Letters
+const BKey            = 66;
+const CKey            = 67;
+const DKey            = 68;
+const EKey            = 69;
+const FKey            = 70;
+const GKey            = 71;
+const HKey            = 72;
+const IKey            = 73;
+const JKey            = 74;
+const KKey            = 75;
+const LKey            = 76;
+const MKey            = 77;
+const NKey            = 78;
+const OKey            = 79;
+const PKey            = 80;
+const QKey            = 81;
+const RKey            = 82;
+const SKey            = 83;
+const TKey            = 84;
+const UKey            = 85;
+const VKey            = 86;
+const WKey            = 87;
+const XKey            = 88;
+const YKey            = 89;
+const ZKey            = 90;
+const ZeroKey         = 48; // Numbers
+const OneKey          = 49;
+const TwoKey          = 50;
+const ThreeKey        = 51;
+const FourKey         = 52;
+const FiveKey         = 53;
+const SixKey          = 54;
+const SevenKey        = 55;
+const EightKey        = 56;
+const NineKey         = 57;
+const BackspaceKey    =  8; // Other
+const TabKey          =  9;
+const EnterKey        = 13;
+const EscKey          = 27;
+const SpaceKey        = 32;
+const EqualsKey       = 187;
+const MinusKey        = 189;
+const PageUpKey       = 33;
+const PageDownKey     = 34;
+const EndKey          = 35;
+const HomeKey         = 36;
+const DeleteKey       = 46;
+const ControlKey      = 17; // State keys
+const AltKey          = 18;
+const ShiftKey        = 16;
+const CommandLeftKey  = 91; // or Window key in MSWindows, and Meta key in Unix
+const CommandRightKey = 93;
+const F1Key           = 112; // Function keys
+const F2Key           = 113;
+const F3Key           = 114;
+const F4Key           = 115;
+const F5Key           = 116;
+const F6Key           = 117;
+const F7Key           = 118;
+const F8Key           = 119;
+const F9Key           = 120;
+const F10Key          = 121;
+const SlashKey        = 191;
+const SquareLeftKey   = 219;
+const SquareRightKey  = 221;
+
+// Arrows:
+const UpArrowKey      = 38;    // maybe also 30 & 57373
+const DownArrowKey    = 40;    // maybe also 31 & 57374
+const LeftArrowKey    = 37;    // maybe also 28 & 57375
+const RightArrowKey   = 39;    // maybe also 29 & 57376
+
+
+
+//////////////////////////////
+//
+// InitializeWorklist -- manages setup of the WORKLIST object which 
+//    contains a list of the works in the database categorized by composer.
+//    If the WORKLIST object is already generated, then do nothing (so call
+//    this function whenever the WORKLIST is needed).  Otherwise, the WORKLIST
+//    data will be downloaded from the server, typically from 
+//    /include/worklist.json.
+//
+
+function InitializeWorklist() {
+   if (WORKLIST != null) {
+      return;
+   }
+
+   // Eventually request a timestamp from the server, and compare
+   // to WORKLIST store in localStorage, and only re-download if the
+   // server has a newer WORKLIST.  For now, update once a day.
+   var refreshtime = 3600 * 1;  // update once an hour
+   var currenttime = parseInt(new Date() / 1000);  // convert from ms to sec.
+
+   if ((typeof localStorage.WORKLISTrefreshtime !== 'undefined') && 
+       (localStorage.WORKLISTrefreshtime < currenttime)) {
+      localStorage.WORKLIST = null;
+   }
+
+   if ((typeof localStorage.WORKLIST === 'undefined') ||
+         (localStorage.WORKLIST == 'null') || (localStorage.WORKLIST == '')) {
+      // need to download the WORKLIST data from the server.
+      localStorage.WORKLIST = ReadFile('/includes/worklist.json');
+      if (localStorage.WORKLIST.match(/^\s*$/)) {
+         localStorage.WORKLIST = ReadFile('/data?a=worklist-json'); 
+      }
+      WORKLIST = JSON.parse(localStorage.WORKLIST);
+      localStorage.WORKLISTrefreshtime = currenttime + refreshtime;
+   } else {
+      // already have the worklist in local storage, so read from there.
+      WORKLIST = JSON.parse(localStorage.WORKLIST);
+   }
+}
+
+
+
+//////////////////////////////
+//
+// InitializeWorklistFlat -- Create a flattened list of works.  Two 
+//    (global) objects will be created from the WORKLIST object: 
+//    (1) WORKLISTrecent -- an array which is a list of works 
+//        reverse-sorted by date added.   Also stored in 
+//        sessionStorage.WORKLISTrecent.
+//    (2) WORKLISTjrpid -- an object which contains works indexed by
+//    JRP ID.  Also stored in sessionStorage.WORKLISTjrpid.
+//
+
+function InitializeWorklistFlat() {
+
+   if ((WORKLISTrecent != null) && (WORKLISTrecent.length != 0)) {
+      // WORILISTjrpid is presumed to be in a similar state.
+      return;
+   }
+
+   InitializeWorklist();
+
+   WORKLISTrecent = [];
+   WORKLISTjrpid  = {};
+
+   var i;
+   var works;
+   var jrpid;
+
+   for (i=0; i<WORKLIST.length; i++) {
+      works = WORKLIST[i].works;
+      for (j=0; j<works.length; j++) {
+         if (typeof works[j].comshort === 'undefined') {
+            works[j].comshort = WORKLIST[i].comshort;
+         }
+         WORKLISTrecent.push(works[j]);
+         jrpid = works[j].id;
+         WORKLISTjrpid[jrpid] = works[j];
+      }
+   }
+
+   WORKLISTrecent.sort(byReverseAddDate);
+}
+
+
+
+//////////////////////////////
+//
+// byReverseAddDate -- sort a work by reverse add date.
+//
+
+
+function byReverseAddDate(a, b) {
+   var date1 = a.ud;
+   var date2 = b.ud;
+
+	if (!date1) { date1 = a.ad; }
+	if (!date2) { date2 = b.ad; }
+	if (!date1) { date1 = 0; }
+	if (!date2) { date2 = 0; }
+   if (date1 > date2) { return -1; } 
+   if (date1 < date2) { return +1; }
+   if (a.id  < b.id)  { return -1; }
+   if (a.id  > b.id)  { return +1; }
+
+   return 0;
+}
+
+
+
+//////////////////////////////
+//
+// GetDataFile -- download a data file from the server and keep it for
+//    use later.
+//
+
+function GetDataFile(jrpid, prefix, action) {
+   var variable = prefix + jrpid;
+
+   if (typeof localStorage[variable] != 'undefined') {
+      return localStorage[variable];
+   }
+   
+   InitializeWorklistFlat();
+
+   // Get the first section's incipit if a multi-section work:
+   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d{4}[.\d]*)([a-z]*.*)/);
+   var workid = pieces[1];
+   var work = WORKLISTjrpid[workid];
+   if (work == null) {
+      work = WORKLISTjrpid[workid + pieces[2]];
+   }
+   if (work == null) {
+      console.log('Error: ' + workid + ' not in WORKLISTjrpid.');
+      return;
+   }
+   var i;
+   if (typeof work.sections === 'undefined') {
+      jrpid = workid;
+   }
+
+   // content is not in localStorage, so download, store, and return.
+   var imagedata = ReadFile('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid);
+   localStorage[variable] = imagedata;
+   return imagedata;
+}
+
+
+
+//////////////////////////////
+//
+// GetDataFileAsync -- get a data file asynchronously.
+//
+
+function GetDataFileAsync(jrpid, prefix, action, callback) {
+   var variable = prefix + jrpid;
+
+   if (typeof localStorage[variable] != 'undefined') {
+      return localStorage[variable];
+   }
+   
+   InitializeWorklistFlat();
+
+   // Get the first section's incipit if a multi-section work:
+   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d{4}[.\d]*)([a-z]*.*)/);
+   var workid = pieces[1];
+   var work = WORKLISTjrpid[workid];
+   if (work == null) {
+      work = WORKLISTjrpid[workid + pieces[2]];
+   }
+   if (work == null) {
+      console.log('Error2: ' + workid + ' not in WORKLISTjrpid.');
+      return;
+   }
+   var i;
+   if (typeof work.sections === 'undefined') {
+      jrpid = workid;
+   }
+
+   // content is not in localStorage, so download, store, and return.
+   ReadFileAsync('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid, callback);
+   //localStorage[variable] = imagedata;
+   // return imagedata;
+}
+
+
+
+//////////////////////////////
+//
+// ReadFile -- Download URL content which is returned as a string.
+//      The URL must be on the same domain as index.html due to
+//      JavaScript Same-Origin policy:
+//         http://en.wikipedia.org/wiki/Same-origin_policy
+// XMLHttpRequest object:
+//         http://www.w3.org/TR/2007/WD-XMLHttpRequest-20070618
+//         http://xhr.spec.whatwg.org
+//         
+//         See:
+//  http://codingforums.com/ajax-design/123705-make-script-wait-until-request-comes-back.html
+//
+
+function ReadFile(url) {
+   var request = new XMLHttpRequest();
+
+   request.open('GET', url, false);
+   request.send(null);
+
+   var string = request.responseText;
+   if ((string.length < 1000) && string.match(/Not Found/)) {
+      return '';
+   } else {
+      return request.responseText;
+   }
+}
+
+
+
+function ReadFileAsync(url, callback) {
+   var request = new XMLHttpRequest();
+   request.open('GET', url, true);
+   request.onload = function (e) {
+      if (this.readyState == 4) {
+         callback(this.responseText);
+      }
+   };
+   request.onerror = function(e) {
+      console.error(request.statusText);
+   };
+   request.send(null);
+}
+
+
+
+//////////////////////////////
+//
+// GetCgiParameters -- Returns an associative array containing the
+//     page's URL's CGI parameters
+//
+
+function GetCgiParameters() {
+   var url = window.location.search.substring(1);
+   var output = {};
+   var settings = url.split('&');
+   for (var i=0; i<settings.length; i++) {
+      var pair = settings[i].split('=');
+      pair[0] = decodeURIComponent(pair[0]);
+      pair[1] = decodeURIComponent(pair[1]);
+      if (typeof output[pair[0]] === 'undefined') {
+         output[pair[0]] = pair[1];
+      } else if (typeof output[pair[0]] === 'string') {
+         var arr = [ output[pair[0]], pair[1] ];
+         output[pair[0]] = arr;
+      } else {
+         output[pair[0]].push(pair[1]);
+      }
+   }
+   return output;
+}
+
+
+
+
+//////////////////////////////
+//
+// GetComposerOptions -- Return an option list of composers in the worklist.
+//    This is used to fill in the Composer/Repertory section list in forms
+//    on various webpages.
+//
+
+function GetComposerOptions() {
+   InitializeWorklist();
+   var output = '';
+   var longname;
+   var abbr;
+   var i;
+
+   for (i=0; i<WORKLIST.length; i++) {
+      longname  = WORKLIST[i].comlong;
+      shortname = WORKLIST[i].comshort;
+      abbr      = WORKLIST[i].repid;
+      output += '<option value="' + abbr + '">';
+      // output += longname + '</option>\n';
+      output += shortname + '</option>\n';
+      if (abbr == 'Jos') {
+         output += '<option value="Joa">Josquin (secure)</option>\n';
+         output += '<option value="Job">';
+         output += 'Josquin&nbsp;';
+         output += '(not&nbsp;secure)</option>\n';
+      }
+   }
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// GetGenreOptions -- Return an option list of genres.  
+//     This is used to fill in the Composer/Repertory section list 
+//     in forms on various webpages.  If there is an input repe
+//     Mass, Motet, or Song.
+//
+
+function GetGenreOptions(repertory) {
+   if ((typeof repertory === 'undefined') || 
+			(repertory == null) || (repertory == '')) {
+	   // Avoiding displaying the genre list without a repertory.
+	   // This is because analyses mostly need to be limited to a single repertory
+	   // So that not too many images are shown on the same page.
+		var opts = '<option value="mass">Masses</option>\n';
+		opts += '<option value="motet">Motets</option>\n';
+		opts += '<option value="song">Songs</option>\n';
+      return opts;
+   }
+
+   InitializeWorklist();
+   var output = '';
+   var longname;
+   var abbr;
+   var i, j;
+   var rep;
+   var gen;
+
+   var genlist1 = {};
+
+   for (i=0; i<WORKLIST.length; i++) {
+		rep = WORKLIST[i].repid;
+		if (!repertory.match(/^\s*$/) && (!rep.match(repertory))) {
+			continue;
+		}
+      gen = WORKLIST[i].genres;
+      for (j=0; j<gen.length; j++) {
+			genlist1[gen[j].name] = gen[j].name;
+		}
+	}
+   var genlist2 = [];
+   for (entry in genlist1) genlist2.push(entry);
+	genlist2.sort();
+
+	var output = '';
+   for (i=0; i<genlist2.length; i++) {
+      output += '<option value="' + genlist2[i] + '">';
+	   if (genlist2[i].match('mass')) {
+			output += 'Masses';
+	   } else if (genlist2[i].match('motet')) {
+			output += 'Motets';
+	   } else if (genlist2[i].match('song')) {
+			output += 'Songs';
+		} else {
+			output += genlist2[i];
+		}
+		output += '</option>\n';
+   }
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// GetGenreBrowseOptions -- Return an option list of genres.  
+//     This is used to fill in the Composer/Repertory section list 
+//     in forms on various webpages.  If there is an input repe
+//     Mass, Motet, or Song.
+//
+
+function GetGenreBrowseOptions() {
+   InitializeWorklist();
+   var output = '';
+   var longname;
+   var abbr;
+   var i, j;
+   var rep;
+   var gen;
+
+   var genlist1 = {};
+
+   for (i=0; i<WORKLIST.length; i++) {
+		rep = WORKLIST[i].repid;
+      gen = WORKLIST[i].genres;
+      for (j=0; j<gen.length; j++) {
+			genlist1[gen[j].name] = gen[j].name;
+		}
+	}
+   var genlist2 = [];
+   for (entry in genlist1) genlist2.push(entry);
+	genlist2.sort();
+
+	var output = '';
+   for (i=0; i<genlist2.length; i++) {
+      output += '<option value="' + genlist2[i] + '">';
+	   if (genlist2[i].match('mass')) {
+			output += 'Masses';
+	   } else if (genlist2[i].match('motet')) {
+			output += 'Motets';
+	   } else if (genlist2[i].match('song')) {
+			output += 'Songs';
+		} else {
+			output += genlist2[i];
+		}
+		output += '</option>\n';
+   }
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// GetWorkOptions -- Return an option list of works (for a specific
+//     repertory and genre.    The repertory is required, the genre
+//     is optional (show all works regardless of genre in that case).
+//     This is used to fill in the Work section list in forms on 
+//     various webpages.  
+//
+
+function GetWorkOptions(repertory, genre) {
+   if ((typeof repertory === 'undefined') || (repertory == null)) {
+      return '';
+	}
+
+   if ((typeof genre === 'undefined') || (genre == null)) {
+      genre = '';
+   }
+   InitializeWorklist();
+   var output = '';
+   var longname;
+   var abbr;
+   var i, j;
+   var works;
+
+   var output = '';
+   for (i=0; i<WORKLIST.length; i++) {
+		if (!repertory.match(WORKLIST[i].repid)) {
+			continue;
+		}
+		works = WORKLIST[i].works;
+      for (j=0; j<works.length; j++) {
+			if (!genre.match(/^\s*$/) && !genre.match(works[j].genre)) {
+				continue;
+			}
+      	output += '<option value="' + works[j].id + '">';
+			output += works[j].title;
+			if (typeof works[j].variant !== 'undefined') {
+				output += ' (' + works[j].variant + ' )';
+			}
+			output += '</option>\n';
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// GetVoiceOptions -- Return an option list of voices.  This is used to
+//     fill in the Composer/Repertory section list in forms on various
+//     webpages.
+//
+
+function GetVoiceOptions() {
+   output = '';
+   output += '<option value="3">3 voices</option>\n';
+   output += '<option value="4">4 voices</option>\n';
+   output += '<option value="5+">more voices</option>\n';
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// ClearBrowseFields -- Erase the browse filter options (useful to force
+//     display of the Browse home page).
+//
+
+function ClearBrowseFields() {
+   localStorage.BROWSEcomposers = '';
+   localStorage.BROWSEgenres    = '';
+   localStorage.BROWSEvoices    = '';
+   localStorage.BROWSEtitlebox  = '';
+}
+
+
+
+//////////////////////////////
+//
+// ClearWorklist --
+//
+
+function ClearWorklist() {
+	localStorage.removeItem('WORKLIST');
+	localStorage.removeItem('WORKLISTrefreshtime');
+  	localStorage.removeItem('WORKjrpid');
+  	localStorage.removeItem('RECENTLYADDEDHTML');
+}
+
+
+
+/*
+//////////////////////////////
+//
+// UpdateEzMark --
+//
+
+function UpdateEzMark() {
+   $('select').not('.tricky').select2({
+      width: 'off'
+   });
+
+   $('select.tricky').select2({
+      width: 'off',
+      containerCssClass: 'tricky-choice',
+      dropdownCssClass: 'tricky-dropdown',
+      dropdownAutoWidth: true
+   });
+
+//   $('input[type=checkbox]').ezMark();
+//   $('input[type=radio]').ezMark();
+}
+*/
+
+
+
+//////////////////////////////
+//
+// PlayAudioFile -- play/pause an audio file.
+//
+
+function PlayAudioFile(jrpid, element) {
+	// The JRPID is not the same as the currently playing file
+	// (or there is no file playing).  So start the new one.
+	if (!AUDIO) {
+	   AUDIO = document.getElementById('audio');
+   }
+	if (!AUDIO) {
+		document.body.innerHTML += '<audio id="audio"></audio>\n';
+	   AUDIO = document.getElementById('audio');
+	}
+   if (!AUDIO) {
+		console.log('Error: could not set up audio interface\n');
+		return false;
+   }
+	AUDIO.setAttribute('controls', 'controls');
+	AUDIO.style.position = 'fixed';
+	AUDIO.style.bottom = '0';
+	AUDIO.style.right = '0';
+	AUDIO.style.zIndex = '1';
+
+	var audiobutton;
+   if (jrpid != AUDIOjrpid) {
+		if (!!AUDIOid) {
+			// turn of previously playing audio file:
+			audiobutton = document.getElementById(AUDIOid);
+			if (!!audiobutton && !!audiobutton.className) {
+				if (audiobutton.className.match(/mp3/)) {
+					audiobutton.className = 'mp3play';
+				} else {
+					audiobutton.className = 'play';
+				}
+			}
+		}
+		AUDIO.removeAttribute('controls');
+      AUDIO.pause();
+		
+      AUDIOid = element.id;
+		var source = '';
+		// Can't have seekable dynamic content in audio element:
+		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
+		if (window.location.href.match(/tasso/i)) {
+			source += '<source src="http://data.tassomusic.org/audio/mp3/' + jrpid + '.mp3" ';
+		} else {
+			source += '<source src="/audio/mp3/' + jrpid + '.mp3" ';
+		}
+		source += 'type="audio/mpeg"/>\n';
+		AUDIO.innerHTML = source;
+
+		AUDIOjrpid = jrpid;
+		AUDIO.load();
+		AUDIO.play();
+		AUDIO.setAttribute('controls', 'controls');
+		var newelement = document.getElementById(AUDIOid);
+		
+		if (newelement.className.match(/mp3/)) {
+			newelement.className = 'mp3pause';
+		} else {
+			newelement.className = 'pause';
+		}
+		return;
+	}
+
+	// The audio file is the same, so start it or pause it depending
+	// on its current state:
+	if (AUDIO.paused) {
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		if (audiobutton.className.match(/mp3/)) {
+			audiobutton.className = 'mp3play';
+		} else {
+			audiobutton.className = 'play';
+		}
+		if (element.className.match(/mp3/)) {
+			element.className = 'mp3pause';
+		} else {
+			element.className = 'pause';
+		}
+		AUDIO.play();
+		AUDIO.setAttribute('controls', 'controls');
+	} else {
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		if (audiobutton.className.match(/mp3/)) {
+			audiobutton.className = 'mp3pause';
+		} else {
+			audiobutton.className = 'pause';
+		}
+		if (element.className.match(/mp3/)) {
+			element.className = 'mp3play';
+		} else {
+			element.className = 'play';
+		}
+		AUDIO.pause();
+		AUDIO.removeAttribute('controls');
+	}
+}
+
+
+
+//////////////////////////////
+//
+// ClearWorklistCache --
+//
+
+function ClearWorklistCache() {
+   localStorage.removeItem('WORKLIST');
+   localStorage.removeItem('WORKLISTrefreshtime');
+   localStorage.removeItem('WORKjrpid');
+   sessionStorage.removeItem('RECENTLYADDEDHTML');
+}
+
+
+
+//////////////////////////////
+//
+// audioStoppedAction -- 
+//
+
+function audioStoppedAction(event) {
+
+
+
+}
+
+
+
+//////////////////////////////
+//
+// DisplayCriticalNotes --
+//
+
+function DisplayCriticalNotes(jrpid, target) {
+   ReadFileAsync("/data?id=" + jrpid + "&a=critical", function(responseText) {
+		if (responseText.match(/^\s*$/)) {
+			return;
+		}
+	   var element = document.getElementById(target);
+		if (!element) {
+			return;
+		}
+
+		element.innerHTML = responseText;
+
+		var i;
+		var content;
+
+		var h4s = element.querySelectorAll("h2");
+		for (i=0; i<h4s.length; i++) {
+			content = h4s[i].innerHTML;
+		 	h4s[i].outerHTML = '<h4>' + content + '</h4>';
+		}
+
+		var h3s = element.querySelectorAll("h1");
+		for (i=0; i<h3s.length; i++) {
+			content = h3s[i].innerHTML;
+		 	h3s[i].outerHTML = '<h3 class="brown-border">' + content + '</h3>';
+		}
+
+	});
+}
+
+</script> 
+
+<script>
+
+//////////////////////////////
+//
+// keypresses --
+//
+
+window.addEventListener('keydown', function(event) {
+
+	var widthbox = document.querySelector("input#width");
+
+	if (event.target.id === widthbox.id) {
+			return;
+	}
+	if (event.metaKey) {
+			return;
+	}
+
+	var voice1 = document.querySelector("#v1");
+	var voice2 = document.querySelector("#v2");
+	var voice3 = document.querySelector("#v3");
+	var voice4 = document.querySelector("#v4");
+
+	switch(event.keyCode) {
+
+			case ZeroKey:
+				var anyon = false;
+				anyon |= voice1.checked;
+				anyon |= voice2.checked;
+				anyon |= voice3.checked;
+				anyon |= voice4.checked;
+
+				if (!anyon) {
+				voice1.checked = true;
+				voice2.checked = true;
+				voice3.checked = true;
+				voice4.checked = true;
+				} else {
+				voice1.checked = false;
+				voice2.checked = false;
+				voice3.checked = false;
+				voice4.checked = false;
+				}
+
+				displayVoice(voice4.checked, 4);
+				displayVoice(voice3.checked, 3);
+				displayVoice(voice2.checked, 2);
+				displayVoice(voice1.checked, 1);
+				break;
+
+			case OneKey:
+				if (event.shiftKey) {
+					if (voice1.checked && !(voice2.checked || 
+							voice3.checked || voice4.checked)) {
+						voice1.checked = false;
+						voice2.checked = true;
+						voice3.checked = true;
+						voice4.checked = true;
+					} else {
+						voice1.checked = true;
+						voice2.checked = false;
+						voice3.checked = false;
+						voice4.checked = false;
+					}
+				   displayVoice(voice1.checked, 4);
+				   displayVoice(voice2.checked, 3);
+				   displayVoice(voice3.checked, 2);
+				   displayVoice(voice4.checked, 1);
+				} else {
+				   voice1.checked = !voice1.checked;
+				   TRACK_STATES = voice1.checked ? 1 : 0;
+				   displayVoice(voice1.checked, 4);
+				}
+				break;
+
+			case TwoKey:
+				if (event.shiftKey) {
+					if (voice2.checked && !(voice1.checked || 
+							voice3.checked || voice4.checked)) {
+						voice1.checked = true;
+						voice2.checked = false;
+						voice3.checked = true;
+						voice4.checked = true;
+					} else {
+						voice1.checked = false;
+						voice2.checked = true;
+						voice3.checked = false;
+						voice4.checked = false;
+					}
+				   displayVoice(voice1.checked, 4);
+				   displayVoice(voice2.checked, 3);
+				   displayVoice(voice3.checked, 2);
+				   displayVoice(voice4.checked, 1);
+				} else {
+				  	voice2.checked = !voice2.checked;
+				   TRACK_STATES = voice2.checked ? 1 : 0;
+				   displayVoice(voice2.checked, 3);
+				}
+				break;
+
+			case ThreeKey:
+
+				if (event.shiftKey) {
+					if (voice3.checked && !(voice1.checked || 
+							voice2.checked || voice4.checked)) {
+						voice1.checked = true;
+						voice2.checked = true;
+						voice3.checked = false;
+						voice4.checked = true;
+					} else {
+						voice1.checked = false;
+						voice2.checked = false;
+						voice3.checked = true;
+						voice4.checked = false;
+					}
+				   displayVoice(voice1.checked, 4);
+				   displayVoice(voice2.checked, 3);
+				   displayVoice(voice3.checked, 2);
+				   displayVoice(voice4.checked, 1);
+				} else {
+				   voice3.checked = !voice3.checked;
+				   TRACK_STATES = voice3.checked ? 1 : 0;
+				   displayVoice(voice3.checked, 2);
+				}
+				break;
+
+			case FourKey:
+
+				if (event.shiftKey) {
+					if (voice4.checked && !(voice1.checked || 
+							voice2.checked || voice3.checked)) {
+						voice1.checked = true;
+						voice2.checked = true;
+						voice3.checked = true;
+						voice4.checked = false;
+					} else {
+						voice1.checked = false;
+						voice2.checked = false;
+						voice3.checked = false;
+						voice4.checked = true;
+					}
+				   displayVoice(voice1.checked, 4);
+				   displayVoice(voice2.checked, 3);
+				   displayVoice(voice3.checked, 2);
+				   displayVoice(voice4.checked, 1);
+
+				} else {
+					voice4.checked = !voice4.checked;
+					TRACK_STATES = voice4.checked ? 1 : 0;
+					displayVoice(voice4.checked, 1);
+				}
+				break;
+
+			case BKey:
+            var svg = document.querySelector("svg");
+            if (svg) {
+               var background = svg.querySelector("rect.background");
+               if (background) {
+                  var opacity = background.getAttribute("opacity");
+						if (!opacity) {
+                     opacity = 1.0;
+						}
+                  opacity = 1.0 - opacity;
+                  background.setAttribute("opacity", opacity);
+               }
+            }
+            break;
+
+			case CKey:
+				var interface = document.querySelector("#interface");
+				if (interface.style.visibility === 'hidden') {
+				   interface.style.visibility = 'visible';
+				   interface.style.display = 'inline';
+				} else {
+				   interface.style.visibility = 'hidden';
+				   interface.style.display = 'none';
+				}
+				break;
+
+			case HKey:
+				displayFullHeight();
+				break;
+
+			case GKey:
+				var gs = document.querySelector("#grand-staff");
+				gs.checked = !gs.checked;
+				displayStafflines(gs.checked);
+				break;
+
+			case NKey:
+				var minima = document.querySelector("#minima");
+				minima.checked = !minima.checked;
+				displayMinima(minima.checked);
+				break;
+
+			case RKey:
+				var round = document.querySelector("#round-notes");
+				round.checked = !round.checked;
+				displayRound(round.checked);
+				break;
+
+			case WKey:
+				displayFullWidth();
+				break;
+
+			case XKey:
+				var maxima = document.querySelector("#maxima");
+				maxima.checked = !maxima.checked;
+				displayMaxima(maxima.checked);
+				break;
+
+         case SpaceKey:
+            var audio = document.querySelector("audio");
+            if (!audio) {
+               PlayAudioFile2('Jos2824');
+               var audio = document.querySelector("audio");
+               if (audio) {
+                  audio.pause();
+               }
+            }
+            if (audio) {
+               if (audio.paused) {
+                  audio.play();
+               } else {
+                  audio.pause();
+               }
+            }
+            break;
+
+			case SlashKey:
+				var help = document.querySelector("#help");
+				if (help.style.display === 'none') {
+               help.style.display = 'block';
+            } else {
+               help.style.display = 'none';
+            }
+				break;
+
+			case SquareLeftKey:
+				var width = document.querySelector("#width");
+				var value = width.value;
+				value = parseInt(value) - 50;
+				if (value < 100) {
+				value = 100;
+				}
+				width.value = value;
+				displayWidth(value);
+				break;
+
+			case SquareRightKey:
+				var width = document.querySelector("#width");
+				var value = width.value;
+				value = parseInt(value) + 50;
+				if (value > 800) {
+				value = 800;
+				}
+				width.value = value;
+				displayWidth(value);
+				break;
+
+	}
+	 
+
+});
+
+
+
+//////////////////////////////
+//
+// displayVoice -- Show/hide voices.
+//
+
+function displayVoice(state, track) {
+	var svg = document.querySelector("svg");
+	var list = svg.querySelectorAll(".track-" + track);
+	var list2 = svg.querySelectorAll(".note-background-" + track);
+	for (var i=0; i<list.length; i++) {
+			if (state) {
+				list[i].style.visibility = 'visible';
+			} else {
+				list[i].style.visibility = 'hidden';
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayStafflines -- Show/hide grand staff.
+//
+
+function displayStafflines(state) {
+	var svg = document.querySelector("svg");
+	var list = svg.querySelectorAll(".staff-lines");
+	for (var i=0; i<list.length; i++) {
+			if (state) {
+				list[i].style.visibility = 'visible';
+			} else {
+				list[i].style.visibility = 'hidden';
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayLines -- Show/hide melody connector lines.
+//
+
+function displayLines(state) {
+	var svg = document.querySelector("svg");
+	var list = svg.querySelectorAll(".note-lines");
+	for (var i=0; i<list.length; i++) {
+			if (state) {
+				list[i].style.visibility = 'visible';
+			} else {
+				list[i].style.visibility = 'hidden';
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayMaxima -- Highlight minima/maxima of tessitura.
+//
+
+function displayMaxima(state) {
+	var svg = document.querySelector("svg");
+	var i;
+	var list = svg.querySelectorAll(".maxima");
+	for (i=0; i<list.length; i++) {
+			if (state) {
+				list[i].setAttribute("fill", "red");
+			} else {
+				list[i].setAttribute("fill", "");
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayMinima -- Highlight minima/maxima of tessitura.
+//
+
+function displayMinima(state) {
+	var svg = document.querySelector("svg");
+	var i;
+	var list = svg.querySelectorAll(".minima");
+	for (i=0; i<list.length; i++) {
+			if (state) {
+				list[i].setAttribute("fill", "red");
+			} else {
+				list[i].setAttribute("fill", "");
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayRound -- Switch between round and square notes.
+//
+
+function displayRound(state) {
+	var svg = document.querySelector("svg");
+	var list = svg.querySelectorAll("rect[rx]");
+	for (var i=0; i<list.length; i++) {
+			if (state) {
+				list[i].setAttribute('rx', 1);
+				list[i].setAttribute('ry', 1);
+			} else {
+				list[i].setAttribute('rx', 0);
+				list[i].setAttribute('ry', 0);
+			}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayWidth -- Adjust size of image
+//
+
+function displayWidth(width) {
+	var fullwidth = window.innerWidth;
+	var svg = document.querySelector("svg");
+	var viewbox = svg.getAttribute("viewBox");
+	var pieces = viewbox.split(" ");
+	var ratio = pieces[3] / pieces[2];
+	svg.setAttribute("width", fullwidth * width / 100);
+	svg.setAttribute("height", fullwidth * width / 100 * ratio);
+}
+
+
+
+//////////////////////////////
+//
+// displayFullHeight -- Adjust size of image to full screen height.
+//
+
+function displayFullHeight() {
+	// var fullheight = window.innerHeight;
+	var tb = document.querySelector("#svg-table");
+	var svg = document.querySelector("svg");
+
+	var fullheight = window.innerHeight;
+	var imagey = tb.offsetTop - tb.scrollTop + tb.clientTop;
+   var imageheight = fullheight - imagey;
+	var fullwidth = window.innerWidth;
+	var viewbox = svg.getAttribute("viewBox");
+	var pieces = viewbox.split(" ");
+	var ratio = pieces[3] / pieces[2];
+   var width = document.querySelector("#width");
+
+   currentWidth  = svg.getAttribute("width");
+   currentHeight = svg.getAttribute("height");
+   if (Math.abs(imageheight - currentHeight) < 1) {
+	   svg.setAttribute("width", LASTWIDTH);
+      width.value = parseInt(LASTWIDTH/fullwidth*100+0.5);
+	   svg.setAttribute("height", LASTHEIGHT);
+   } else {
+      LASTWIDTH  = currentWidth;
+      LASTHEIGHT = currentHeight;
+	   svg.setAttribute("width", imageheight / ratio);
+      width.value = parseInt(imageheight/ratio/fullwidth*100+0.5);
+	   svg.setAttribute("height", imageheight);
+   }
+}
+
+
+
+//////////////////////////////
+//
+// displayFullWidth -- Adjust size of image to full screen height.
+//
+
+function displayFullWidth() {
+	// var fullheight = window.innerHeight;
+	var tb = document.querySelector("#svg-table");
+	var svg = document.querySelector("svg");
+
+	var fullwidth = window.innerWidth;
+	var viewbox = svg.getAttribute("viewBox");
+	var pieces = viewbox.split(" ");
+	var ratio = pieces[3] / pieces[2];
+   var width = document.querySelector("#width");
+
+   currentWidth  = svg.getAttribute("width");
+   currentHeight = svg.getAttribute("height");
+
+   if (LASTWIDTH < 0) {
+      LASTWIDTH  = currentWidth;
+      LASTHEIGHT = currentHeight;
+   } 
+
+   if ((LASTWIDTH < 0) || (Math.abs(fullwidth - currentWidth) < 1)) {
+	   svg.setAttribute("width", LASTWIDTH);
+      width.value = parseInt(LASTWIDTH/fullwidth*100+0.5);
+	   svg.setAttribute("height", LASTHEIGHT);
+   } else if (LASTWIDTH > 0) {
+      LASTWIDTH  = currentWidth;
+      LASTHEIGHT = currentHeight;
+	   svg.setAttribute("width", fullwidth);
+	   svg.setAttribute("height", fullwidth * ratio);
+      width.value = 100.0;
+   }
+}
+
+
+
+</script>
+
+	</body>
+</html>
+<!-- vim: set ts=2: -->
+
