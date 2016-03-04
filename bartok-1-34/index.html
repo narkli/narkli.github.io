@@ -228,7 +228,11 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 <table id="svg-table">
 <tr><td>
 
+<<<<<<< HEAD
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 13.622 41" viewBox="-10 -10 183.464 61" width="183.464" height="61">
+=======
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 40.5109 41" viewBox="-10 -10 1032.77 430" width="1032.77" height="430">
+>>>>>>> 66f034d41169d251a2560aa6265c9601759d3f81
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
@@ -512,7 +516,11 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 </g>
 </svg>
 <?mid2svg
+<<<<<<< HEAD
 	no49.mid --dark --staff -l -r --gs --dash -a 12 -b 10
+=======
+	--dark --staff -l -r --gs --dash -s 10 -a 2.5 no34.mid 
+>>>>>>> 66f034d41169d251a2560aa6265c9601759d3f81
 ?>
 
 
@@ -1616,11 +1624,15 @@ function PlayAudioFile(jrpid, element) {
       AUDIOid = element.id;
 		var source = '';
 		// Can't have seekable dynamic content in audio element:
+<<<<<<< HEAD
 		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
+=======
+                // source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
+>>>>>>> 66f034d41169d251a2560aa6265c9601759d3f81
 		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="http://data.tassomusic.org/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="no34.mp3" ';
 		} else {
-			source += '<source src="/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="no34.mp3" ';
 		}
 		source += 'type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;
