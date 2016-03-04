@@ -228,8 +228,6 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 <table id="svg-table">
 <tr><td>
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 40.5109 41" viewBox="-10 -10 1032.77 430" width="1032.77" height="430">
 <filter id="constantOpacity">
 	<feComponentTransfer>
@@ -586,7 +584,7 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 </g>
 </svg>
 <?mid2svg
-	no34.mid --dark --staff -l -r --gs --dash -s 10 -a 2.5
+	--dark --staff -l -r --gs --dash -s 10 -a 2.5 no34.mid 
 ?>
 
 
@@ -1689,60 +1687,11 @@ function PlayAudioFile(jrpid, element) {
       AUDIOid = element.id;
 		var source = '';
 		// Can't have seekable dynamic content in audio element:
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 13.622 41" viewBox="-10 -10 183.464 61" width="183.464" height="61">
-<filter id="constantOpacity">
-	<feComponentTransfer>
-		<feFuncA type="table" tableValues="0 .5 .5" />
-	</feComponentTransfer>
-</filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:gainsboro" />
-<g transform="scale(12, -1) translate(0, -81)" >
-	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
-		<path d="M0 64.5 L13.622 64.5" />
-		<path d="M0 67.5 L13.622 67.5" />
-		<path d="M0 71.5 L13.622 71.5" />
-		<path d="M0 74.5 L13.622 74.5" />
-		<path d="M0 77.5 L13.622 77.5" />
-		<path d="M0 43.5 L13.622 43.5" />
-		<path d="M0 47.5 L13.622 47.5" />
-		<path d="M0 50.5 L13.622 50.5" />
-		<path d="M0 53.5 L13.622 53.5" />
-		<path d="M0 57.5 L13.622 57.5" />
-	</g>
-	<g style="stroke-width:0.1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
-			<path d=" M0.940943 48.5 L0.94488 48.5 L0.94488 50.5" />
-			<path d=" M1.04527 50.5 L1.1811 50.5 L1.1811 52.5" />
-			<path d=" M1.2746 52.5 L1.41732 52.5 L1.41732 53.5" />
-			<path d=" M1.54626 53.5 L2.12598 53.5 L2.12598 50.5" />
-			<path d=" M2.36515 50.5 L2.59842 50.5 L2.59842 54.5" />
-			<path d=" M2.47145 52.5 L2.59842 52.5 L2.59842 54.5" />
-			<path d=" M2.72244 54.5 L2.83464 54.5 L2.83464 55.5" />
-			<path d=" M3.32283 55.5 L3.5433 55.5 L3.5433 52.5" />
-			<path d=" M3.4183 50.5 L3.5433 50.5 L3.5433 52.5" />
-			<path d=" M3.77854 52.5 L3.77854 48.5" />
-			<path d=" M3.89074 48.5 L4.01574 48.5 L4.01574 54.5" />
-			<path d=" M4.14468 54.5 L4.25196 54.5 L4.25196 50.5" />
-			<path d=" M4.48621 50.5 L4.48818 50.5 L4.48818 55.5" />
-			<path d=" M4.6181 55.5 L4.7244 55.5 L4.7244 52.5" />
-			<path d=" M4.83759 52.5 L4.96062 52.5 L4.96062 54.5" />
-			<path d=" M5.09842 54.5 L5.19684 54.5 L5.19684 48.5" />
-			<path d=" M5.33365 48.5 L5.43306 48.5 L5.43306 50.5" />
-			<path d=" M5.56987 50.5 L5.9055 50.5 L5.9055 52.5" />
-			<path d=" M6.01081 52.5 L6.14172 52.5 L6.14172 54.5" />
-			<path d=" M6.27853 54.5 L6.37794 54.5 L6.37794 55.5" />
-			<path d=" M6.48719 55.5 L7.79526 55.5 L7.79526 55.5" />
-			<path d=" M8.05609 55.5 L8.2677 55.5 L8.2677 52.5" />
-			<path d=" M8.15353 54.5 L8.2677 54.5 L8.2677 52.5" />
-			<path d=" M8.38581 52.5 L8.50392 52.5 L8.50392 50.5" />
-			<path d=" M8.66829 50.5 L9.21258 50.5 L9.21258 53.5" />
-			<path d=" M9.46455 53.5 L9.68502 53.5 L9.68502 50.5" />
-			<path d=" M9.56199 52.5 L9.68502 52.5 L9.68502 50.5" />
-			<path d=" M9.79132 50.5 L9.92124 50.5 L9.92124 48.5" />
+                // source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
 		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="http://data.tassomusic.org/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="no34.mp3" ';
 		} else {
-			source += '<source src="/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="no34.mp3" ';
 		}
 		source += 'type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;
