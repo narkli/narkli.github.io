@@ -193,7 +193,7 @@ table#table-svg, table#table-svg tr td {
 </td><td>
 
 <span id="audio2" 
-   style="position:relative; cursor:hand; cursor:pointer; top:-10px" 
+   style="position:relative; cursor:hand; cursor:pointer; top:0px" 
    onclick="PlayAudioFile2('Jos2824', this);" href class="play">play</span>
 
 </td></tr>
@@ -871,6 +871,7 @@ function PlayAudioFile2(jrpid, element, time) {
 		AUDIO.play();
 		AUDIO.setAttribute('controls', 'controls');
 	} else {
+
 		audiobutton = document.getElementById(AUDIOid);
  		if (!audiobutton) {
 			return;
@@ -880,6 +881,7 @@ function PlayAudioFile2(jrpid, element, time) {
 		} else {
 			audiobutton.className = 'pause';
 		}
+
 		if (element.className.match(/mp3/)) {
 			element.className = 'mp3play';
 		} else {
@@ -891,16 +893,23 @@ function PlayAudioFile2(jrpid, element, time) {
 }
 
 
+
 //////////////////////////////
 //
 // pauseCallback -- What to do when the audio is stopped.
 //
 
 function pauseCallback() {
-	console.log("PAUSING AUDIO");
    PLAY_STATE = 0;
    unhighlightAll(NOTE_ON_TIMES);
+
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		audiobutton.className = 'mp3pause';
 }
+
 
 
 //////////////////////////////
