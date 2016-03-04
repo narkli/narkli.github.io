@@ -67,6 +67,10 @@ table#help-table tr {
     <td> Toggle full-width view </td>
 </tr>
 
+<tr><td style="padding-right:20px;"><b>L</b></td>
+    <td> Toggle melody lines </td>
+</tr>
+
 <tr><td style="padding-right:20px;"><b>[</b></td>
     <td> Zoom out </td>
 </tr>
@@ -153,9 +157,6 @@ table#table-svg, table#table-svg tr td {
 </style>
 
 <div id="interface">
-<table id="controls">
-<tr><td colspan=3>
-<h1> <i>Mikrokosmos</i>, Vol. I, No. 34, B&eacute;la Bart&oacute;k
  
 <style>
 
@@ -184,13 +185,24 @@ table#table-svg, table#table-svg tr td {
 
 </style>
 
+<table>
+<tr><td>
+
+<h1> <i>Mikrokosmos</i>, Vol. I, No. 34, B&eacute;la Bart&oacute; </h1>
+
+</td><td>
+
 <span id="audio2" 
    style="position:relative; cursor:hand; cursor:pointer; top:15px" 
    onclick="PlayAudioFile2('Jos2824', this);" href class="play">play</span>
 
-
-</h1>
 </td></tr>
+
+
+<!--
+
+<table id="controls">
+<tr><td colspan=3>
 <tr>
 
 <td style="text-align:right;">
@@ -218,9 +230,9 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 </td>
 
 </tr>
-
-
 </table>
+
+--> 
 
 <div style="height:200px"></div>
 </div>
@@ -610,6 +622,7 @@ var ANCHOR_STOP;
 var STARTTIME      = -1;
 //var OFFSET         = 0.83;
 var OFFSET         = 0.0
+var LINES          = true;
 
 var NOTE_OFF_TIMES = [];
 var NOTE_ON_TIMES  = [];
@@ -1994,14 +2007,19 @@ window.addEventListener('keydown', function(event) {
 				}
 				break;
 
-			case HKey:
-				displayFullHeight();
-				break;
-
 			case GKey:
 				var gs = document.querySelector("#grand-staff");
 				gs.checked = !gs.checked;
 				displayStafflines(gs.checked);
+				break;
+
+			case HKey:
+				displayFullHeight();
+				break;
+
+			case LKey:
+        LINES = !LINES;
+				displayLines(LINES);
 				break;
 
 			case NKey:
