@@ -812,11 +812,11 @@ function PlayAudioFile2(jrpid, element, time) {
 	var audiobutton;
 	if (jrpid != AUDIOjrpid) {
 		if (!!AUDIOid) {
-			// turn of previously playing audio file:
+			// turn off previously playing audio file:
 			audiobutton = document.getElementById(AUDIOid);
 			if (!!audiobutton && !!audiobutton.className) {
 				if (audiobutton.className.match(/mp3/)) {
-					audiobutton.className = 'mp3play';
+					audiobutton.className = 'pause';
 				} else {
 					audiobutton.className = 'play';
 				}
@@ -859,12 +859,12 @@ function PlayAudioFile2(jrpid, element, time) {
 			return;
 		}
 		if (audiobutton.className.match(/mp3/)) {
-			audiobutton.className = 'mp3play';
-		} else {
 			audiobutton.className = 'play';
+		} else {
+			audiobutton.className = 'pause';
 		}
 		if (element.className.match(/mp3/)) {
-			element.className = 'mp3pause';
+			element.className = 'play';
 		} else {
 			element.className = 'pause';
 		}
@@ -877,15 +877,15 @@ function PlayAudioFile2(jrpid, element, time) {
 			return;
 		}
 		if (audiobutton.className.match(/mp3/)) {
-			audiobutton.className = 'mp3pause';
+			audiobutton.className = 'play';
 		} else {
 			audiobutton.className = 'pause';
 		}
 
 		if (element.className.match(/mp3/)) {
-			element.className = 'mp3play';
-		} else {
 			element.className = 'play';
+		} else {
+			element.className = 'pause';
 		}
 		AUDIO.pause();
 		AUDIO.removeAttribute('controls');
@@ -907,7 +907,7 @@ function pauseCallback() {
  		if (!audiobutton) {
 			return;
 		}
-		audiobutton.className = 'mp3play';
+		audiobutton.className = 'play';
 }
 
 
