@@ -67,6 +67,10 @@ table#help-table tr {
     <td> Toggle full-width view </td>
 </tr>
 
+<tr><td style="padding-right:20px;"><b>L</b></td>
+    <td> Toggle melody lines </td>
+</tr>
+
 <tr><td style="padding-right:20px;"><b>[</b></td>
     <td> Zoom out </td>
 </tr>
@@ -152,10 +156,13 @@ table#table-svg, table#table-svg tr td {
 
 </style>
 
+<<<<<<< HEAD
 <div id="interface">
 <table id="controls">
 <tr><td colspan=3>
 <h1> <i>Mikrokosmos</i>, Vol. II, No. 49, B&eacute;la Bart&oacute;k
+=======
+>>>>>>> 72f99250c1e008331d5e40d18a448c5456cf8d28
  
 <style>
 
@@ -184,13 +191,23 @@ table#table-svg, table#table-svg tr td {
 
 </style>
 
+<div id="interface">
+<table>
+<tr><td>
+
+<h1> <i>Mikrokosmos</i>, Vol. I, No. 34, B&eacute;la Bart&oacute;k </h1>
+
+</td><td>
+
 <span id="audio2" 
-   style="position:relative; cursor:hand; cursor:pointer; top:15px" 
+   style="position:relative; cursor:hand; cursor:pointer; top:0px" 
    onclick="PlayAudioFile2('Jos2824', this);" href class="play">play</span>
 
-
-</h1>
 </td></tr>
+
+
+<table style="display:none; visibility:hidden;" id="controls">
+<tr><td colspan=3>
 <tr>
 
 <td style="text-align:right;">
@@ -218,11 +235,7 @@ Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox ch
 </td>
 
 </tr>
-
-
 </table>
-
-<div style="height:200px"></div>
 </div>
 
 <table id="svg-table">
@@ -547,6 +560,7 @@ var ANCHOR_STOP;
 var STARTTIME      = -1;
 //var OFFSET         = 0.83;
 var OFFSET         = 0.0
+var LINES          = true;
 
 var NOTE_OFF_TIMES = [];
 var NOTE_ON_TIMES  = [];
@@ -742,11 +756,11 @@ function PlayAudioFile2(jrpid, element, time) {
 	var audiobutton;
 	if (jrpid != AUDIOjrpid) {
 		if (!!AUDIOid) {
-			// turn of previously playing audio file:
+			// turn off previously playing audio file:
 			audiobutton = document.getElementById(AUDIOid);
 			if (!!audiobutton && !!audiobutton.className) {
 				if (audiobutton.className.match(/mp3/)) {
-					audiobutton.className = 'mp3play';
+					audiobutton.className = 'pause';
 				} else {
 					audiobutton.className = 'play';
 				}
@@ -789,36 +803,39 @@ function PlayAudioFile2(jrpid, element, time) {
 			return;
 		}
 		if (audiobutton.className.match(/mp3/)) {
-			audiobutton.className = 'mp3play';
-		} else {
 			audiobutton.className = 'play';
+		} else {
+			audiobutton.className = 'pause';
 		}
 		if (element.className.match(/mp3/)) {
-			element.className = 'mp3pause';
+			element.className = 'play';
 		} else {
 			element.className = 'pause';
 		}
 		AUDIO.play();
 		AUDIO.setAttribute('controls', 'controls');
 	} else {
+
 		audiobutton = document.getElementById(AUDIOid);
  		if (!audiobutton) {
 			return;
 		}
 		if (audiobutton.className.match(/mp3/)) {
-			audiobutton.className = 'mp3pause';
+			audiobutton.className = 'play';
 		} else {
 			audiobutton.className = 'pause';
 		}
+
 		if (element.className.match(/mp3/)) {
-			element.className = 'mp3play';
-		} else {
 			element.className = 'play';
+		} else {
+			element.className = 'pause';
 		}
 		AUDIO.pause();
 		AUDIO.removeAttribute('controls');
 	}
 }
+
 
 
 //////////////////////////////
@@ -827,10 +844,16 @@ function PlayAudioFile2(jrpid, element, time) {
 //
 
 function pauseCallback() {
-	console.log("PAUSING AUDIO");
    PLAY_STATE = 0;
    unhighlightAll(NOTE_ON_TIMES);
+
+		audiobutton = document.getElementById(AUDIOid);
+ 		if (!audiobutton) {
+			return;
+		}
+		audiobutton.className = 'play';
 }
+
 
 
 //////////////////////////////
@@ -1935,14 +1958,19 @@ window.addEventListener('keydown', function(event) {
 				}
 				break;
 
-			case HKey:
-				displayFullHeight();
-				break;
-
 			case GKey:
 				var gs = document.querySelector("#grand-staff");
 				gs.checked = !gs.checked;
 				displayStafflines(gs.checked);
+				break;
+
+			case HKey:
+				displayFullHeight();
+				break;
+
+			case LKey:
+        LINES = !LINES;
+				displayLines(LINES);
 				break;
 
 			case NKey:
