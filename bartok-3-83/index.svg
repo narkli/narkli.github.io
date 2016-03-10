@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 42.2199 41" viewBox="-50 -50 1155.5 510" width="1155.5" height="510">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 42.2199 41" viewBox="-50 -50 1788.79 510" width="1788.79" height="510">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
-<g transform="scale(25, -10) translate(0, -81)" >
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:floralwhite" />
+<g transform="scale(40, -10) translate(0, -81)" >
 	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
 		<path d="M0 64.5 L42.2199 64.5" />
 		<path d="M0 67.5 L42.2199 67.5" />
@@ -36,7 +36,7 @@
 			<path d=" M4.44213 45.5 L4.44444 45.5 L4.44444 50.5" />
 			<path d=" M4.7199 50.5 L4.99999 50.5 L4.99999 67.5" />
 			<path d=" M4.7199 44.5 L4.99999 44.5 L4.99999 67.5" />
-			<path d=" M6.66435 67.5 L6.66666 67.5 L6.66666 62.5" />
+			<path d=" M5.55324 67.5 L5.55555 67.5 L5.55555 67.5" />
 			<path d=" M6.10879 67.5 L6.1111 67.5 L6.1111 67.5" />
 			<path d=" M6.66435 67.5 L6.66666 67.5 L6.66666 62.5" />
 			<path d=" M7.2199 62.5 L7.22221 62.5 L7.22221 64.5" />
@@ -336,7 +336,7 @@
 			<rect vector-effect="non-scaling-stroke" class="note key-45 ont-4d167 offt-4d442"	rx="1"	ry="1"	x="4.16666"	y="45"	width="0.275463"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-4d444 offt-4d720"	rx="1"	ry="1"	x="4.44444"	y="50"	width="0.275463"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-44 ont-4d444 offt-4d720"	rx="1"	ry="1"	x="4.44444"	y="44"	width="0.275463"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d000 offt-6d664 maxima"	rx="1"	ry="1"	x="4.99999"	y="67"	width="1.66435"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d000 offt-5d553 maxima"	rx="1"	ry="1"	x="4.99999"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d556 offt-6d109 maxima"	rx="1"	ry="1"	x="5.55555"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-6d111 offt-6d664 maxima"	rx="1"	ry="1"	x="6.1111"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-6d667 offt-7d220"	rx="1"	ry="1"	x="6.66666"	y="62"	width="0.55324"	height="1" />
@@ -641,7 +641,7 @@
 			<rect vector-effect="non-scaling-stroke" class="note key-45 ont-4d167 offt-4d442"	rx="1"	ry="1"	x="4.16666"	y="45"	width="0.275463"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-4d444 offt-4d720"	rx="1"	ry="1"	x="4.44444"	y="50"	width="0.275463"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-44 ont-4d444 offt-4d720"	rx="1"	ry="1"	x="4.44444"	y="44"	width="0.275463"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d000 offt-6d664 maxima"	rx="1"	ry="1"	x="4.99999"	y="67"	width="1.66435"	height="1" />
+			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d000 offt-5d553 maxima"	rx="1"	ry="1"	x="4.99999"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d556 offt-6d109 maxima"	rx="1"	ry="1"	x="5.55555"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-6d111 offt-6d664 maxima"	rx="1"	ry="1"	x="6.1111"	y="67"	width="0.55324"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-6d667 offt-7d220"	rx="1"	ry="1"	x="6.66666"	y="62"	width="0.55324"	height="1" />
@@ -935,5 +935,5 @@
 </g>
 </svg>
 <?mid2svg
-	no83.mid --dark --staff -l -r --gs --dash -s 10 -a 2.5 -b 5
+	no83.mid --dark --staff -l -r --gs --dash -s 10 -a 4 -b 5
 ?>
