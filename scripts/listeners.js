@@ -166,6 +166,22 @@ function processKeyCommand(event) {
 				displayStafflines(gs.checked);
 				break;
 
+			case IKey:
+				console.log("I KEY PRESSED");
+				var helpelem = document.querySelector("#search-help");
+				console.log(helpelem);
+				helpelem.className   = "";
+				helpelem.style.display = "block";
+				helpelem.background = "red";
+				helpelem.innerHTML   = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <i>GraphMusic</i>";
+        helpelem.style.marginLeft = "150px";
+				// helpelem.style.color = "#634f29";
+				helpelem.style.color = "#888888";
+        helpelem.style.fontSize    = "180%";
+        helpelem.style.marginTop = "21px";
+				break;
+				
+
 			case HKey:
 				displayFullHeight();
 				break;
