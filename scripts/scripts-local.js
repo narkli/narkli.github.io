@@ -23,6 +23,7 @@ var NOTE_ON_TIMES  = [];
 var RECTS          = [];
 var VOICES         = [];
 var NEXT_WORK      = "";
+var ICOUNT         = 0;
 var PREVIOUS_WORK  = "";
 var ANCHOR_STOP;
 var REFRESH;

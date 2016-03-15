@@ -167,18 +167,34 @@ function processKeyCommand(event) {
 				break;
 
 			case IKey:
-				console.log("I KEY PRESSED");
-				var helpelem = document.querySelector("#search-help");
-				console.log(helpelem);
-				helpelem.className   = "";
-				helpelem.style.display = "block";
-				helpelem.background = "red";
-				helpelem.innerHTML   = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <i>GraphMusic</i>";
-        helpelem.style.marginLeft = "150px";
-				// helpelem.style.color = "#634f29";
-				helpelem.style.color = "#888888";
-        helpelem.style.fontSize    = "180%";
-        helpelem.style.marginTop = "21px";
+				ICOUNT++;
+				if (ICOUNT == 1) {
+					var helpelem = document.querySelector("#search-help");
+					console.log(helpelem);
+					helpelem.className   = "";
+					helpelem.style.display = "block";
+					helpelem.background = "red";
+					helpelem.innerHTML   = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <i>GraphMusic</i>";
+					helpelem.style.marginLeft = "150px";
+					// helpelem.style.color = "#634f29";
+					helpelem.style.color = "#888888";
+					helpelem.style.fontSize    = "180%";
+					helpelem.style.marginTop = "21px";
+					var aud2 = document.querySelector("#audio2");
+					aud2.style.display = "none";
+					aud2.style.visibility = "invisible";
+					var inputs = document.querySelectorAll("input");
+					for (var i=0; i<inputs.length; i++) {
+						inputs[i].style.display = "none";
+					}
+				}
+				if (ICOUNT == 2) {
+					var names = document.querySelectorAll("label");
+					console.log(names);
+					for (var j=0; j<names.length; j++) {
+						names[j].style.display = "none";
+					}
+				}
 				break;
 				
 
