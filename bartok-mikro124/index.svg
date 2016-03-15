@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 34 68.6477 49" viewBox="-50 -50 2502.67 590" width="2502.67" height="590">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 34 68.6477 49" viewBox="-45 -45 2561.32 531" width="2561.32" height="531">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
 <rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:lightgray" />
-<g transform="scale(35, -10) translate(0, -83)" >
+<g transform="scale(36, -9) translate(0, -83)" >
 	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
 		<path d="M0 64.5 L68.6477 64.5" />
 		<path d="M0 67.5 L68.6477 67.5" />
@@ -20,8 +20,8 @@
 		<path d="M0 53.5 L68.6477 53.5" />
 		<path d="M0 57.5 L68.6477 57.5" />
 	</g>
-	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
+	<g style="stroke-width:0.9; stroke:none;">
+		<g class="note-lines track-2" fill="none" stroke="hsl(0.000000, 100%, 25%)" stroke-dasharray="0.25" stroke-width="0.02">
 			<path d=" M1.26686 51.5 L1.42857 51.5 L1.42857 51.5" />
 			<path d=" M1.50496 51.5 L1.66667 51.5 L1.66667 51.5" />
 			<path d=" M1.74305 51.5 L2.14286 51.5 L2.14286 51.5" />
@@ -197,7 +197,7 @@
 			<path d=" M68.1716 56.5 L68.3333 56.5 L68.3333 56.5" />
 			<path d=" M68.4097 56.5 L68.5714 56.5 L68.5714 57.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
+		<g class="note-lines track-1" fill="none" stroke="hsl(120.000000, 100%, 20%)" stroke-dasharray="0.25" stroke-width="0.02">
 			<path d=" M1.98115 51.5 L5.47619 51.5 L5.47619 62.5" />
 			<path d=" M5.55257 62.5 L5.71428 62.5 L5.71428 61.5" />
 			<path d=" M5.79067 61.5 L5.95238 61.5 L5.95238 57.5" />
@@ -696,7 +696,7 @@
 			<rect vector-effect="non-scaling-stroke" class="note key-82 ont-68d333 offt-68d410 maxima"	rx="1"	ry="1"	x="68.3333"	y="82"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-81 ont-68d571 offt-68d648"	rx="1"	ry="1"	x="68.5714"	y="81"	width="0.0763888"	height="1" />
 		</g>
-		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
+		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 25%);" >
 			<rect vector-effect="non-scaling-stroke" class="note key-51 ont-1d190 offt-1d267"	rx="1"	ry="1"	x="1.19048"	y="51"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-51 ont-1d429 offt-1d505"	rx="1"	ry="1"	x="1.42857"	y="51"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-51 ont-1d667 offt-1d743"	rx="1"	ry="1"	x="1.66667"	y="51"	width="0.0763888"	height="1" />
@@ -873,7 +873,7 @@
 			<rect vector-effect="non-scaling-stroke" class="note key-56 ont-68d333 offt-68d410"	rx="1"	ry="1"	x="68.3333"	y="56"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-68d571 offt-68d648 maxima"	rx="1"	ry="1"	x="68.5714"	y="57"	width="0.0763888"	height="1" />
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(120, 100%, 20%);" >
 			<rect vector-effect="non-scaling-stroke" class="note key-51 ont-1d905 offt-1d981"	rx="1"	ry="1"	x="1.90476"	y="51"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-5d476 offt-5d553"	rx="1"	ry="1"	x="5.47619"	y="62"	width="0.0763888"	height="1" />
 			<rect vector-effect="non-scaling-stroke" class="note key-61 ont-5d714 offt-5d791"	rx="1"	ry="1"	x="5.71428"	y="61"	width="0.0763888"	height="1" />
@@ -1039,5 +1039,5 @@
 </g>
 </svg>
 <?mid2svg
-	no124.mid --dark --staff -l -r --gs --dash -s 10 -a 3.5 -b 5
+	no124.mid --dark --staff -l -r --gs --dash -s 9 -a 4 -b 5
 ?>
