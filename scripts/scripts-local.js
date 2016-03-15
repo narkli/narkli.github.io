@@ -488,7 +488,8 @@ function svgCenterVertically() {
       var toppos = center - box.height/2;
       toppos += consoleheight;
 
-      svgholder.style.top = toppos + "px";
+      // svgholder.style.top = toppos + "px";
+      svgholder.style.top = fbox.height + "px";
    }
 }
 
