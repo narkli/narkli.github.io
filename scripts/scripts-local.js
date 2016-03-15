@@ -22,6 +22,8 @@ var NOTE_OFF_TIMES = [];
 var NOTE_ON_TIMES  = [];
 var RECTS          = [];
 var VOICES         = [];
+var NEXT_WORK      = "";
+var PREVIOUS_WORK  = "";
 var ANCHOR_STOP;
 var REFRESH;
 
@@ -919,37 +921,7 @@ function toggleHelpMenu(state) {
 //
 
 function displayNextWorkPage() {
-	InitializeWorklistFlat();
-	SECTIONS = [];
-	var entry;
-	var nextone = 0;
-	var first;
-	var base = localStorage.PROLLjrpid.match(/^([A-Z][a-z][a-z][\d.]+)/)[1];
-
-	for (entry in WORKLISTjrpid) {
-		if (!WORKLISTjrpid.hasOwnProperty(entry)) {
-			continue;
-		}
-		if (typeof first === 'undefined') {
-			first = entry;
-		}
-		if (nextone > 0) {
-			localStorage.PROLLjrpid = entry;
-			displayWork(localStorage.PROLLjrpid, true);
-			return false;
-		}
-		if (entry.match(localStorage.PROLLjrpid)) {
-			nextone = 1;
-		} else if (entry.match(base)) {
-			nextone = 1;
-		}
-	}
-
-	if (typeof first !== 'undefined') {
-		localStorage.PROLLjrpid = first;
-		displayWork(localStorage.PROLjLjrpid, true);
-		return false;
-	}
+   window.location = NEXT_WORK;
 }
 
 
@@ -960,28 +932,7 @@ function displayNextWorkPage() {
 //
 
 function displayPreviousWorkPage() {
-	InitializeWorklistFlat();
-	SECTIONS = [];
-	var entry;
-	var lastentry;
-	var base = localStorage.PROLLjrpid.match(/^([A-Z][a-z][a-z][\d.]+)/)[1];
-
-	for (entry in WORKLISTjrpid) {
-		if (!WORKLISTjrpid.hasOwnProperty(entry)) {
-			continue;
-		}
-		if (entry.match(localStorage.PROLLjrpid) || entry.match(base)) {
- 			if (typeof lastentry !== 'undefined') {
-				localStorage.PROLLjrpid = lastentry;
-			} else {
-				localStorage.PROLLjrpid = WORKLIST[WORKLIST.length-1]
-					.works[WORKLIST[WORKLIST.length-1].works.length-1].id;
-			}
-			displayWork(localStorage.PROLLjrpid, true);
-			return false;
-		}
-		lastentry = entry;
-	}
+   window.location = PREVIOUS_WORK;
 }
 
 
@@ -1091,7 +1042,7 @@ function loadWorklist(url) {
    request.open("GET", url);
    request.addEventListener("load", function() {
 	   prepareWorklist(request.responseText);
-   }
+   });
    request.send();
 }
 
@@ -1103,19 +1054,26 @@ function loadWorklist(url) {
 //
 
 function prepareWorklist(content) {
-   console.log(content);
+   var page = location.pathname.replace(/\//g, "");
+   var list = content.match(/[^\r\n]+/g);
+	var index = list.indexOf(page);
+   var nextindex;
+   var previousindex;
+   if (index >= 0) {
+      nextindex = index+1;
+      previousindex = index-1;
+   } else {
+      nextindex = 0;
+      previousindex = list.length - 1;
+   }
+   if (nextindex >= list.length) {
+      nextindex = 0;
+   }
+   if (previousindex < 0) {
+      previousindex = list.length-1;
+   }
+   NEXT_WORK = "/" + list[nextindex]
+   PREVIOUS_WORK = "/" + list[previousindex]
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
