@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 36 54.3734 53" viewBox="-50 -50 1459.34 630" width="1459.34" height="630">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 36 54.3734 53" viewBox="-50 -50 1731.2 630" width="1731.2" height="630">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:gainsboro" />
-<g transform="scale(25, -10) translate(0, -89)" >
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:lightgray" />
+<g transform="scale(30, -10) translate(0, -89)" >
 	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
 		<path d="M0 64.5 L54.3734 64.5" />
 		<path d="M0 67.5 L54.3734 67.5" />
@@ -3152,5 +3152,5 @@
 </g>
 </svg>
 <?mid2svg
-	no122.mid --dark --staff -l -r --gs --dash -s 10 -a 2.5 -b 5
+	no122.mid --dark --staff -l -r --gs --dash -s 10 -a 3 -b 5
 ?>
