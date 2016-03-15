@@ -1079,3 +1079,43 @@ function setVoiceLabelColors() {
 }
 
 
+
+//////////////////////////////
+//
+// loadWorklist -- load an ordered list of the works to use with shift-arrow keys.
+//
+//
+
+function loadWorklist(url) {
+   var request = new XMLHttpRequest();
+   request.open("GET", url);
+   request.addEventListener("load", function() {
+	   prepareWorklist(request.responseText);
+   }
+   request.send();
+}
+
+
+
+//////////////////////////////
+//
+// prepareWorklist --
+//
+
+function prepareWorklist(content) {
+   console.log(content);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -23,6 +23,7 @@ window.addEventListener("DOMContentLoaded", function(event) {
    loadSvgImage('#svg-container');
    prepareHelpMenu('#help-container');
    prepareTitle('#title-container');
+   loadWorklist('/worklist/worklist.txt');
 });
 
 
@@ -325,10 +326,4 @@ window.addEventListener("click", function(event) {
       audio.play();
    }
 });
-
-
-
-
-
-
 

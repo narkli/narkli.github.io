@@ -19,6 +19,7 @@ input[type='checkbox'] + label > span {
 body#white {
 	/* background: white; */
 	background: #e5e5e5;
+	margin-top: 30px;
 }
 
 div#home-page {
