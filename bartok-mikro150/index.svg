@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 33 72.4542 56" viewBox="-40 -40 3267.98 528" width="3267.98" height="528">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 33 72.4542 56" viewBox="-40 -40 2688.35 528" width="2688.35" height="528">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
 <rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:lightgray" />
-<g transform="scale(44, -8) translate(0, -89)" >
+<g transform="scale(36, -8) translate(0, -89)" >
 	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
 		<path d="M0 64.5 L72.4542 64.5" />
 		<path d="M0 67.5 L72.4542 67.5" />
@@ -1760,5 +1760,5 @@
 </g>
 </svg>
 <?mid2svg
-	no150.mid --dark --staff -l -r --gs --dash -s 8 -a 5.5 -b 5
+	no150.mid --dark --staff -l -r --gs --dash -s 8 -a 4.5 -b 5
 ?>
