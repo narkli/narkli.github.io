@@ -23,6 +23,7 @@ window.addEventListener("DOMContentLoaded", function(event) {
    loadSvgImage('#svg-container');
    prepareHelpMenu('#help-container');
    prepareTitle('#title-container');
+   loadMp3Redirect('redirect-mp3.txt');
    loadWorklist('/worklist/worklist.txt');
 });
 

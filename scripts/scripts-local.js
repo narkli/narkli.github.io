@@ -26,6 +26,7 @@ var NEXT_WORK      = "";
 var ICOUNT         = 0;
 var PREVIOUS_WORK  = "";
 var ANCHOR_STOP;
+var SOURCE         = "index.mp3";
 var REFRESH;
 
 
@@ -186,7 +187,7 @@ function PlayAudioFile2(jrpid, element, time) {
 		
 		AUDIOid = element.id;
 		var source = '';
-		source += '<source src="index.mp3" type="audio/mpeg"/>\n';
+		source += '<source src="' + SOURCE + '" type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;
 
 		AUDIOjrpid = jrpid;
@@ -413,6 +414,40 @@ function checkTimeMaps(nowtime) {
          turnOffNote(tmon[i].index);
       }
    }
+}
+
+
+//////////////////////////////
+//
+// loadMp3Redirect --
+//
+
+function loadMp3Redirect(redirectFilename) {
+   var request = new XMLHttpRequest();
+   var url = redirectFilename;
+   request.open("GET", url);
+   request.addEventListener("load", function() {
+      if (this.status != 200) {
+         return;
+      }
+	   if (!AUDIO) {
+		   AUDIO = document.getElementById('audio');
+	   }
+	   if (!AUDIO) {
+		   document.body.innerHTML += '<audio id="audio"></audio>\n';
+		   AUDIO = document.getElementById('audio');
+	   }
+		var source = '';
+      SOURCE = this.responseText;
+		source += '<source src="' + this.responseText + '" type="audio/mpeg"/>\n';
+		AUDIO.innerHTML = source;
+	   if (!AUDIO) {
+		   console.log('Error: could not set up audio interface\n');
+		   return false;
+	   }
+   });
+   request.send();
+
 }
 
 
