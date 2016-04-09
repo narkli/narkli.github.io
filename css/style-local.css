@@ -30,6 +30,8 @@ svg {
 	display: none;
 }
 
+svg g.highlight,
+svg g.highlight rect,
 svg rect.highlight {
 	fill:    white;
 	opacity: 1;

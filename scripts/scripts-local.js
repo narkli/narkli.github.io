@@ -109,7 +109,10 @@ function MidiToDiatonicPC(value) {
 function prepareTimemap() {
 	var svg = document.querySelector("svg");
 	// var offt = svg.querySelectorAll("[class^='offt-']");
-	RECTS = svg.querySelectorAll("rect");
+	RECTS = svg.querySelectorAll("g.note");
+        if (RECTS.length == 0) {
+	   RECTS = svg.querySelectorAll("rect");
+        }
 	NOTE_OFF_TIMES = [];
 	NOTE_ON_TIMES  = [];
 	var matches;
@@ -279,7 +282,10 @@ function unhighlightAll(list) {
 //
 
 function turnOnNote(index) {
-   var rects = document.querySelectorAll("svg rect");
+   var rects = document.querySelectorAll("svg g.note");
+   if (rects.length == 0) {
+      rects = document.querySelectorAll("svg rect");
+   }
    // var note = RECTS[index];
    var note = rects[index];
    var cn = note.className.baseVal;
@@ -297,7 +303,10 @@ function turnOnNote(index) {
 //
 
 function turnOffNote(index) {
-   var rects = document.querySelectorAll("svg rect");
+   var rects = document.querySelectorAll("svg g.note");
+   if (rects.length == 0) {
+      rects = document.querySelectorAll("svg rect");
+   }
    var note = rects[index];
    var cn = note.getAttribute('class');
    if (cn.match(/highlight/)) {
