@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 19.9948 41" viewBox="-75 -75 899.805 765" width="899.805" height="765">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 19.9948 41" viewBox="-50 -50 999.766 510" width="999.766" height="510">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
 <rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
-<g transform="scale(37.5, -15) translate(0, -81)" >
+<g transform="scale(45, -10) translate(0, -81)" >
 	<g class="staff-lines" stroke-width="0.01" stroke="#555555">
 		<path d="M0 64.5 L19.9948 64.5" />
 		<path d="M0 67.5 L19.9948 67.5" />
@@ -20,7 +20,7 @@
 		<path d="M0 53.5 L19.9948 53.5" />
 		<path d="M0 57.5 L19.9948 57.5" />
 	</g>
-	<g style="stroke-width:1.5; stroke:black;">
+	<g style="stroke-width:1; stroke:black;">
 		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
 			<path d=" M1.24479 48.5 L1.25 48.5 L1.25 50.5" />
 			<path d=" M2.49479 50.5 L2.5 50.5 L2.5 52.5" />
@@ -217,5 +217,5 @@
 </g>
 </svg>
 <?mid2svg
-	no001.mid --dark --staff -l -r --gs --dash -s 15 -a 2.5 -b 5
+	no001.mid --dark --staff -l -r --gs --dash -s 10 -a 4.5 -b 5
 ?>
