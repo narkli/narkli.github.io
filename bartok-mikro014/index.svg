@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 42.8185 41" viewBox="-50 -50 1598.65 510" width="1598.65" height="510">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 40.3798 41" viewBox="-50 -50 1513.29 510" width="1513.29" height="510">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
@@ -9,267 +9,587 @@
 <rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
 <g transform="scale(35, -10) translate(0, -81)" >
 	<g class="staff-lines" stroke-width="0.1" stroke="#555555">
-		<path d="M0 64.5 L42.8185 64.5" />
-		<path d="M0 67.5 L42.8185 67.5" />
-		<path d="M0 71.5 L42.8185 71.5" />
-		<path d="M0 74.5 L42.8185 74.5" />
-		<path d="M0 77.5 L42.8185 77.5" />
-		<path d="M0 43.5 L42.8185 43.5" />
-		<path d="M0 47.5 L42.8185 47.5" />
-		<path d="M0 50.5 L42.8185 50.5" />
-		<path d="M0 53.5 L42.8185 53.5" />
-		<path d="M0 57.5 L42.8185 57.5" />
+		<path d="M0 64.5 L40.3798 64.5" />
+		<path d="M0 67.5 L40.3798 67.5" />
+		<path d="M0 71.5 L40.3798 71.5" />
+		<path d="M0 74.5 L40.3798 74.5" />
+		<path d="M0 77.5 L40.3798 77.5" />
+		<path d="M0 43.5 L40.3798 43.5" />
+		<path d="M0 47.5 L40.3798 47.5" />
+		<path d="M0 50.5 L40.3798 50.5" />
+		<path d="M0 53.5 L40.3798 53.5" />
+		<path d="M0 57.5 L40.3798 57.5" />
 	</g>
 	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
-			<path d=" M3.45673 57.5 L3.46154 57.5 L3.46154 55.5" />
-			<path d=" M4.61058 55.5 L4.61538 55.5 L4.61538 57.5" />
-			<path d=" M5.76442 57.5 L5.76923 57.5 L5.76923 55.5" />
-			<path d=" M6.91827 55.5 L6.92308 55.5 L6.92308 57.5" />
-			<path d=" M7.49519 57.5 L7.5 57.5 L7.5 55.5" />
-			<path d=" M8.07211 55.5 L8.07692 55.5 L8.07692 53.5" />
-			<path d=" M8.64904 53.5 L8.65385 53.5 L8.65385 52.5" />
-			<path d=" M9.22596 52.5 L9.23077 52.5 L9.23077 53.5" />
-			<path d=" M10.3798 53.5 L10.3846 53.5 L10.3846 55.5" />
-			<path d=" M11.5337 55.5 L11.5385 55.5 L11.5385 57.5" />
-			<path d=" M12.8474 57.5 L13.8462 57.5 L13.8462 50.5" />
-			<path d=" M14.9952 50.5 L15 50.5 L15 52.5" />
-			<path d=" M16.149 52.5 L16.1538 52.5 L16.1538 50.5" />
-			<path d=" M17.3029 50.5 L17.3077 50.5 L17.3077 52.5" />
-			<path d=" M18.4567 52.5 L18.4615 52.5 L18.4615 50.5" />
-			<path d=" M19.0337 50.5 L19.0385 50.5 L19.0385 52.5" />
-			<path d=" M19.6106 52.5 L19.6154 52.5 L19.6154 53.5" />
-			<path d=" M20.1791 53.5 L20.1923 53.5 L20.1923 55.5" />
-			<path d=" M20.756 55.5 L20.7692 55.5 L20.7692 53.5" />
-			<path d=" M21.9183 53.5 L21.9231 53.5 L21.9231 52.5" />
-			<path d=" M23.0721 52.5 L23.0769 52.5 L23.0769 50.5" />
-			<path d=" M24.2524 50.5 L25.3846 50.5 L25.3846 60.5" />
-			<path d=" M26.5337 60.5 L26.5385 60.5 L26.5385 62.5" />
-			<path d=" M27.6875 62.5 L27.6923 62.5 L27.6923 60.5" />
-			<path d=" M28.2644 60.5 L28.2692 60.5 L28.2692 59.5" />
-			<path d=" M28.8413 59.5 L28.8462 59.5 L28.8462 57.5" />
-			<path d=" M29.4183 57.5 L29.4231 57.5 L29.4231 55.5" />
-			<path d=" M29.9952 55.5 L30 55.5 L30 57.5" />
-			<path d=" M31.131 57.5 L31.1538 57.5 L31.1538 59.5" />
-			<path d=" M32.3029 59.5 L32.3077 59.5 L32.3077 60.5" />
-			<path d=" M33.4615 60.5 L34.6154 60.5 L34.6154 50.5" />
-			<path d=" M35.7644 50.5 L35.7692 50.5 L35.7692 48.5" />
-			<path d=" M36.9183 48.5 L36.9231 48.5 L36.9231 50.5" />
-			<path d=" M37.4952 50.5 L37.5 50.5 L37.5 52.5" />
-			<path d=" M38.0721 52.5 L38.0769 52.5 L38.0769 53.5" />
-			<path d=" M38.649 53.5 L38.6538 53.5 L38.6538 55.5" />
-			<path d=" M39.226 55.5 L39.2308 55.5 L39.2308 53.5" />
-			<path d=" M40.3798 53.5 L40.3846 53.5 L40.3846 52.5" />
-			<path d=" M41.5336 52.5 L41.5385 52.5 L41.5385 50.5" />
+		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="2.25" stroke-width="1">
+			<path  vector-effect="non-scaling-stroke" d=" M1.14904 57.5 L1.15385 57.5 L1.15385 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M2.30288 55.5 L2.30769 55.5 L2.30769 57.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M3.45673 57.5 L3.46154 57.5 L3.46154 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M4.61058 55.5 L4.61538 55.5 L4.61538 57.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M5.1875 57.5 L5.19231 57.5 L5.19231 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M5.76442 55.5 L5.76923 55.5 L5.76923 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M6.34135 53.5 L6.34615 53.5 L6.34615 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M6.91827 52.5 L6.92308 52.5 L6.92308 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M8.07211 53.5 L8.07692 53.5 L8.07692 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M9.22596 55.5 L9.23077 55.5 L9.23077 57.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M10.3798 57.5 L11.5385 57.5 L11.5385 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M12.6875 50.5 L12.6923 50.5 L12.6923 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M13.8413 52.5 L13.8462 52.5 L13.8462 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M14.9952 50.5 L15 50.5 L15 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M16.149 52.5 L16.1538 52.5 L16.1538 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M16.726 50.5 L16.7308 50.5 L16.7308 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M17.3029 52.5 L17.3077 52.5 L17.3077 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M17.8714 53.5 L17.8846 53.5 L17.8846 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M18.4483 55.5 L18.4615 55.5 L18.4615 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M19.6106 53.5 L19.6154 53.5 L19.6154 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M20.7644 52.5 L20.7692 52.5 L20.7692 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M21.9183 50.5 L23.0769 50.5 L23.0769 60.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M24.226 60.5 L24.2308 60.5 L24.2308 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M25.3798 62.5 L25.3846 62.5 L25.3846 60.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M25.9567 60.5 L25.9615 60.5 L25.9615 59.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M26.5337 59.5 L26.5385 59.5 L26.5385 57.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M27.1106 57.5 L27.1154 57.5 L27.1154 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M27.6875 55.5 L27.6923 55.5 L27.6923 57.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M28.8233 57.5 L28.8462 57.5 L28.8462 59.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M29.9952 59.5 L30 59.5 L30 60.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M31.149 60.5 L32.3077 60.5 L32.3077 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M33.4567 50.5 L33.4615 50.5 L33.4615 48.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M34.6106 48.5 L34.6154 48.5 L34.6154 50.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M35.1875 50.5 L35.1923 50.5 L35.1923 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M35.7644 52.5 L35.7692 52.5 L35.7692 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M36.3413 53.5 L36.3461 53.5 L36.3461 55.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M36.9183 55.5 L36.9231 55.5 L36.9231 53.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M38.0721 53.5 L38.0769 53.5 L38.0769 52.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M39.226 52.5 L39.2308 52.5 L39.2308 50.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="0.25" stroke-width="0.02">
-			<path d=" M3.45673 69.5 L3.46154 69.5 L3.46154 67.5" />
-			<path d=" M4.61058 67.5 L4.61538 67.5 L4.61538 69.5" />
-			<path d=" M5.76442 69.5 L5.76923 69.5 L5.76923 67.5" />
-			<path d=" M6.91827 67.5 L6.92308 67.5 L6.92308 69.5" />
-			<path d=" M7.49519 69.5 L7.5 69.5 L7.5 67.5" />
-			<path d=" M8.07211 67.5 L8.07692 67.5 L8.07692 65.5" />
-			<path d=" M8.64904 65.5 L8.65385 65.5 L8.65385 64.5" />
-			<path d=" M9.22596 64.5 L9.23077 64.5 L9.23077 65.5" />
-			<path d=" M10.3798 65.5 L10.3846 65.5 L10.3846 67.5" />
-			<path d=" M11.5337 67.5 L11.5385 67.5 L11.5385 69.5" />
-			<path d=" M12.8474 69.5 L13.8462 69.5 L13.8462 62.5" />
-			<path d=" M14.9952 62.5 L15 62.5 L15 64.5" />
-			<path d=" M16.149 64.5 L16.1538 64.5 L16.1538 62.5" />
-			<path d=" M17.3029 62.5 L17.3077 62.5 L17.3077 64.5" />
-			<path d=" M18.4567 64.5 L18.4615 64.5 L18.4615 62.5" />
-			<path d=" M19.0337 62.5 L19.0385 62.5 L19.0385 64.5" />
-			<path d=" M19.6106 64.5 L19.6154 64.5 L19.6154 65.5" />
-			<path d=" M20.1791 65.5 L20.1923 65.5 L20.1923 67.5" />
-			<path d=" M20.756 67.5 L20.7692 67.5 L20.7692 65.5" />
-			<path d=" M21.9183 65.5 L21.9231 65.5 L21.9231 64.5" />
-			<path d=" M23.0721 64.5 L23.0769 64.5 L23.0769 62.5" />
-			<path d=" M24.2524 62.5 L25.3846 62.5 L25.3846 72.5" />
-			<path d=" M26.5337 72.5 L26.5385 72.5 L26.5385 74.5" />
-			<path d=" M27.6875 74.5 L27.6923 74.5 L27.6923 72.5" />
-			<path d=" M28.2644 72.5 L28.2692 72.5 L28.2692 71.5" />
-			<path d=" M28.8413 71.5 L28.8462 71.5 L28.8462 69.5" />
-			<path d=" M29.4183 69.5 L29.4231 69.5 L29.4231 67.5" />
-			<path d=" M29.9952 67.5 L30 67.5 L30 69.5" />
-			<path d=" M31.131 69.5 L31.1538 69.5 L31.1538 71.5" />
-			<path d=" M32.3029 71.5 L32.3077 71.5 L32.3077 72.5" />
-			<path d=" M33.4615 72.5 L34.6154 72.5 L34.6154 62.5" />
-			<path d=" M35.7644 62.5 L35.7692 62.5 L35.7692 60.5" />
-			<path d=" M36.9183 60.5 L36.9231 60.5 L36.9231 62.5" />
-			<path d=" M37.4952 62.5 L37.5 62.5 L37.5 64.5" />
-			<path d=" M38.0721 64.5 L38.0769 64.5 L38.0769 65.5" />
-			<path d=" M38.649 65.5 L38.6538 65.5 L38.6538 67.5" />
-			<path d=" M39.226 67.5 L39.2308 67.5 L39.2308 65.5" />
-			<path d=" M40.3798 65.5 L40.3846 65.5 L40.3846 64.5" />
-			<path d=" M41.5336 64.5 L41.5385 64.5 L41.5385 62.5" />
+		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="2.25" stroke-width="1">
+			<path  vector-effect="non-scaling-stroke" d=" M1.14904 69.5 L1.15385 69.5 L1.15385 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M2.30288 67.5 L2.30769 67.5 L2.30769 69.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M3.45673 69.5 L3.46154 69.5 L3.46154 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M4.61058 67.5 L4.61538 67.5 L4.61538 69.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M5.1875 69.5 L5.19231 69.5 L5.19231 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M5.76442 67.5 L5.76923 67.5 L5.76923 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M6.34135 65.5 L6.34615 65.5 L6.34615 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M6.91827 64.5 L6.92308 64.5 L6.92308 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M8.07211 65.5 L8.07692 65.5 L8.07692 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M9.22596 67.5 L9.23077 67.5 L9.23077 69.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M10.3798 69.5 L11.5385 69.5 L11.5385 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M12.6875 62.5 L12.6923 62.5 L12.6923 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M13.8413 64.5 L13.8462 64.5 L13.8462 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M14.9952 62.5 L15 62.5 L15 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M16.149 64.5 L16.1538 64.5 L16.1538 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M16.726 62.5 L16.7308 62.5 L16.7308 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M17.3029 64.5 L17.3077 64.5 L17.3077 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M17.8714 65.5 L17.8846 65.5 L17.8846 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M18.4483 67.5 L18.4615 67.5 L18.4615 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M19.6106 65.5 L19.6154 65.5 L19.6154 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M20.7644 64.5 L20.7692 64.5 L20.7692 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M21.9183 62.5 L23.0769 62.5 L23.0769 72.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M24.226 72.5 L24.2308 72.5 L24.2308 74.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M25.3798 74.5 L25.3846 74.5 L25.3846 72.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M25.9567 72.5 L25.9615 72.5 L25.9615 71.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M26.5337 71.5 L26.5385 71.5 L26.5385 69.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M27.1106 69.5 L27.1154 69.5 L27.1154 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M27.6875 67.5 L27.6923 67.5 L27.6923 69.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M28.8233 69.5 L28.8462 69.5 L28.8462 71.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M29.9952 71.5 L30 71.5 L30 72.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M31.149 72.5 L32.3077 72.5 L32.3077 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M33.4567 62.5 L33.4615 62.5 L33.4615 60.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M34.6106 60.5 L34.6154 60.5 L34.6154 62.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M35.1875 62.5 L35.1923 62.5 L35.1923 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M35.7644 64.5 L35.7692 64.5 L35.7692 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M36.3413 65.5 L36.3461 65.5 L36.3461 67.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M36.9183 67.5 L36.9231 67.5 L36.9231 65.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M38.0721 65.5 L38.0769 65.5 L38.0769 64.5" />
+			<path  vector-effect="non-scaling-stroke" d=" M39.226 64.5 L39.2308 64.5 L39.2308 62.5" />
 		</g>
 		<g opacity="0.5" class="note-backdrops track-2" style="fill:white;" >
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-2d308 offt-3d457"	rx="1"	ry="1"	x="2.30769"	y="57"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-3d462 offt-4d611"	rx="1"	ry="1"	x="3.46154"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-4d615 offt-5d764"	rx="1"	ry="1"	x="4.61538"	y="57"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-5d769 offt-6d918"	rx="1"	ry="1"	x="5.76923"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-6d923 offt-7d495"	rx="1"	ry="1"	x="6.92308"	y="57"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-7d500 offt-8d072"	rx="1"	ry="1"	x="7.5"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-8d077 offt-8d649"	rx="1"	ry="1"	x="8.07692"	y="53"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-8d654 offt-9d226"	rx="1"	ry="1"	x="8.65385"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-9d231 offt-10d380"	rx="1"	ry="1"	x="9.23077"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-10d385 offt-11d534"	rx="1"	ry="1"	x="10.3846"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-11d538 offt-12d847"	rx="1"	ry="1"	x="11.5385"	y="57"	width="1.30889"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-13d846 offt-14d995"	rx="1"	ry="1"	x="13.8462"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-15d000 offt-16d149"	rx="1"	ry="1"	x="15"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-16d154 offt-17d303"	rx="1"	ry="1"	x="16.1538"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-17d308 offt-18d457"	rx="1"	ry="1"	x="17.3077"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-18d462 offt-19d034"	rx="1"	ry="1"	x="18.4615"	y="50"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-19d038 offt-19d611"	rx="1"	ry="1"	x="19.0385"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-19d615 offt-20d179"	rx="1"	ry="1"	x="19.6154"	y="53"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-20d192 offt-20d756"	rx="1"	ry="1"	x="20.1923"	y="55"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-20d769 offt-21d918"	rx="1"	ry="1"	x="20.7692"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-21d923 offt-23d072"	rx="1"	ry="1"	x="21.9231"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-23d077 offt-24d252"	rx="1"	ry="1"	x="23.0769"	y="50"	width="1.17548"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-25d385 offt-26d534"	rx="1"	ry="1"	x="25.3846"	y="60"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-26d538 offt-27d687 maxima"	rx="1"	ry="1"	x="26.5385"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-27d692 offt-28d264"	rx="1"	ry="1"	x="27.6923"	y="60"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-59 ont-28d269 offt-28d841"	rx="1"	ry="1"	x="28.2692"	y="59"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-28d846 offt-29d418"	rx="1"	ry="1"	x="28.8462"	y="57"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-29d423 offt-29d995"	rx="1"	ry="1"	x="29.4231"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-30d000 offt-31d131"	rx="1"	ry="1"	x="30"	y="57"	width="1.13101"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-59 ont-31d154 offt-32d303"	rx="1"	ry="1"	x="31.1538"	y="59"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-32d308 offt-33d462"	rx="1"	ry="1"	x="32.3077"	y="60"	width="1.15385"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-34d615 offt-35d764"	rx="1"	ry="1"	x="34.6154"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-48 ont-35d769 offt-36d918 minima"	rx="1"	ry="1"	x="35.7692"	y="48"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-36d923 offt-37d495"	rx="1"	ry="1"	x="36.9231"	y="50"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-37d500 offt-38d072"	rx="1"	ry="1"	x="37.5"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-38d077 offt-38d649"	rx="1"	ry="1"	x="38.0769"	y="53"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-38d654 offt-39d226"	rx="1"	ry="1"	x="38.6538"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-39d231 offt-40d380"	rx="1"	ry="1"	x="39.2308"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-40d385 offt-41d534"	rx="1"	ry="1"	x="40.3846"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-41d538 offt-42d819"	rx="1"	ry="1"	x="41.5385"	y="50"	width="1.28005"	height="1" />
+			<g class="note key-57 ont-0d000 offt-1d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-1d154 offt-2d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="1.15385"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-2d308 offt-3d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.30769"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-3d462 offt-4d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.46154"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-4d615 offt-5d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="4.61538"	y="57"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-5d192 offt-5d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.19231"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-5d769 offt-6d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.76923"	y="53"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-6d346 offt-6d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.34615"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-6d923 offt-8d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.92308"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-8d077 offt-9d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.07692"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-9d231 offt-10d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.23077"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-11d538 offt-12d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="11.5385"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-12d692 offt-13d841">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="12.6923"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-13d846 offt-14d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="13.8462"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-15d000 offt-16d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-16d154 offt-16d726">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.1538"	y="50"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-16d731 offt-17d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.7308"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-17d308 offt-17d871">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.3077"	y="53"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-55 ont-17d885 offt-18d448">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.8846"	y="55"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-53 ont-18d462 offt-19d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.4615"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-19d615 offt-20d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="19.6154"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-20d769 offt-21d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="20.7692"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-23d077 offt-24d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.0769"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-24d231 offt-25d380 maxima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="24.2308"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-25d385 offt-25d957">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.3846"	y="60"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-59 ont-25d962 offt-26d534">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.9615"	y="59"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-57 ont-26d538 offt-27d111">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="26.5385"	y="57"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-27d115 offt-27d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.1154"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-57 ont-27d692 offt-28d823">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.6923"	y="57"	width="1.13101"	height="1" />
+			</g>
+			<g class="note key-59 ont-28d846 offt-29d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="28.8462"	y="59"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-30d000 offt-31d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="30"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-32d308 offt-33d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.3077"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-48 ont-33d462 offt-34d611 minima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.4615"	y="48"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-34d615 offt-35d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="34.6154"	y="50"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-35d192 offt-35d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.1923"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-35d769 offt-36d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.7692"	y="53"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-36d346 offt-36d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.3461"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-36d923 offt-38d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.9231"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-38d077 offt-39d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.0769"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-39d231 offt-40d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="39.2308"	y="50"	width="1.14904"	height="1" />
+			</g>
 		</g>
 		<g opacity="0.5" class="note-backdrops track-1" style="fill:white;" >
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-2d308 offt-3d457"	rx="1"	ry="1"	x="2.30769"	y="69"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-3d462 offt-4d611"	rx="1"	ry="1"	x="3.46154"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-4d615 offt-5d764"	rx="1"	ry="1"	x="4.61538"	y="69"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d769 offt-6d918"	rx="1"	ry="1"	x="5.76923"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-6d923 offt-7d495"	rx="1"	ry="1"	x="6.92308"	y="69"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-7d500 offt-8d072"	rx="1"	ry="1"	x="7.5"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-8d077 offt-8d649"	rx="1"	ry="1"	x="8.07692"	y="65"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-8d654 offt-9d226"	rx="1"	ry="1"	x="8.65385"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-9d231 offt-10d380"	rx="1"	ry="1"	x="9.23077"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-10d385 offt-11d534"	rx="1"	ry="1"	x="10.3846"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-11d538 offt-12d847"	rx="1"	ry="1"	x="11.5385"	y="69"	width="1.30889"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-13d846 offt-14d995"	rx="1"	ry="1"	x="13.8462"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-15d000 offt-16d149"	rx="1"	ry="1"	x="15"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-16d154 offt-17d303"	rx="1"	ry="1"	x="16.1538"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-17d308 offt-18d457"	rx="1"	ry="1"	x="17.3077"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-18d462 offt-19d034"	rx="1"	ry="1"	x="18.4615"	y="62"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-19d038 offt-19d611"	rx="1"	ry="1"	x="19.0385"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-19d615 offt-20d179"	rx="1"	ry="1"	x="19.6154"	y="65"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-20d192 offt-20d756"	rx="1"	ry="1"	x="20.1923"	y="67"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-20d769 offt-21d918"	rx="1"	ry="1"	x="20.7692"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-21d923 offt-23d072"	rx="1"	ry="1"	x="21.9231"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-23d077 offt-24d252"	rx="1"	ry="1"	x="23.0769"	y="62"	width="1.17548"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-25d385 offt-26d534"	rx="1"	ry="1"	x="25.3846"	y="72"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-74 ont-26d538 offt-27d687 maxima"	rx="1"	ry="1"	x="26.5385"	y="74"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-27d692 offt-28d264"	rx="1"	ry="1"	x="27.6923"	y="72"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-71 ont-28d269 offt-28d841"	rx="1"	ry="1"	x="28.2692"	y="71"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-28d846 offt-29d418"	rx="1"	ry="1"	x="28.8462"	y="69"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-29d423 offt-29d995"	rx="1"	ry="1"	x="29.4231"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-30d000 offt-31d131"	rx="1"	ry="1"	x="30"	y="69"	width="1.13101"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-71 ont-31d154 offt-32d303"	rx="1"	ry="1"	x="31.1538"	y="71"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-32d308 offt-33d462"	rx="1"	ry="1"	x="32.3077"	y="72"	width="1.15385"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-34d615 offt-35d764"	rx="1"	ry="1"	x="34.6154"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-35d769 offt-36d918 minima"	rx="1"	ry="1"	x="35.7692"	y="60"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-36d923 offt-37d495"	rx="1"	ry="1"	x="36.9231"	y="62"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-37d500 offt-38d072"	rx="1"	ry="1"	x="37.5"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-38d077 offt-38d649"	rx="1"	ry="1"	x="38.0769"	y="65"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-38d654 offt-39d226"	rx="1"	ry="1"	x="38.6538"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-39d231 offt-40d380"	rx="1"	ry="1"	x="39.2308"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-40d385 offt-41d534"	rx="1"	ry="1"	x="40.3846"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-41d538 offt-42d819"	rx="1"	ry="1"	x="41.5385"	y="62"	width="1.28005"	height="1" />
+			<g class="note key-69 ont-0d000 offt-1d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-1d154 offt-2d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="1.15385"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-2d308 offt-3d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.30769"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-3d462 offt-4d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.46154"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-4d615 offt-5d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="4.61538"	y="69"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-5d192 offt-5d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.19231"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-5d769 offt-6d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.76923"	y="65"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-6d346 offt-6d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.34615"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-6d923 offt-8d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.92308"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-8d077 offt-9d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.07692"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-9d231 offt-10d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.23077"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-11d538 offt-12d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="11.5385"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-12d692 offt-13d841">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="12.6923"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-13d846 offt-14d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="13.8462"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-15d000 offt-16d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-16d154 offt-16d726">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.1538"	y="62"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-16d731 offt-17d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.7308"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-17d308 offt-17d871">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.3077"	y="65"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-67 ont-17d885 offt-18d448">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.8846"	y="67"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-65 ont-18d462 offt-19d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.4615"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-19d615 offt-20d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="19.6154"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-20d769 offt-21d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="20.7692"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-23d077 offt-24d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.0769"	y="72"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-74 ont-24d231 offt-25d380 maxima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="24.2308"	y="74"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-25d385 offt-25d957">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.3846"	y="72"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-71 ont-25d962 offt-26d534">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.9615"	y="71"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-69 ont-26d538 offt-27d111">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="26.5385"	y="69"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-27d115 offt-27d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.1154"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-69 ont-27d692 offt-28d823">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.6923"	y="69"	width="1.13101"	height="1" />
+			</g>
+			<g class="note key-71 ont-28d846 offt-29d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="28.8462"	y="71"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-30d000 offt-31d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="30"	y="72"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-32d308 offt-33d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.3077"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-33d462 offt-34d611 minima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.4615"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-34d615 offt-35d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="34.6154"	y="62"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-35d192 offt-35d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.1923"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-35d769 offt-36d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.7692"	y="65"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-36d346 offt-36d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.3461"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-36d923 offt-38d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.9231"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-38d077 offt-39d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.0769"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-39d231 offt-40d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="39.2308"	y="62"	width="1.14904"	height="1" />
+			</g>
 		</g>
 		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-2d308 offt-3d457"	rx="1"	ry="1"	x="2.30769"	y="57"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-3d462 offt-4d611"	rx="1"	ry="1"	x="3.46154"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-4d615 offt-5d764"	rx="1"	ry="1"	x="4.61538"	y="57"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-5d769 offt-6d918"	rx="1"	ry="1"	x="5.76923"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-6d923 offt-7d495"	rx="1"	ry="1"	x="6.92308"	y="57"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-7d500 offt-8d072"	rx="1"	ry="1"	x="7.5"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-8d077 offt-8d649"	rx="1"	ry="1"	x="8.07692"	y="53"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-8d654 offt-9d226"	rx="1"	ry="1"	x="8.65385"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-9d231 offt-10d380"	rx="1"	ry="1"	x="9.23077"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-10d385 offt-11d534"	rx="1"	ry="1"	x="10.3846"	y="55"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-11d538 offt-12d847"	rx="1"	ry="1"	x="11.5385"	y="57"	width="1.30889"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-13d846 offt-14d995"	rx="1"	ry="1"	x="13.8462"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-15d000 offt-16d149"	rx="1"	ry="1"	x="15"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-16d154 offt-17d303"	rx="1"	ry="1"	x="16.1538"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-17d308 offt-18d457"	rx="1"	ry="1"	x="17.3077"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-18d462 offt-19d034"	rx="1"	ry="1"	x="18.4615"	y="50"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-19d038 offt-19d611"	rx="1"	ry="1"	x="19.0385"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-19d615 offt-20d179"	rx="1"	ry="1"	x="19.6154"	y="53"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-20d192 offt-20d756"	rx="1"	ry="1"	x="20.1923"	y="55"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-20d769 offt-21d918"	rx="1"	ry="1"	x="20.7692"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-21d923 offt-23d072"	rx="1"	ry="1"	x="21.9231"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-23d077 offt-24d252"	rx="1"	ry="1"	x="23.0769"	y="50"	width="1.17548"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-25d385 offt-26d534"	rx="1"	ry="1"	x="25.3846"	y="60"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-26d538 offt-27d687 maxima"	rx="1"	ry="1"	x="26.5385"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-27d692 offt-28d264"	rx="1"	ry="1"	x="27.6923"	y="60"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-59 ont-28d269 offt-28d841"	rx="1"	ry="1"	x="28.2692"	y="59"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-28d846 offt-29d418"	rx="1"	ry="1"	x="28.8462"	y="57"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-29d423 offt-29d995"	rx="1"	ry="1"	x="29.4231"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-57 ont-30d000 offt-31d131"	rx="1"	ry="1"	x="30"	y="57"	width="1.13101"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-59 ont-31d154 offt-32d303"	rx="1"	ry="1"	x="31.1538"	y="59"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-32d308 offt-33d462"	rx="1"	ry="1"	x="32.3077"	y="60"	width="1.15385"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-34d615 offt-35d764"	rx="1"	ry="1"	x="34.6154"	y="50"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-48 ont-35d769 offt-36d918 minima"	rx="1"	ry="1"	x="35.7692"	y="48"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-36d923 offt-37d495"	rx="1"	ry="1"	x="36.9231"	y="50"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-37d500 offt-38d072"	rx="1"	ry="1"	x="37.5"	y="52"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-38d077 offt-38d649"	rx="1"	ry="1"	x="38.0769"	y="53"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-55 ont-38d654 offt-39d226"	rx="1"	ry="1"	x="38.6538"	y="55"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-53 ont-39d231 offt-40d380"	rx="1"	ry="1"	x="39.2308"	y="53"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-52 ont-40d385 offt-41d534"	rx="1"	ry="1"	x="40.3846"	y="52"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-50 ont-41d538 offt-42d819"	rx="1"	ry="1"	x="41.5385"	y="50"	width="1.28005"	height="1" />
+			<g class="note key-57 ont-0d000 offt-1d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-1d154 offt-2d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="1.15385"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-2d308 offt-3d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.30769"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-3d462 offt-4d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.46154"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-4d615 offt-5d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="4.61538"	y="57"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-5d192 offt-5d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.19231"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-5d769 offt-6d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.76923"	y="53"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-6d346 offt-6d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.34615"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-6d923 offt-8d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.92308"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-55 ont-8d077 offt-9d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.07692"	y="55"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-57 ont-9d231 offt-10d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.23077"	y="57"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-11d538 offt-12d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="11.5385"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-12d692 offt-13d841">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="12.6923"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-13d846 offt-14d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="13.8462"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-15d000 offt-16d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-16d154 offt-16d726">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.1538"	y="50"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-16d731 offt-17d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.7308"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-17d308 offt-17d871">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.3077"	y="53"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-55 ont-17d885 offt-18d448">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.8846"	y="55"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-53 ont-18d462 offt-19d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.4615"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-19d615 offt-20d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="19.6154"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-20d769 offt-21d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="20.7692"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-23d077 offt-24d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.0769"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-24d231 offt-25d380 maxima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="24.2308"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-25d385 offt-25d957">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.3846"	y="60"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-59 ont-25d962 offt-26d534">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.9615"	y="59"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-57 ont-26d538 offt-27d111">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="26.5385"	y="57"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-27d115 offt-27d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.1154"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-57 ont-27d692 offt-28d823">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.6923"	y="57"	width="1.13101"	height="1" />
+			</g>
+			<g class="note key-59 ont-28d846 offt-29d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="28.8462"	y="59"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-30d000 offt-31d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="30"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-32d308 offt-33d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.3077"	y="50"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-48 ont-33d462 offt-34d611 minima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.4615"	y="48"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-34d615 offt-35d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="34.6154"	y="50"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-52 ont-35d192 offt-35d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.1923"	y="52"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-35d769 offt-36d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.7692"	y="53"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-55 ont-36d346 offt-36d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.3461"	y="55"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-53 ont-36d923 offt-38d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.9231"	y="53"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-52 ont-38d077 offt-39d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.0769"	y="52"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-50 ont-39d231 offt-40d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="39.2308"	y="50"	width="1.14904"	height="1" />
+			</g>
 		</g>
 		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-2d308 offt-3d457"	rx="1"	ry="1"	x="2.30769"	y="69"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-3d462 offt-4d611"	rx="1"	ry="1"	x="3.46154"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-4d615 offt-5d764"	rx="1"	ry="1"	x="4.61538"	y="69"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-5d769 offt-6d918"	rx="1"	ry="1"	x="5.76923"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-6d923 offt-7d495"	rx="1"	ry="1"	x="6.92308"	y="69"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-7d500 offt-8d072"	rx="1"	ry="1"	x="7.5"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-8d077 offt-8d649"	rx="1"	ry="1"	x="8.07692"	y="65"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-8d654 offt-9d226"	rx="1"	ry="1"	x="8.65385"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-9d231 offt-10d380"	rx="1"	ry="1"	x="9.23077"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-10d385 offt-11d534"	rx="1"	ry="1"	x="10.3846"	y="67"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-11d538 offt-12d847"	rx="1"	ry="1"	x="11.5385"	y="69"	width="1.30889"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-13d846 offt-14d995"	rx="1"	ry="1"	x="13.8462"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-15d000 offt-16d149"	rx="1"	ry="1"	x="15"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-16d154 offt-17d303"	rx="1"	ry="1"	x="16.1538"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-17d308 offt-18d457"	rx="1"	ry="1"	x="17.3077"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-18d462 offt-19d034"	rx="1"	ry="1"	x="18.4615"	y="62"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-19d038 offt-19d611"	rx="1"	ry="1"	x="19.0385"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-19d615 offt-20d179"	rx="1"	ry="1"	x="19.6154"	y="65"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-20d192 offt-20d756"	rx="1"	ry="1"	x="20.1923"	y="67"	width="0.563702"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-20d769 offt-21d918"	rx="1"	ry="1"	x="20.7692"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-21d923 offt-23d072"	rx="1"	ry="1"	x="21.9231"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-23d077 offt-24d252"	rx="1"	ry="1"	x="23.0769"	y="62"	width="1.17548"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-25d385 offt-26d534"	rx="1"	ry="1"	x="25.3846"	y="72"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-74 ont-26d538 offt-27d687 maxima"	rx="1"	ry="1"	x="26.5385"	y="74"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-27d692 offt-28d264"	rx="1"	ry="1"	x="27.6923"	y="72"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-71 ont-28d269 offt-28d841"	rx="1"	ry="1"	x="28.2692"	y="71"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-28d846 offt-29d418"	rx="1"	ry="1"	x="28.8462"	y="69"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-29d423 offt-29d995"	rx="1"	ry="1"	x="29.4231"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-69 ont-30d000 offt-31d131"	rx="1"	ry="1"	x="30"	y="69"	width="1.13101"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-71 ont-31d154 offt-32d303"	rx="1"	ry="1"	x="31.1538"	y="71"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-72 ont-32d308 offt-33d462"	rx="1"	ry="1"	x="32.3077"	y="72"	width="1.15385"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-34d615 offt-35d764"	rx="1"	ry="1"	x="34.6154"	y="62"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-60 ont-35d769 offt-36d918 minima"	rx="1"	ry="1"	x="35.7692"	y="60"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-36d923 offt-37d495"	rx="1"	ry="1"	x="36.9231"	y="62"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-37d500 offt-38d072"	rx="1"	ry="1"	x="37.5"	y="64"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-38d077 offt-38d649"	rx="1"	ry="1"	x="38.0769"	y="65"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-67 ont-38d654 offt-39d226"	rx="1"	ry="1"	x="38.6538"	y="67"	width="0.572115"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-65 ont-39d231 offt-40d380"	rx="1"	ry="1"	x="39.2308"	y="65"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-64 ont-40d385 offt-41d534"	rx="1"	ry="1"	x="40.3846"	y="64"	width="1.14904"	height="1" />
-			<rect vector-effect="non-scaling-stroke" class="note key-62 ont-41d538 offt-42d819"	rx="1"	ry="1"	x="41.5385"	y="62"	width="1.28005"	height="1" />
+			<g class="note key-69 ont-0d000 offt-1d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-1d154 offt-2d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="1.15385"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-2d308 offt-3d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.30769"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-3d462 offt-4d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.46154"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-4d615 offt-5d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="4.61538"	y="69"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-5d192 offt-5d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.19231"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-5d769 offt-6d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.76923"	y="65"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-6d346 offt-6d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.34615"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-6d923 offt-8d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.92308"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-67 ont-8d077 offt-9d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.07692"	y="67"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-69 ont-9d231 offt-10d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.23077"	y="69"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-11d538 offt-12d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="11.5385"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-12d692 offt-13d841">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="12.6923"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-13d846 offt-14d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="13.8462"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-15d000 offt-16d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-16d154 offt-16d726">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.1538"	y="62"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-16d731 offt-17d303">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.7308"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-17d308 offt-17d871">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.3077"	y="65"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-67 ont-17d885 offt-18d448">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.8846"	y="67"	width="0.563702"	height="1" />
+			</g>
+			<g class="note key-65 ont-18d462 offt-19d611">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.4615"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-19d615 offt-20d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="19.6154"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-20d769 offt-21d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="20.7692"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-23d077 offt-24d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.0769"	y="72"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-74 ont-24d231 offt-25d380 maxima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="24.2308"	y="74"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-25d385 offt-25d957">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.3846"	y="72"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-71 ont-25d962 offt-26d534">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.9615"	y="71"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-69 ont-26d538 offt-27d111">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="26.5385"	y="69"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-27d115 offt-27d687">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.1154"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-69 ont-27d692 offt-28d823">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.6923"	y="69"	width="1.13101"	height="1" />
+			</g>
+			<g class="note key-71 ont-28d846 offt-29d995">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="28.8462"	y="71"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-72 ont-30d000 offt-31d149">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="30"	y="72"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-32d308 offt-33d457">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.3077"	y="62"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-60 ont-33d462 offt-34d611 minima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.4615"	y="60"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-34d615 offt-35d187">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="34.6154"	y="62"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-64 ont-35d192 offt-35d764">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.1923"	y="64"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-35d769 offt-36d341">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="35.7692"	y="65"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-67 ont-36d346 offt-36d918">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.3461"	y="67"	width="0.572115"	height="1" />
+			</g>
+			<g class="note key-65 ont-36d923 offt-38d072">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.9231"	y="65"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-64 ont-38d077 offt-39d226">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.0769"	y="64"	width="1.14904"	height="1" />
+			</g>
+			<g class="note key-62 ont-39d231 offt-40d380">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="39.2308"	y="62"	width="1.14904"	height="1" />
+			</g>
 		</g>
 	</g>
 </g>
