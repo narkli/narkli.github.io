@@ -569,12 +569,24 @@ function displayStafflines(state) {
 	var svg = document.querySelector("svg");
 	var list = svg.querySelectorAll(".staff-lines");
 	for (var i=0; i<list.length; i++) {
-			if (state) {
-				list[i].style.visibility = 'visible';
-			} else {
-				list[i].style.visibility = 'hidden';
-			}
+		list[i].style.visibility = state ? 'visible' : 'hidden';
 	}
+
+	list = svg.querySelectorAll(".bass-clef");
+	for (var i=0; i<list.length; i++) {
+		list[i].style.visibility = state ? 'visible' : 'hidden';
+	}
+
+	list = svg.querySelectorAll(".treble-clef");
+	for (var i=0; i<list.length; i++) {
+		list[i].style.visibility = state ? 'visible' : 'hidden';
+	}
+
+	list = svg.querySelectorAll(".brace");
+	for (var i=0; i<list.length; i++) {
+		list[i].style.visibility = state ? 'visible' : 'hidden';
+	}
+
 }
 
 
