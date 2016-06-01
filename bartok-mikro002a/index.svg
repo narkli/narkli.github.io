@@ -84,7 +84,7 @@
 	</g>
 </g>
 	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(180, 87%, 45%)" stroke-width="0.5">
+		<g class="note-lines track-2" fill="none" stroke="hsl(180, 100%, 75%)" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M0.619792 48.5 L0.625 48.5 L0.625 50.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.24479 50.5 L1.25 50.5 L1.25 52.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.86979 52.5 L1.875 52.5 L1.875 50.5" />
@@ -110,7 +110,7 @@
 			<path  vector-effect="non-scaling-stroke" d=" M16.8698 52.5 L16.875 52.5 L16.875 50.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M17.4948 50.5 L17.5 50.5 L17.5 48.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(304, 93%, 49%)" stroke-width="0.5">
+		<g class="note-lines track-1" fill="none" stroke="hsl(0, 100%, 75%)" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M0.619792 72.5 L0.625 72.5 L0.625 74.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.24479 74.5 L1.25 74.5 L1.25 76.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.86979 76.5 L1.875 76.5 L1.875 74.5" />
@@ -290,7 +290,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.5"	y="72"	width="2.49479"	height="1" />
 			</g>
 		</g>
-		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 87%, 45%);" >
+		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
 			<!-- ==========================================
 				@Track:      2
 				@Pitch:      48
@@ -717,7 +717,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.5"	y="48"	width="2.49479"	height="1" />
 			</g>
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(304, 93%, 49%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
 			<!-- ==========================================
 				@Track:      1
 				@Pitch:      72
