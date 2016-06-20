@@ -21,7 +21,7 @@
 		<path vector-effect="non-scaling-stroke" d="M0 57.5 L212.556 57.5" />
 	</g>
 	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-4" fill="none" stroke="hsl(270.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
+		<g class="note-lines track-4" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M20.4127 48.5 L20.4127 46.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M28.2133 46.5 L29.2478 46.5 L29.2478 53.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M30.2822 53.5 L30.2822 58.5" />
@@ -996,7 +996,7 @@
 			<path  vector-effect="non-scaling-stroke" d=" M209.744 68.5 L209.744 65.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M209.947 65.5 L209.947 67.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
+		<g class="note-lines track-1" fill="none" stroke="hsl(90.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M0.566037 67.5 L0.566037 68.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M0.849056 68.5 L0.849056 70.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.13207 70.5 L1.13207 68.5" />
@@ -5721,7 +5721,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="209.947"	y="75"	width="2.60869"	height="1" />
 			</g>
 		</g>
-		<g class="track-4" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(270, 100%, 75%);" >
+		<g class="track-4" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
 			<g class="note key-51 ont-0d000 offt-8d008">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="51"	width="8.00835"	height="1" />
 			</g>
@@ -8664,7 +8664,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="209.947"	y="67"	width="2.60869"	height="1" />
 			</g>
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(90, 100%, 75%);" >
 			<g class="note key-67 ont-0d283 offt-0d566">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0.283019"	y="67"	width="0.283019"	height="1" />
 			</g>
