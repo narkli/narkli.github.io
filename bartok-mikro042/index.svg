@@ -6,7 +6,7 @@
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:none" />
 <g transform="scale(35, -10) translate(0, -81)" >
 	<g class="staff-lines" stroke-width="0.5" stroke="#555555">
 		<path vector-effect="non-scaling-stroke" d="M0 64.5 L81.558 64.5" />
@@ -21,7 +21,7 @@
 		<path vector-effect="non-scaling-stroke" d="M0 57.5 L81.558 57.5" />
 	</g>
 	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(180.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
+		<g class="note-lines track-2" fill="none" stroke="hsl(243, 100%, 70%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M0.53125 45.5 L0.535714 45.5 L0.535714 48.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.06696 48.5 L1.07143 48.5 L1.07143 52.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.60268 52.5 L1.60714 52.5 L1.60714 48.5" />
@@ -101,7 +101,7 @@
 			<path  vector-effect="non-scaling-stroke" d=" M71.7812 48.5 L71.7857 48.5 L71.7857 47.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M72.8526 47.5 L72.8571 47.5 L72.8571 45.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
+		<g class="note-lines track-1" fill="none" stroke="hsl(270.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M2.13839 69.5 L2.14286 69.5 L2.14286 67.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M4.28125 67.5 L4.28571 67.5 L4.28571 69.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M6.4241 69.5 L6.42857 69.5 L6.42857 64.5" />
@@ -701,7 +701,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="81.4285"	y="64"	width="0.129464"	height="1" />
 			</g>
 		</g>
-		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
+		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(243, 100%, 70%);" >
 			<g class="note key-45 ont-0d000 offt-0d531">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="45"	width="0.53125"	height="1" />
 			</g>
@@ -946,7 +946,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="81.4285"	y="52"	width="0.129464"	height="1" />
 			</g>
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(270, 100%, 75%);" >
 			<g class="note key-69 ont-0d000 offt-2d138 maxima">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="69"	width="2.13839"	height="1" />
 			</g>

@@ -6,7 +6,7 @@
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:none" />
 <g transform="scale(35, -10) translate(0, -81)" >
 	<g class="staff-lines" stroke-width="0.5" stroke="#555555">
 		<path vector-effect="non-scaling-stroke" d="M0 64.5 L41.532 64.5" />
@@ -71,7 +71,7 @@
 			<path  vector-effect="non-scaling-stroke" d=" M35.3782 57.5 L35.3846 57.5 L35.3846 59.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M36.9166 59.5 L36.923 59.5 L36.923 60.5" />
 		</g>
-		<g class="note-lines track-1" fill="none" stroke="hsl(0.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
+		<g class="note-lines track-1" fill="none" stroke="hsl(57.000000, 100%, 60%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
 			<path  vector-effect="non-scaling-stroke" d=" M0.378205 65.5 L0.384615 65.5 L0.384615 67.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M0.76282 67.5 L0.76923 67.5 L0.76923 68.5" />
 			<path  vector-effect="non-scaling-stroke" d=" M1.14743 68.5 L1.15385 68.5 L1.15385 70.5" />
@@ -660,7 +660,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="36.923"	y="60"	width="4.60897"	height="1" />
 			</g>
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(57, 100%, 60%);" >
 			<g class="note key-65 ont-0d000 offt-0d378">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="65"	width="0.378205"	height="1" />
 			</g>
