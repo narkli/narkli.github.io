@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 40 71.4225 41" viewBox="-200 -50 2819.79 510" width="2819.79" height="510">
-<filter id="constantOpacity">
-	<feComponentTransfer>
-		<feFuncA type="table" tableValues="0 .5 .5" />
-	</feComponentTransfer>
-</filter>
 <g transform="scale(35, -10) translate(0, -81)" >
-	<g class="staff-lines" stroke-width="0.5" stroke="#555555">
+	<g class="staff-lines" stroke-width="0.125" stroke="#555555">
 		<path vector-effect="non-scaling-stroke" d="M-3.32143 64.5 L73.4225 64.5" />
 		<path vector-effect="non-scaling-stroke" d="M-3.32143 67.5 L73.4225 67.5" />
 		<path vector-effect="non-scaling-stroke" d="M-3.32143 71.5 L73.4225 71.5" />
@@ -23,7 +18,7 @@
 		<path vector-effect="non-scaling-stroke" d="M-3.32143,43.5 L-3.32143,77.5 z"/>
 	</g>
 <g transform="scale(0.714286, 1)">
-	<g vector-effect="non-scaling-stroke" class="treble-clef" stroke="#cdcdcd" stroke-width="3" fill="#cdcdcd" transform="translate(-17.25, 5.15) scale(0.06, 0.07)">
+	<g vector-effect="non-scaling-stroke" class="treble-clef" stroke="#cdcdcd" stroke-width="0.75" fill="transparent" transform="translate(-17.25, 5.15) scale(0.06, 0.07)">
 		<path vector-effect="non-scaling-stroke" d="M250.026,1080.111c-2.375-5.813-4.501-12.037-5.616-19.656c-1.07-7.32-1.387-15.609-1.62-23.113
 			c-0.426-13.713,0.409-28.548,1.296-41.038c0.132-1.861,0.517-3.882,0.432-5.183c-0.118-1.794-1.622-3.834-2.484-5.401
 			c-4.551-8.266-9.023-16.291-13.176-25.488c-3.56-7.883-6.46-16.235-8.316-27.648c-1.087-6.682-1.406-14.26-2.053-21.816			c0-3.313,0-6.623,0-9.936c0.817-17.854,4.099-30.916,9.396-39.743c1.084-1.808,2.228-3.951,3.24-5.186
@@ -46,7 +41,7 @@
 			C247.971,952.523,248.466,943.862,249.27,935.823z M260.286,855.473c-1.479,19.361-3.545,38.701-4.86,57.671
 			c5.07-0.638,9.023-3.541,11.556-9.718c4.25-10.369,3.378-29.217-0.648-39.53C264.924,860.283,262.694,856.868,260.286,855.473z"/>
 	</g>
-	<g class="bass-clef" fill="#cdcdcd" stroke="#cdcdcd" transform="scale(1.02, 1) translate(-0.25, 0.25)" stroke-width="3">
+	<g class="bass-clef" fill="transparent" stroke="#cdcdcd" transform="scale(1.02, 1) translate(-0.25, 0.25)" stroke-width="0.75">
 		<g transform="matrix(0.1835537,0,0,0.1830159,-98.297967,-1128.8415)">
 			<path vector-effect="non-scaling-stroke" d="M514.308,6407.837c3.419,4.086,5.655,9.64,7.124,12.803
 				c2.204,4.648,4.046,10.097,5.538,16.384c1.492,6.287,2.238,13.068,2.238,20.385c0,4.115-0.338,7.925-0.991,11.507
@@ -73,7 +68,7 @@
 </g>
 <g transform="scale(0.714286, 1)">
 	<g class="brace" transform="rotate(0.2) translate(30.5,-324) scale(1,-1) scale(.0175)">
-		<path vector-effect="non-scaling-stroke" stroke="#cdcdcd" fill="#cdcdcd" stroke-width="3" stroke-linejoin="round" d="M-2031.812-22924.453
+		<path vector-effect="non-scaling-stroke" stroke="#cdcdcd" fill="transparent" stroke-width="0.75" stroke-linejoin="round" d="M-2031.812-22924.453
 			c-24.919,88.91-36.494,171.418-39.024,279.09c-2.379,101.156,9.877,207.264,16.991,305.533
 			c6.605,91.162,10.955,191.51-0.048,282.248c-2.757,22.732-8.614,43.227-13.597,63.254c-8.261,33.207-2.886,38.68,5.136,72.111
 			c10.485,43.689,11.808,90.887,13.172,140.795c3.604,132-16.215,270.613-24.675,400.074
@@ -84,168 +79,842 @@
 	</g>
 </g>
 	<g style="stroke-width:1; stroke:black;">
-		<g class="note-lines track-2" fill="none" stroke="hsl(243.000000, 100%, 75%)" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.5">
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M1.77976 59.5 L1.78571 59.5 L1.78571 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.1369 61.5 L2.14285 61.5 L2.14285 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.49405 60.5 L2.5 60.5 L2.5 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.85119 62.5 L2.85714 62.5 L2.85714 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.20833 61.5 L3.21428 61.5 L3.21428 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.56547 63.5 L3.57143 63.5 L3.57143 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.92262 62.5 L3.92857 62.5 L3.92857 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M4.27976 64.5 L4.28571 64.5 L4.28571 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119 61.5 L5.35714 61.5 L5.35714 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547 60.5 L6.42856 60.5 L6.42856 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404 59.5 L7.49999 59.5 L7.49999 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.85118 60.5 L7.85713 60.5 L7.85713 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.20833 59.5 L8.21428 59.5 L8.21428 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.56547 61.5 L8.57142 61.5 L8.57142 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.92261 60.5 L8.92856 60.5 L8.92856 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.27975 62.5 L9.2857 62.5 L9.2857 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.6369 61.5 L9.64285 61.5 L9.64285 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.99404 63.5 L9.99999 63.5 L9.99999 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M10.3512 62.5 L10.3571 62.5 L10.3571 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M10.7083 64.5 L10.7143 64.5 L10.7143 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798 63.5 L11.7857 63.5 L11.7857 58.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494 58.5 L12.8571 58.5 L12.8571 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.2797 64.5 L14.2857 64.5 L14.2857 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.6369 65.5 L14.6428 65.5 L14.6428 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.994 64.5 L15 64.5 L15 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M15.3512 63.5 L15.3571 63.5 L15.3571 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M15.7083 62.5 L15.7143 62.5 L15.7143 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.0655 64.5 L16.0714 64.5 L16.0714 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.494 65.5 L17.5 65.5 L17.5 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.8512 67.5 L17.8571 67.5 L17.8571 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.2083 64.5 L18.2143 64.5 L18.2143 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.5655 63.5 L18.5714 63.5 L18.5714 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.9226 62.5 L18.9286 62.5 L18.9286 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.2797 65.5 L19.2857 65.5 L19.2857 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.7083 66.5 L20.7143 66.5 L20.7143 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.0655 65.5 L21.0714 65.5 L21.0714 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.4226 63.5 L21.4285 63.5 L21.4285 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.8512 66.5 L22.8571 66.5 L22.8571 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M23.2083 65.5 L23.2143 65.5 L23.2143 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M23.5655 64.5 L23.5714 64.5 L23.5714 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.994 66.5 L25 66.5 L25 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M25.3512 65.5 L25.3571 65.5 L25.3571 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.494 66.5 L27.5 66.5 L27.5 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512 65.5 L27.8571 65.5 L27.8571 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M28.8928 66.5 L28.9285 66.5 L28.9285 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M32.1369 67.5 L32.8571 67.5 L32.8571 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083 65.5 L33.2143 65.5 L33.2143 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083 67.5 L33.2143 67.5 L33.2143 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083 69.5 L33.2143 69.5 L33.2143 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.1369 66.5 L37.1428 66.5 L37.1428 70.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.1369 68.5 L37.1428 68.5 L37.1428 70.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.494 70.5 L37.5 70.5 L37.5 69.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M38.2083 69.5 L38.5714 69.5 L38.5714 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M38.2083 71.5 L38.5714 71.5 L38.5714 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.3154 68.5 L42.5 68.5 L42.5 71.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.3154 70.5 L42.5 70.5 L42.5 71.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.2797 72.5 L44.2857 72.5 L44.2857 71.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.8511 71.5 L42.8571 71.5 L42.8571 70.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M43.9226 70.5 L44.2857 70.5 L44.2857 71.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.6369 71.5 L44.6428 71.5 L44.6428 69.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.994 69.5 L45 69.5 L45 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.4226 66.5 L46.4285 66.5 L46.4285 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.4226 68.5 L46.4285 68.5 L46.4285 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.7797 67.5 L46.7857 67.5 L46.7857 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M47.1369 65.5 L47.1428 65.5 L47.1428 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.2797 62.5 L49.2857 62.5 L49.2857 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.2797 64.5 L49.2857 64.5 L49.2857 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.6369 64.5 L49.6428 64.5 L49.6428 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.994 63.5 L50 63.5 L50 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M50.3511 61.5 L50.3571 61.5 L50.3571 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M53.5654 60.5 L53.9285 60.5 L53.9285 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M53.5654 62.5 L53.9285 62.5 L53.9285 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.6368 59.5 L59.6428 59.5 L59.6428 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M54.6369 61.5 L54.6428 61.5 L54.6428 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M54.994 60.5 L54.9999 60.5 L54.9999 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M55.3511 62.5 L55.3571 62.5 L55.3571 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M55.7083 61.5 L55.7142 61.5 L55.7142 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.4226 63.5 L56.4285 63.5 L56.4285 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.7797 62.5 L56.7857 62.5 L56.7857 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.6368 64.5 L59.6428 64.5 L59.6428 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M64.2797 59.5 L64.6428 59.5 L64.6428 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M60.3511 61.5 L60.3571 61.5 L60.3571 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M60.7083 60.5 L60.7142 60.5 L60.7142 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.0654 62.5 L61.0714 62.5 L61.0714 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.4226 61.5 L61.4285 61.5 L61.4285 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.7797 63.5 L61.7857 63.5 L61.7857 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M62.1368 62.5 L62.1428 62.5 L62.1428 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M62.8511 64.5 L62.8571 64.5 L62.8571 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M63.2083 63.5 L63.2142 63.5 L63.2142 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M64.2797 65.5 L64.6428 65.5 L64.6428 59.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M65.3511 59.5 L65.3571 59.5 L65.3571 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M66.0654 61.5 L66.0714 61.5 L66.0714 60.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M66.7797 60.5 L66.7856 60.5 L66.7856 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M67.494 62.5 L67.4999 62.5 L67.4999 61.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M68.2083 61.5 L68.2142 61.5 L68.2142 63.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M68.9226 63.5 L68.9285 63.5 L68.9285 62.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M69.2797 62.5 L69.2856 62.5 L69.2856 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M69.6368 64.5 L69.6428 64.5 L69.6428 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119 65.5 L5.35714 65.5 L5.35714 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119 67.5 L5.35714 67.5 L5.35714 64.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547 64.5 L7.14285 64.5 L7.14285 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547 66.5 L7.14285 66.5 L7.14285 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547 68.5 L7.14285 68.5 L7.14285 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404 65.5 L7.49999 65.5 L7.49999 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404 67.5 L7.49999 67.5 L7.49999 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.48809 69.5 L7.49999 69.5 L7.49999 66.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798 66.5 L11.7857 66.5 L11.7857 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798 68.5 L11.7857 68.5 L11.7857 65.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494 65.5 L13.5714 65.5 L13.5714 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494 67.5 L13.5714 67.5 L13.5714 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494 69.5 L13.5714 69.5 L13.5714 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226 67.5 L13.9286 67.5 L13.9286 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226 69.5 L13.9286 69.5 L13.9286 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226 71.5 L13.9286 71.5 L13.9286 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.7797 68.5 L16.7857 68.5 L16.7857 69.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.7797 70.5 L16.7857 70.5 L16.7857 69.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369 69.5 L17.1428 69.5 L17.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369 71.5 L17.1428 71.5 L17.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369 73.5 L17.1428 73.5 L17.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.6369 68.5 L19.6428 68.5 L19.6428 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.6369 70.5 L19.6428 70.5 L19.6428 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994 67.5 L20 67.5 L20 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994 69.5 L20 69.5 L20 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994 71.5 L20 71.5 L20 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512 68.5 L20.3571 68.5 L20.3571 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512 70.5 L20.3571 70.5 L20.3571 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512 72.5 L20.3571 72.5 L20.3571 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.7797 67.5 L21.7857 67.5 L21.7857 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.7797 69.5 L21.7857 69.5 L21.7857 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369 67.5 L22.1428 67.5 L22.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369 69.5 L22.1428 69.5 L22.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369 70.5 L22.1428 70.5 L22.1428 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.494 68.5 L22.5 68.5 L22.5 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.494 71.5 L22.5 71.5 L22.5 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.2797 67.5 L24.2857 67.5 L24.2857 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.2797 69.5 L24.2857 69.5 L24.2857 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.6369 68.5 L24.6428 68.5 L24.6428 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.6369 70.5 L24.6428 70.5 L24.6428 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.4226 67.5 L26.4285 67.5 L26.4285 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.4226 69.5 L26.4285 69.5 L26.4285 68.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.7797 68.5 L26.7857 68.5 L26.7857 67.5" />
-			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512 6Ü˙∏	)	 ÛÆI $ Ä †—â	Å®ï•¡^Ë≠ ú∂  —â	Å®ïÂ¡^Ë≠ ú∂  ∆ ∆  ≈ £Ó ÍÕ Ñ	 Ñ	
-  ¢ • • • ∫“  •Ñ	 	ã	  ¢ óê	 ”Ö	  ´Æô∂ ƒèûIRí$Iíî§$IJí$Ií$IJí$IRí$Iíî$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$ÚˇˇˇˇˇD @âê í$I$Ií$â$í$ë$IHí$â$Ií$í$IíDí$IíTôËIí$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$   ˘˛üˇØß™™™™™™™^@ t óºì	ûIRí$Iíî§$IJí$Ií$IJí$IRí$Iíî$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$IíèÃë êD"$Ä$IIí$I"â$I$Ií$I"Ií$â$Ií$ë$Ií$πËIí$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$    ˘˛üˇØß™™™™™™™^¨Ö ¨Ö  ' '	”ˆ Ä	”ˆ Ä
-‡å	M!@$
-
-‡å	ÅM!@$
- â à â €Ì  æ € €ã	µ ã	µ Ñ	  ÷ ∑”å	Å∞˛ˇˇ˜s≠ê ò î —ç	˘ˇˇˇˇˇ≠ ¢ î ‚ ò  ‚ ò  å	ﬂ  ô ÿ≠  € ô
-ı∞ Ëˆ3 ∫ ⁄ı	 ı	  ¥4 ª”Ç	”˚ø'I¢  ”Ç	ˇ˚ø∑I¢   ∫	⁄Ä	   %Ì ã	: ã	: ‘˘à)Ä¨ ‘˘à)Ä¨ ÷Û @\ô√a ‡  √ˇz÷Û @\ô√a ‡  √ˇz ‰\ô√a ‡  √ˇz € €ë5 ë5  “ç	¯ô?‰≠w äù  ]W "—ç	˘ˇˇˇˇˇ≠u äù  ]W  ◊ ◊—å	¸ˇÂˇˇ ã	 —Ö	  ≠uô ”å	ÅÑÚˇ?˛≠u   ı ƒ⁄Ö	!â˘ø„≠é  ¥Ò  „ ≈  	—Ö	@¡:£≠y —Ö	@¡:£≠y  Ÿ ŸÃùû€ˆ∂m€∂ΩÌm€ﬁ∂m€∂m€ﬁ∂m€ˆ∂m€∂Ωm€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂Úˇˇˇˇˇ›ˆˇﬂvª∑ˇ∂m€m€∂mªÌ∂m∑m€€∂mªm€∂Ì∂m€∂›∂m€∂’˛ˇˇˇ⁄∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m> @O˛ˇÁˇÎØ™™™™™™™7W¿ú ï Ãùû€ˆ∂m€∂ΩÌm€ﬁ∂m€∂m€ﬁ∂m€ˆ∂m€∂Ωm€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂Úˇˇˇˇˇ›ˆˇﬂvª∑ˇ∂m€m€∂mªÌ∂m∑m€€∂mªm€∂Ì∂m€∂›∂m€∂’˛ˇˇˇ⁄∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m> @O˛ˇÁˇÎØ™™™™™™™7W¿ú ï å	 å	 Ñ	 » Ñ	 ∑  §å	Ò å	;∂  £ ÈÙ"  • £å	Ú å	Ú ã	) ã	) û –†s	 û –†w û é:â|	 û é:â|	  Ÿ ÿ¯ ¯  ≈ê	Á ê	Á ê	Á ã	) ã	) /ã	 ò… †∫™•çmrQE< dSƒ®µLèö[!@  Eà4 —ç	`˙ø‚Ô2 ¨≈  ≥Ax L	 ]–U-mlìã*‚!√`ò
- F≈®ez‘‹
-ë  ›ç	`˙ø‚ù  •à4Â2  Ÿä	9 Ø≈  §® ± ∞ ± ∞ ± ¢ ó≤  óã	3 ã	3  • • ó ó ∂ ∑ã	
- ã	
-  ñ ó⁄Å	È@DKù ⁄Ö	ëND¥ù  à „«øûm[€∂m€÷∂∂mk€∂m€∂mk€∂m[€∂m€÷∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€~èˇˇˇˇˇˇf `õÕÿ ˚∑m∂m€∂Õ6€∂Ÿ∂ml€∂Õ∂m€6€∂m€f€∂m€~   e€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂M~π∞ 
-# ö∂w‹ö  «øûm[€∂m€÷∂∂mk€∂m€∂mk€∂m[€∂m€÷∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€~èˇˇˇˇˇˇf `õÕÿ ˚∑m∂m€∂Õ6€∂Ÿ∂ml€∂Õ∂m€6€∂m€f€∂m€~   e€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂m€∂M~π∞ 
-# ö∂w‹ö  Ü	ç	q± ¯ˇü¢Ü	ç	q± ¯ˇü¢	ò  	ò   π ∏ ÿ¨}  ﬁ Á Á Á\ô√a Ä  	√ˇ?≠w \ô√a Ä  	√ˇ?≠w ‘˘à)Ä¨ ‘Ñ	@L¸¨î É	Î   	≠ê å	ﬂê  ò ⁄ €ã	 ”Ö	  ≠uó ã	 ”Ö	  ≠uó  	ã	á	  € ¥ﬁ≠ ⁄Ö	ôÓˇˇ¸≠w ⁄Ì¿ ªÁÖ	®Ò?ù 	⁄Ç	” ¯æ ó ñ ñ ñ ó ñ ó ó ñ ñ ó ó ó âÉ	È 
-ã	 ôú ∑ã	È ≠§ ≠§ µ µ  ñã	:  ¢\ìáÄ  `	É›/\ìáÄ  `	É›/ °å	Ò  ô ∑å	Ò í?
- í?
- Ωã	úIBí$IíêÑ$IHí$Ií$IHí$IBí$Iíê$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií ÀÕë êD"$Ä$IIí$I"â$I$Ií$I"Ií$â$Ií$ë$Ií$ï   Äí$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$I® ∫ÑTUUUUUUΩã	úIBí$IíêÑ$IHí$Ií$IHí$IBí$Iíê$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií ÀÕë êD"$Ä$IIí$I"â$I$Ií$I"Ií$â$Ií$ë$Ií$ï   Äí$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$I® ∫ÑTUUUUUUã	Ò ö  ñ ô ôÀèûIRí$Iíî§$IJí$Ií$IJí$IRí$Iíî$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií|˙ˇˇˇˇˇD @âê í$I$Ií$â$í$ë$IHí$â$Ií$í$IíDí$IíT£ËIí$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$Ií$ >˘   :e Y…&~ËG¶[∆~ÈM†ı[æ	#	é	‡
-C
-¶ Z´¸_¿[´=õTnå§¿'‡˛A4ÔP◊møâe•¡}ﬁ                                                                                                                                                                                                                                         •       liszt   Ú  •       mendelssohn   ≠  •       Hydan quartet-krn   Ÿ  •       haydn   ∞  •       grieg   ü  •       chopin   X  •       beethoven-kn   S  •       borodin   D  •       burgm   1  jÑ  f      ^ Violin Sonata No.1 in D, Op.12 No.1,2.Tema con Variazioni. Andante con moto  (D.L.Slider).mid   WÖ  f      K Violin Sonata No.2 in A, Op.12 No.2 , 3.Allegro piacevole (D.L.Slider).mid   RÜ  f      F Violin Sonata No.2 in A, Op.12 No.2 ,1.Allegro vivace(D.L.Slider).mid   dá  f      X Violin Sonata No.2 in A, Op.12 No.2 ,2.Andante, piuÃÄ tosto Allegretto (D.L.Slider).mid   Yà  f      M Violin Sonata No.3 in Eb, Op.12 No.3, 3.Rondo. Allegro molto(D.L.Slider).mid   Yâ  f      M Violin Sonata No.3 in Eb, Op.12 No.3,1.Allegro con spirito  (D.L.Slider).mid   bä  f      V Violin Sonata No.3 in Eb, Op.12 No.3,2.Adagio con molt' espressione  (D.L.Slider).mid   Gã  f      ; Violin Sonata No.4 in A-, Op.23 , 1.Presto(D.L.Slider).mid   eå  f      Y Violin Sonata No.4 in A-, Op.23 , 2.Andante scherzoso, piuÃÄ Allegretto (D.L.Slider).mid   Nç  f      B Violin Sonata No.4 in A-, Op.23 ,3.Allegro molto (D.L.Slider).mid   ^é  f      R Violin Sonata No.5 in F, Op.24 Spring,  3.Scherzo. Allegro molto (D.L.Slider).mid   eè  f      Y Violin Sonata No.5 in F, Op.24 Spring,  4.Rondo. Allegro ma non troppo  (D.L.Slider).mid   ^ê  f      R Violin Sonata No.5 in F, Op.24 Spring, 2.Adagio molto espressivo (D.L.Slider).mid   Më  f      A Violin Sonata No.5 in F, Op.24 Spring,1.Allegro (D.L.Slider).mid   Oí  f      C Violin Sonata No.5 in F, Op.24 Spring,1.Allegro(S.S.Eskandari).mid   `ì  f      T Violin Sonata No.5 in F, Op.24 Spring,2.Adagio molto espressivo (S.S.Eskandari).mid   ]î  f      Q Violin Sonata No.5 in F, Op.24 Spring,3.Scherzo-Allegro molto(S.S.Eskandari).mid   _ï  f      S Violin Sonata No.5 in F, Op.24 Spring,4.Rondo- Allegro ma non troppo  (M.Dore).mid   eñ  f      Y Violin Sonata No.5 in F, Op.24 Spring,4.Rondo- Allegro ma non troppo (S.S.Eskandari).mid   Ló  f      @ Violin Sonata No.6 in A, Op.30 No.1, 1.Allegro (D.L.Slider).mid   ]ò  f      Q Violin Sonata No.6 in A, Op.30 No.1, 2.Adagio, molto espressivo (D.L.Slider).mid   ]ô  f      Q Violin Sonata No.6 in A, Op.30 No.1,3.Allegretto con Variazioni (D.L.Slider).mid   Tö  f      H Violin Sonata No.7 in C-, Op.30 No.2,1.Allegro con brio (P.Falstad).mid   Tõ  f      H Violin Sonata No.7 in C-, Op.30 No.2,2.Adagio Cantabile (P.Falstad).mid   Kú  f      ? Violin Sonata No.7 in C-, Op.30 No.2,3.Scherzo (P.Falstad).mid   Kù  f      ? Violin Sonata No.7 in C-, Op.30 No.2,4.Finale  (P.Falstad).mid   ]û  f      Q Violin Sonata No.9, Op.47 Kreutzer,1.Adagio sostenuto. Presto (D.Galimberti).mid   [ü  f      O Violin Sonata No.9, Op.47 Kreutzer,2.Andante con variazioni (D.Galimberti).mid   S†  f      G Violin Sonata No.9, Op.47 Kreutzer,3.Finale. Presto (D.Galimberti).mid   <°  f      0 Wellington's victory, Op.91  (F.Battaglino).mid   J¢  f      > ZaÃàrtliche Liebe WoO 123 (Ich liebe dich)  (J.F.Darnill).mid   ?£  f      3 beethoven_moonlight_sonata_27-2_1_2_(nc)smythe.mid   G§  f      ; beethoven_sonata_quasi-fantasie_(moonlight)_(nc)smythe.mid   •  n        MIDI   •       albeniz   ’  •       albeniz.zip   ¶  •       beeth   Ú  •      
- beeth.zip   ß  •       beethoven.zip   ®  •       borodin.zip   ©  •       brahms      •       brahms.zip   ™  •      
- burgm.zip   ´  •       chopin.zip   ¨  •      
- grieg.zip   ≠  •      
- haydn.zip   Æ  •      
- liszt.zip   Ø  •       london.zip   ∞  •       mendelssohn.zip   ±                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+		<g class="note-lines track-2" fill="none" stroke="#555555" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.125">
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M1.77976,59.5 Q1.78571,59.5 1.78571 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.1369,61.5 Q2.14285,61.5 2.14285 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.49405,60.5 Q2.5,60.5 2.5 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M2.85119,62.5 Q2.85714,62.5 2.85714 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.20833,61.5 Q3.21428,61.5 3.21428 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.56547,63.5 Q3.57143,63.5 3.57143 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M3.92262,62.5 Q3.92857,62.5 3.92857 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M4.27976,64.5 Q4.28571,64.5 4.28571 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119,61.5 Q5.35714,61.5 5.35714 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547,60.5 Q6.42856,60.5 6.42856 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404,59.5 Q7.49999,59.5 7.49999 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.85118,60.5 Q7.85713,60.5 7.85713 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.20833,59.5 Q8.21428,59.5 8.21428 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.56547,61.5 Q8.57142,61.5 8.57142 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M8.92261,60.5 Q8.92856,60.5 8.92856 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.27975,62.5 Q9.2857,62.5 9.2857 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.6369,61.5 Q9.64285,61.5 9.64285 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M9.99404,63.5 Q9.99999,63.5 9.99999 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M10.3512,62.5 Q10.3571,62.5 10.3571 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M10.7083,64.5 Q10.7143,64.5 10.7143 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798,63.5 Q11.7857,63.5 11.7857 58.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494,58.5 Q12.8571,58.5 12.8571 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.2797,64.5 Q14.2857,64.5 14.2857 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.6369,65.5 Q14.6428,65.5 14.6428 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M14.994,64.5 Q15,64.5 15 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M15.3512,63.5 Q15.3571,63.5 15.3571 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M15.7083,62.5 Q15.7143,62.5 15.7143 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.0655,64.5 Q16.0714,64.5 16.0714 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.494,65.5 Q17.5,65.5 17.5 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.8512,67.5 Q17.8571,67.5 17.8571 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.2083,64.5 Q18.2143,64.5 18.2143 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.5655,63.5 Q18.5714,63.5 18.5714 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M18.9226,62.5 Q18.9286,62.5 18.9286 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.2797,65.5 Q19.2857,65.5 19.2857 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.7083,66.5 Q20.7143,66.5 20.7143 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.0655,65.5 Q21.0714,65.5 21.0714 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.4226,63.5 Q21.4285,63.5 21.4285 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.8512,66.5 Q22.8571,66.5 22.8571 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M23.2083,65.5 Q23.2143,65.5 23.2143 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M23.5655,64.5 Q23.5714,64.5 23.5714 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.994,66.5 Q25,66.5 25 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M25.3512,65.5 Q25.3571,65.5 25.3571 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.494,66.5 Q27.5,66.5 27.5 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512,65.5 Q27.8571,65.5 27.8571 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M28.8928,66.5 Q28.9285,66.5 28.9285 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M32.1369,67.5 Q32.8571,67.5 32.8571 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083,65.5 Q33.2143,65.5 33.2143 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083,67.5 Q33.2143,67.5 33.2143 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.2083,69.5 Q33.2143,69.5 33.2143 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.1369,66.5 Q37.1428,66.5 37.1428 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.1369,68.5 Q37.1428,68.5 37.1428 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.494,70.5 Q37.5,70.5 37.5 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M38.2083,69.5 Q38.5714,69.5 38.5714 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M38.2083,71.5 Q38.5714,71.5 38.5714 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.3154,68.5 Q42.5,68.5 42.5 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.3154,70.5 Q42.5,70.5 42.5 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.2797,72.5 Q44.2857,72.5 44.2857 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.8511,71.5 Q42.8571,71.5 42.8571 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M43.9226,70.5 Q44.2857,70.5 44.2857 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.6369,71.5 Q44.6428,71.5 44.6428 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.994,69.5 Q45,69.5 45 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.4226,66.5 Q46.4285,66.5 46.4285 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.4226,68.5 Q46.4285,68.5 46.4285 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.7797,67.5 Q46.7857,67.5 46.7857 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M47.1369,65.5 Q47.1428,65.5 47.1428 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.2797,62.5 Q49.2857,62.5 49.2857 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.2797,64.5 Q49.2857,64.5 49.2857 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.6369,64.5 Q49.6428,64.5 49.6428 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.994,63.5 Q50,63.5 50 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M50.3511,61.5 Q50.3571,61.5 50.3571 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M53.5654,60.5 Q53.9285,60.5 53.9285 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M53.5654,62.5 Q53.9285,62.5 53.9285 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.6368,59.5 Q59.6428,59.5 59.6428 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M54.6369,61.5 Q54.6428,61.5 54.6428 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M54.994,60.5 Q54.9999,60.5 54.9999 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M55.3511,62.5 Q55.3571,62.5 55.3571 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M55.7083,61.5 Q55.7142,61.5 55.7142 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.4226,63.5 Q56.4285,63.5 56.4285 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.7797,62.5 Q56.7857,62.5 56.7857 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.6368,64.5 Q59.6428,64.5 59.6428 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M64.2797,59.5 Q64.6428,59.5 64.6428 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M60.3511,61.5 Q60.3571,61.5 60.3571 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M60.7083,60.5 Q60.7142,60.5 60.7142 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.0654,62.5 Q61.0714,62.5 61.0714 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.4226,61.5 Q61.4285,61.5 61.4285 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M61.7797,63.5 Q61.7857,63.5 61.7857 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M62.1368,62.5 Q62.1428,62.5 62.1428 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M62.8511,64.5 Q62.8571,64.5 62.8571 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M63.2083,63.5 Q63.2142,63.5 63.2142 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M64.2797,65.5 Q64.6428,65.5 64.6428 59.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M65.3511,59.5 Q65.3571,59.5 65.3571 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M66.0654,61.5 Q66.0714,61.5 66.0714 60.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M66.7797,60.5 Q66.7856,60.5 66.7856 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M67.494,62.5 Q67.4999,62.5 67.4999 61.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M68.2083,61.5 Q68.2142,61.5 68.2142 63.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M68.9226,63.5 Q68.9285,63.5 68.9285 62.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M69.2797,62.5 Q69.2856,62.5 69.2856 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M69.6368,64.5 Q69.6428,64.5 69.6428 65.5" />
+		</g>
+		<g class="note-lines track-1" fill="none" stroke="#555555" stroke-dasharray="2.25" vector-effect="non-scaling-stroke" stroke-width="0.125">
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119,65.5 Q5.35714,65.5 5.35714 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M5.35119,67.5 Q5.35714,67.5 5.35714 64.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547,64.5 Q7.14285,64.5 7.14285 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547,66.5 Q7.14285,66.5 7.14285 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M6.06547,68.5 Q7.14285,68.5 7.14285 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404,65.5 Q7.49999,65.5 7.49999 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.49404,67.5 Q7.49999,67.5 7.49999 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M7.48809,69.5 Q7.49999,69.5 7.49999 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798,66.5 Q11.7857,66.5 11.7857 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M11.7798,68.5 Q11.7857,68.5 11.7857 65.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494,65.5 Q13.5714,65.5 13.5714 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494,67.5 Q13.5714,67.5 13.5714 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M12.494,69.5 Q13.5714,69.5 13.5714 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226,67.5 Q13.9286,67.5 13.9286 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226,69.5 Q13.9286,69.5 13.9286 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M13.9226,71.5 Q13.9286,71.5 13.9286 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.7797,68.5 Q16.7857,68.5 16.7857 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M16.7797,70.5 Q16.7857,70.5 16.7857 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369,69.5 Q17.1428,69.5 17.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369,71.5 Q17.1428,71.5 17.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M17.1369,73.5 Q17.1428,73.5 17.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.6369,68.5 Q19.6428,68.5 19.6428 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.6369,70.5 Q19.6428,70.5 19.6428 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994,67.5 Q20,67.5 20 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994,69.5 Q20,69.5 20 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M19.994,71.5 Q20,71.5 20 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512,68.5 Q20.3571,68.5 20.3571 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512,70.5 Q20.3571,70.5 20.3571 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M20.3512,72.5 Q20.3571,72.5 20.3571 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.7797,67.5 Q21.7857,67.5 21.7857 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M21.7797,69.5 Q21.7857,69.5 21.7857 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369,67.5 Q22.1428,67.5 22.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369,69.5 Q22.1428,69.5 22.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.1369,70.5 Q22.1428,70.5 22.1428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.494,68.5 Q22.5,68.5 22.5 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M22.494,71.5 Q22.5,71.5 22.5 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.2797,67.5 Q24.2857,67.5 24.2857 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.2797,69.5 Q24.2857,69.5 24.2857 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.6369,68.5 Q24.6428,68.5 24.6428 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M24.6369,70.5 Q24.6428,70.5 24.6428 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.4226,67.5 Q26.4285,67.5 26.4285 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.4226,69.5 Q26.4285,69.5 26.4285 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M26.7797,68.5 Q26.7857,68.5 26.7857 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512,67.5 Q27.8571,67.5 27.8571 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512,69.5 Q27.8571,69.5 27.8571 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M27.8512,71.5 Q27.8571,71.5 27.8571 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M28.9226,68.5 Q32.1428,68.5 32.1428 72.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M33.9226,72.5 Q33.9285,72.5 33.9285 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M34.2797,74.5 Q34.2857,74.5 34.2857 73.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M34.6369,73.5 Q34.6428,73.5 34.6428 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M34.994,75.5 Q35,75.5 35 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M35.3512,74.5 Q35.3571,74.5 35.3571 76.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M35.7083,76.5 Q35.7142,76.5 35.7142 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M36.0654,75.5 Q36.0714,75.5 36.0714 77.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M36.4226,77.5 Q36.4285,77.5 36.4285 76.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M37.494,76.5 Q37.5,76.5 37.5 73.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M38.2083,73.5 Q38.9285,73.5 38.9285 72.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M39.2797,72.5 Q39.2857,72.5 39.2857 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M39.6369,74.5 Q39.6428,74.5 39.6428 73.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M39.994,73.5 Q40,73.5 40 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M40.3512,75.5 Q40.3571,75.5 40.3571 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M40.7083,74.5 Q40.7142,74.5 40.7142 76.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M41.0654,76.5 Q41.0714,76.5 41.0714 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M41.4226,75.5 Q41.4285,75.5 41.4285 77.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M41.7797,77.5 Q41.7857,77.5 41.7857 76.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.494,76.5 Q42.5,76.5 42.5 73.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M42.8511,73.5 Q43.2142,73.5 43.2142 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M43.5654,74.5 Q43.5714,74.5 43.5714 73.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M43.9226,73.5 Q43.9285,73.5 43.9285 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M43.9226,75.5 Q43.9285,75.5 43.9285 74.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.6369,74.5 Q44.6428,74.5 44.6428 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.6369,76.5 Q44.6428,76.5 44.6428 75.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.994,75.5 Q45.3571,75.5 45.3571 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M44.994,77.5 Q45.3571,77.5 45.3571 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M45.7083,70.5 Q45.7142,70.5 45.7142 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.0654,69.5 Q46.0714,69.5 46.0714 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.0654,71.5 Q46.0714,71.5 46.0714 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.7797,70.5 Q46.7857,70.5 46.7857 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M46.7797,72.5 Q46.7857,72.5 46.7857 71.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M47.1369,71.5 Q47.5,71.5 47.5 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M47.1369,73.5 Q47.5,73.5 47.5 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M47.8511,66.5 Q47.8571,66.5 47.8571 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M48.2083,67.5 Q48.2142,67.5 48.2142 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.994,66.5 Q50,66.5 50 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M49.994,68.5 Q50,68.5 50 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M50.3511,67.5 Q51.7857,67.5 51.7857 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M50.3511,69.5 Q51.7857,69.5 51.7857 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.7797,66.5 Q57.8571,66.5 57.8571 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M52.494,68.5 Q52.4999,68.5 52.4999 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M52.8511,67.5 Q52.8571,67.5 52.8571 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M53.2083,69.5 Q53.2142,69.5 53.2142 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.7797,68.5 Q57.8571,68.5 57.8571 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M56.7797,70.5 Q57.8571,70.5 57.8571 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M63.5654,66.5 Q63.5714,66.5 63.5714 66.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M58.9226,68.5 Q58.9285,68.5 58.9285 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.2797,67.5 Q59.2857,67.5 59.2857 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M59.6368,69.5 Q59.6428,69.5 59.6428 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M63.9226,68.5 Q64.2857,68.5 64.2857 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M63.9226,70.5 Q64.2857,70.5 64.2857 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M69.6368,66.5 Q69.6428,66.5 69.6428 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M64.994,68.5 Q64.9999,68.5 64.9999 67.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M65.7083,67.5 Q65.7142,67.5 65.7142 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M66.4226,69.5 Q66.4285,69.5 66.4285 68.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M67.1368,68.5 Q67.1428,68.5 67.1428 70.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M67.8511,70.5 Q67.8571,70.5 67.8571 69.5" />
+			<path  vector-effect="non-scaling-stroke" stroke-linejoin="round" d=" M68.5654,69.5 Q68.5714,69.5 68.5714 71.5" />
+		</g>
+		<g class="track-2" style=" fill:#7676e0;" >
+			<g class="note key-59 ont-0d000 offt-1d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="59"	width="1.77976"	height="1" />
+			</g>
+			<g class="note key-61 ont-1d786 offt-2d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="1.78571"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-60 ont-2d143 offt-2d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.14285"	y="60"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-2d500 offt-2d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.5"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-2d857 offt-3d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="2.85714"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-3d214 offt-3d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.21428"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-3d571 offt-3d923">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.57143"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-3d929 offt-4d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="3.92857"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-4d286 offt-5d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="4.28571"	y="61"	width="1.06548"	height="1" />
+			</g>
+			<g class="note key-60 ont-5d357 offt-6d065">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="5.35714"	y="60"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-59 ont-6d429 offt-7d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="6.42856"	y="59"	width="1.06548"	height="1" />
+			</g>
+			<g class="note key-60 ont-7d500 offt-7d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="7.49999"	y="60"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-59 ont-7d857 offt-8d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="7.85713"	y="59"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-8d214 offt-8d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.21428"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-60 ont-8d571 offt-8d923">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.57142"	y="60"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-8d929 offt-9d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="8.92856"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-9d286 offt-9d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.2857"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-9d643 offt-9d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.64285"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-10d000 offt-10d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="9.99999"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-10d357 offt-10d708">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="10.3571"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-10d714 offt-11d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="10.7143"	y="63"	width="1.06548"	height="1" />
+			</g>
+			<g class="note key-58 ont-11d786 offt-12d494 minima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="11.7857"	y="58"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-64 ont-12d857 offt-14d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="12.8571"	y="64"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-65 ont-14d286 offt-14d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="14.2857"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-14d643 offt-14d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="14.6428"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-15d000 offt-15d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-15d357 offt-15d708">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15.3571"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-15d714 offt-16d065">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="15.7143"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-65 ont-16d071 offt-17d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="16.0714"	y="65"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-67 ont-17d500 offt-17d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.5"	y="67"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-17d857 offt-18d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.8571"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-18d214 offt-18d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.2143"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-18d571 offt-18d923">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.5714"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-65 ont-18d929 offt-19d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="18.9286"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-19d286 offt-20d708">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="19.2857"	y="66"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-65 ont-20d714 offt-21d065">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="20.7143"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-21d071 offt-21d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="21.0714"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-21d429 offt-22d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="21.4285"	y="66"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-65 ont-22d857 offt-23d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="22.8571"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-23d214 offt-23d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.2143"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-23d571 offt-24d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="23.5714"	y="66"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-65 ont-25d000 offt-25d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-25d357 offt-27d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="25.3571"	y="66"	width="2.1369"	height="1" />
+			</g>
+			<g class="note key-65 ont-27d500 offt-27d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.5"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-27d857 offt-28d893">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="27.8571"	y="66"	width="1.03571"	height="1" />
+			</g>
+			<g class="note key-67 ont-28d929 offt-32d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="28.9285"	y="67"	width="3.20833"	height="1" />
+			</g>
+			<g class="note key-65 ont-32d857 offt-33d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.8571"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-67 ont-32d857 offt-33d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.8571"	y="67"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-69 ont-32d857 offt-33d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="32.8571"	y="69"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-33d214 offt-37d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.2143"	y="66"	width="3.92262"	height="1" />
+			</g>
+			<g class="note key-68 ont-33d214 offt-37d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="33.2143"	y="68"	width="3.92262"	height="1" />
+			</g>
+			<g class="note key-70 ont-37d143 offt-37d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="37.1428"	y="70"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-69 ont-37d500 offt-38d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="37.5"	y="69"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-71 ont-37d500 offt-38d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="37.5"	y="71"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-68 ont-38d571 offt-42d315">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.5714"	y="68"	width="3.74404"	height="1" />
+			</g>
+			<g class="note key-70 ont-38d571 offt-42d315">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="38.5714"	y="70"	width="3.74404"	height="1" />
+			</g>
+			<g class="note key-72 ont-42d143 offt-44d280 maxima">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="42.1428"	y="72"	width="2.1369"	height="1" />
+			</g>
+			<g class="note key-71 ont-42d500 offt-42d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="42.5"	y="71"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-70 ont-42d857 offt-43d923">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="42.8571"	y="70"	width="1.06548"	height="1" />
+			</g>
+			<g class="note key-71 ont-44d286 offt-44d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="44.2857"	y="71"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-69 ont-44d643 offt-44d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="44.6428"	y="69"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-66 ont-45d000 offt-46d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="45"	y="66"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-68 ont-45d000 offt-46d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="45"	y="68"	width="1.42262"	height="1" />
+			</g>
+			<g class="note key-67 ont-46d429 offt-46d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="46.4285"	y="67"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-65 ont-46d786 offt-47d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="46.7857"	y="65"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-47d143 offt-49d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="47.1428"	y="62"	width="2.1369"	height="1" />
+			</g>
+			<g class="note key-64 ont-47d143 offt-49d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="47.1428"	y="64"	width="2.1369"	height="1" />
+			</g>
+			<g class="note key-64 ont-49d286 offt-49d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="49.2857"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-49d643 offt-49d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="49.6428"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-50d000 offt-50d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="50"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-60 ont-50d357 offt-53d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="50.3571"	y="60"	width="3.20833"	height="1" />
+			</g>
+			<g class="note key-62 ont-50d357 offt-53d565">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="50.3571"	y="62"	width="3.20833"	height="1" />
+			</g>
+			<g class="note key-59 ont-53d929 offt-59d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="53.9285"	y="59"	width="5.70833"	height="1" />
+			</g>
+			<g class="note key-61 ont-54d286 offt-54d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="54.2857"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-60 ont-54d643 offt-54d994">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="54.6428"	y="60"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-55d000 offt-55d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="54.9999"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-55d357 offt-55d708">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="55.3571"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-55d714 offt-56d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="55.7142"	y="63"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-62 ont-56d429 offt-56d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="56.4285"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-56d786 offt-59d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="56.7857"	y="64"	width="2.85119"	height="1" />
+			</g>
+			<g class="note key-59 ont-59d643 offt-64d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="59.6428"	y="59"	width="4.6369"	height="1" />
+			</g>
+			<g class="note key-61 ont-60d000 offt-60d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="59.9999"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-60 ont-60d357 offt-60d708">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="60.3571"	y="60"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-60d714 offt-61d065">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="60.7142"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-61 ont-61d071 offt-61d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="61.0714"	y="61"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-63 ont-61d429 offt-61d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="61.4285"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-62 ont-61d786 offt-62d137">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="61.7857"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-62d143 offt-62d851">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="62.1428"	y="64"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-63 ont-62d857 offt-63d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="62.8571"	y="63"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-65 ont-63d214 offt-64d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="63.2142"	y="65"	width="1.06548"	height="1" />
+			</g>
+			<g class="note key-59 ont-64d643 offt-65d351">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="64.6428"	y="59"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-61 ont-65d357 offt-66d065">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="65.3571"	y="61"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-60 ont-66d071 offt-66d780">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="66.0714"	y="60"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-62 ont-66d786 offt-67d494">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="66.7856"	y="62"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-61 ont-67d500 offt-68d208">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="67.4999"	y="61"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-63 ont-68d214 offt-68d923">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="68.2142"	y="63"	width="0.708333"	height="1" />
+			</g>
+			<g class="note key-62 ont-68d929 offt-69d280">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="68.9285"	y="62"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-64 ont-69d286 offt-69d637">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="69.2856"	y="64"	width="0.35119"	height="1" />
+			</g>
+			<g class="note key-65 ont-69d643 offt-71d423">
+				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="69.6428"	y="65"	width="1.77976"	height="1" />
+			</g>
+		</g>
+		<g class="track-1" style=" fill:#bde04b;" >
+			<g class="note key-65 ont-1d071 offt-5d351">
+				<path vector-effect="non-scaling-stroke" d="M 1.07143 65.5 L 3.21131 65 L 5.35119 65.5 L 3.21131 66 z"/>
+			</g>
+			<g class="note key-67 ont-1d071 offt-5d351">
+				<path vector-effect="non-scaling-stroke" d="M 1.07143 67.5 L 3.21131 67 L 5.35119 67.5 L 3.21131 68 z"/>
+			</g>
+			<g class="note key-64 ont-5d357 offt-6d065 minima">
+				<path vector-effect="non-scaling-stroke" d="M 5.35714 64.5 L 5.7113 64 L 6.06547 64.5 L 5.7113 65 z"/>
+			</g>
+			<g class="note key-66 ont-5d357 offt-6d065">
+				<path vector-effect="non-scaling-stroke" d="M 5.35714 66.5 L 5.7113 66 L 6.06547 66.5 L 5.7113 67 z"/>
+			</g>
+			<g class="note key-68 ont-5d357 offt-6d065">
+				<path vector-effect="non-scaling-stroke" d="M 5.35714 68.5 L 5.7113 68 L 6.06547 68.5 L 5.7113 69 z"/>
+			</g>
+			<g class="note key-65 ont-7d143 offt-7d494">
+				<path vector-effect="non-scaling-stroke" d="M 7.14285 65.5 L 7.31845 65 L 7.49404 65.5 L 7.31845 66 z"/>
+			</g>
+			<g class="note key-67 ont-7d143 offt-7d494">
+				<path vector-effect="non-scaling-stroke" d="M 7.14285 67.5 L 7.31845 67 L 7.49404 67.5 L 7.31845 68 z"/>
+			</g>
+			<g class="note key-69 ont-7d143 offt-7d488">
+				<path vector-effect="non-scaling-stroke" d="M 7.14285 69.5 L 7.31547 69 L 7.48809 69.5 L 7.31547 70 z"/>
+			</g>
+			<g class="note key-66 ont-7d500 offt-11d780">
+				<path vector-effect="non-scaling-stroke" d="M 7.49999 66.5 L 9.63987 66 L 11.7798 66.5 L 9.63987 67 z"/>
+			</g>
+			<g class="note key-68 ont-7d500 offt-11d780">
+				<path vector-effect="non-scaling-stroke" d="M 7.49999 68.5 L 9.63987 68 L 11.7798 68.5 L 9.63987 69 z"/>
+			</g>
+			<g class="note key-65 ont-11d786 offt-12d494">
+				<path vector-effect="non-scaling-stroke" d="M 11.7857 65.5 L 12.1399 65 L 12.494 65.5 L 12.1399 66 z"/>
+			</g>
+			<g class="note key-67 ont-11d786 offt-12d494">
+				<path vector-effect="non-scaling-stroke" d="M 11.7857 67.5 L 12.1399 67 L 12.494 67.5 L 12.1399 68 z"/>
+			</g>
+			<g class="note key-69 ont-11d786 offt-12d494">
+				<path vector-effect="non-scaling-stroke" d="M 11.7857 69.5 L 12.1399 69 L 12.494 69.5 L 12.1399 70 z"/>
+			</g>
+			<g class="note key-67 ont-13d571 offt-13d923">
+				<path vector-effect="non-scaling-stroke" d="M 13.5714 67.5 L 13.747 67 L 13.9226 67.5 L 13.747 68 z"/>
+			</g>
+			<g class="note key-69 ont-13d571 offt-13d923">
+				<path vector-effect="non-scaling-stroke" d="M 13.5714 69.5 L 13.747 69 L 13.9226 69.5 L 13.747 70 z"/>
+			</g>
+			<g class="note key-71 ont-13d571 offt-13d923">
+				<path vector-effect="non-scaling-stroke" d="M 13.5714 71.5 L 13.747 71 L 13.9226 71.5 L 13.747 72 z"/>
+			</g>
+			<g class="note key-68 ont-13d929 offt-16d780">
+				<path vector-effect="non-scaling-stroke" d="M 13.9286 68.5 L 15.3542 68 L 16.7797 68.5 L 15.3542 69 z"/>
+			</g>
+			<g class="note key-70 ont-13d929 offt-16d780">
+				<path vector-effect="non-scaling-stroke" d="M 13.9286 70.5 L 15.3542 70 L 16.7797 70.5 L 15.3542 71 z"/>
+			</g>
+			<g class="note key-69 ont-16d786 offt-17d137">
+				<path vector-effect="non-scaling-stroke" d="M 16.7857 69.5 L 16.9613 69 L 17.1369 69.5 L 16.9613 70 z"/>
+			</g>
+			<g class="note key-71 ont-16d786 offt-17d137">
+				<path vector-effect="non-scaling-stroke" d="M 16.7857 71.5 L 16.9613 71 L 17.1369 71.5 L 16.9613 72 z"/>
+			</g>
+			<g class="note key-73 ont-16d786 offt-17d137">
+				<path vector-effect="non-scaling-stroke" d="M 16.7857 73.5 L 16.9613 73 L 17.1369 73.5 L 16.9613 74 z"/>
+			</g>
+			<g class="note key-68 ont-17d143 offt-19d637">
+				<path vector-effect="non-scaling-stroke" d="M 17.1428 68.5 L 18.3899 68 L 19.6369 68.5 L 18.3899 69 z"/>
+			</g>
+			<g class="note key-70 ont-17d143 offt-19d637">
+				<path vector-effect="non-scaling-stroke" d="M 17.1428 70.5 L 18.3899 70 L 19.6369 70.5 L 18.3899 71 z"/>
+			</g>
+			<g class="note key-67 ont-19d643 offt-19d994">
+				<path vector-effect="non-scaling-stroke" d="M 19.6428 67.5 L 19.8184 67 L 19.994 67.5 L 19.8184 68 z"/>
+			</g>
+			<g class="note key-69 ont-19d643 offt-19d994">
+				<path vector-effect="non-scaling-stroke" d="M 19.6428 69.5 L 19.8184 69 L 19.994 69.5 L 19.8184 70 z"/>
+			</g>
+			<g class="note key-71 ont-19d643 offt-19d994">
+				<path vector-effect="non-scaling-stroke" d="M 19.6428 71.5 L 19.8184 71 L 19.994 71.5 L 19.8184 72 z"/>
+			</g>
+			<g class="note key-68 ont-20d000 offt-20d351">
+				<path vector-effect="non-scaling-stroke" d="M 20 68.5 L 20.1756 68 L 20.3512 68.5 L 20.1756 69 z"/>
+			</g>
+			<g class="note key-70 ont-20d000 offt-20d351">
+				<path vector-effect="non-scaling-stroke" d="M 20 70.5 L 20.1756 70 L 20.3512 70.5 L 20.1756 71 z"/>
+			</g>
+			<g class="note key-72 ont-20d000 offt-20d351">
+				<path vector-effect="non-scaling-stroke" d="M 20 72.5 L 20.1756 72 L 20.3512 72.5 L 20.1756 73 z"/>
+			</g>
+			<g class="note key-67 ont-20d357 offt-21d780">
+				<path vector-effect="non-scaling-stroke" d="M 20.3571 67.5 L 21.0684 67 L 21.7797 67.5 L 21.0684 68 z"/>
+			</g>
+			<g class="note key-69 ont-20d357 offt-21d780">
+				<path vector-effect="non-scaling-stroke" d="M 20.3571 69.5 L 21.0684 69 L 21.7797 69.5 L 21.0684 70 z"/>
+			</g>
+			<g class="note key-67 ont-21d786 offt-22d137">
+				<path vector-effect="non-scaling-stroke" d="M 21.7857 67.5 L 21.9613 67 L 22.1369 67.5 L 21.9613 68 z"/>
+			</g>
+			<g class="note key-69 ont-21d786 offt-22d137">
+				<path vector-effect="non-scaling-stroke" d="M 21.7857 69.5 L 21.9613 69 L 22.1369 69.5 L 21.9613 70 z"/>
+			</g>
+			<g class="note key-70 ont-21d786 offt-22d137">
+				<path vector-effect="non-scaling-stroke" d="M 21.7857 70.5 L 21.9613 70 L 22.1369 70.5 L 21.9613 71 z"/>
+			</g>
+			<g class="note key-68 ont-22d143 offt-22d494">
+				<path vector-effect="non-scaling-stroke" d="M 22.1428 68.5 L 22.3184 68 L 22.494 68.5 L 22.3184 69 z"/>
+			</g>
+			<g class="note key-71 ont-22d143 offt-22d494">
+				<path vector-effect="non-scaling-stroke" d="M 22.1428 71.5 L 22.3184 71 L 22.494 71.5 L 22.3184 72 z"/>
+			</g>
+			<g class="note key-67 ont-22d500 offt-24d280">
+				<path vector-effect="non-scaling-stroke" d="M 22.5 67.5 L 23.3899 67 L 24.2797 67.5 L 23.3899 68 z"/>
+			</g>
+			<g class="note key-69 ont-22d500 offt-24d280">
+				<path vector-effect="non-scaling-stroke" d="M 22.5 69.5 L 23.3899 69 L 24.2797 69.5 L 23.3899 70 z"/>
+			</g>
+			<g class="note key-68 ont-24d286 offt-24d637">
+				<path vector-effect="non-scaling-stroke" d="M 24.2857 68.5 L 24.4613 68 L 24.6369 68.5 L 24.4613 69 z"/>
+			</g>
+			<g class="note key-70 ont-24d286 offt-24d637">
+				<path vector-effect="non-scaling-stroke" d="M 24.2857 70.5 L 24.4613 70 L 24.6369 70.5 L 24.4613 71 z"/>
+			</g>
+			<g class="note key-67 ont-24d643 offt-26d423">
+				<path vector-effect="non-scaling-stroke" d="M 24.6428 67.5 L 25.5327 67 L 26.4226 67.5 L 25.5327 68 z"/>
+			</g>
+			<g class="note key-69 ont-24d643 offt-26d423">
+				<path vector-effect="non-scaling-stroke" d="M 24.6428 69.5 L 25.5327 69 L 26.4226 69.5 L 25.5327 70 z"/>
+			</g>
+			<g class="note key-68 ont-26d429 offt-26d780">
+				<path vector-effect="non-scaling-stroke" d="M 26.4285 68.5 L 26.6041 68 L 26.7797 68.5 L 26.6041 69 z"/>
+			</g>
+			<g class="note key-67 ont-26d786 offt-27d851">
+				<path vector-effect="non-scaling-stroke" d="M 26.7857 67.5 L 27.3184 67 L 27.8512 67.5 L 27.3184 68 z"/>
+			</g>
+			<g class="note key-69 ont-26d786 offt-27d851">
+				<path vector-effect="non-scaling-stroke" d="M 26.7857 69.5 L 27.3184 69 L 27.8512 69.5 L 27.3184 70 z"/>
+			</g>
+			<g class="note key-71 ont-26d786 offt-27d851">
+				<path vector-effect="non-scaling-stroke" d="M 26.7857 71.5 L 27.3184 71 L 27.8512 71.5 L 27.3184 72 z"/>
+			</g>
+			<g class="note key-68 ont-27d857 offt-28d923">
+				<path vector-effect="non-scaling-stroke" d="M 27.8571 68.5 L 28.3899 68 L 28.9226 68.5 L 28.3899 69 z"/>
+			</g>
+			<g class="note key-72 ont-32d143 offt-33d923">
+				<path vector-effect="non-scaling-stroke" d="M 32.1428 72.5 L 33.0327 72 L 33.9226 72.5 L 33.0327 73 z"/>
+			</g>
+			<g class="note key-74 ont-33d929 offt-34d280">
+				<path vector-effect="non-scaling-stroke" d="M 33.9285 74.5 L 34.1041 74 L 34.2797 74.5 L 34.1041 75 z"/>
+			</g>
+			<g class="note key-73 ont-34d286 offt-34d637">
+				<path vector-effect="non-scaling-stroke" d="M 34.2857 73.5 L 34.4613 73 L 34.6369 73.5 L 34.4613 74 z"/>
+			</g>
+			<g class="note key-75 ont-34d643 offt-34d994">
+				<path vector-effect="non-scaling-stroke" d="M 34.6428 75.5 L 34.8184 75 L 34.994 75.5 L 34.8184 76 z"/>
+			</g>
+			<g class="note key-74 ont-35d000 offt-35d351">
+				<path vector-effect="non-scaling-stroke" d="M 35 74.5 L 35.1756 74 L 35.3512 74.5 L 35.1756 75 z"/>
+			</g>
+			<g class="note key-76 ont-35d357 offt-35d708">
+				<path vector-effect="non-scaling-stroke" d="M 35.3571 76.5 L 35.5327 76 L 35.7083 76.5 L 35.5327 77 z"/>
+			</g>
+			<g class="note key-75 ont-35d714 offt-36d065">
+				<path vector-effect="non-scaling-stroke" d="M 35.7142 75.5 L 35.8898 75 L 36.0654 75.5 L 35.8898 76 z"/>
+			</g>
+			<g class="note key-77 ont-36d071 offt-36d423 maxima">
+				<path vector-effect="non-scaling-stroke" d="M 36.0714 77.5 L 36.247 77 L 36.4226 77.5 L 36.247 78 z"/>
+			</g>
+			<g class="note key-76 ont-36d429 offt-37d494">
+				<path vector-effect="non-scaling-stroke" d="M 36.4285 76.5 L 36.9613 76 L 37.494 76.5 L 36.9613 77 z"/>
+			</g>
+			<g class="note key-73 ont-37d500 offt-38d208">
+				<path vector-effect="non-scaling-stroke" d="M 37.5 73.5 L 37.8541 73 L 38.2083 73.5 L 37.8541 74 z"/>
+			</g>
+			<g class="note key-72 ont-38d929 offt-39d280">
+				<path vector-effect="non-scaling-stroke" d="M 38.9285 72.5 L 39.1041 72 L 39.2797 72.5 L 39.1041 73 z"/>
+			</g>
+			<g class="note key-74 ont-39d286 offt-39d637">
+				<path vector-effect="non-scaling-stroke" d="M 39.2857 74.5 L 39.4613 74 L 39.6369 74.5 L 39.4613 75 z"/>
+			</g>
+			<g class="note key-73 ont-39d643 offt-39d994">
+				<path vector-effect="non-scaling-stroke" d="M 39.6428 73.5 L 39.8184 73 L 39.994 73.5 L 39.8184 74 z"/>
+			</g>
+			<g class="note key-75 ont-40d000 offt-40d351">
+				<path vector-effect="non-scaling-stroke" d="M 40 75.5 L 40.1756 75 L 40.3512 75.5 L 40.1756 76 z"/>
+			</g>
+			<g class="note key-74 ont-40d357 offt-40d708">
+				<path vector-effect="non-scaling-stroke" d="M 40.3571 74.5 L 40.5327 74 L 40.7083 74.5 L 40.5327 75 z"/>
+			</g>
+			<g class="note key-76 ont-40d714 offt-41d065">
+				<path vector-effect="non-scaling-stroke" d="M 40.7142 76.5 L 40.8898 76 L 41.0654 76.5 L 40.8898 77 z"/>
+			</g>
+			<g class="note key-75 ont-41d071 offt-41d423">
+				<path vector-effect="non-scaling-stroke" d="M 41.0714 75.5 L 41.247 75 L 41.4226 75.5 L 41.247 76 z"/>
+			</g>
+			<g class="note key-77 ont-41d429 offt-41d780 maxima">
+				<path vector-effect="non-scaling-stroke" d="M 41.4285 77.5 L 41.6041 77 L 41.7797 77.5 L 41.6041 78 z"/>
+			</g>
+			<g class="note key-76 ont-41d786 offt-42d494">
+				<path vector-effect="non-scaling-stroke" d="M 41.7857 76.5 L 42.1398 76 L 42.494 76.5 L 42.1398 77 z"/>
+			</g>
+			<g class="note key-73 ont-42d500 offt-42d851">
+				<path vector-effect="non-scaling-stroke" d="M 42.5 73.5 L 42.6756 73 L 42.8511 73.5 L 42.6756 74 z"/>
+			</g>
+			<g class="note key-74 ont-43d214 offt-43d565">
+				<path vector-effect="non-scaling-stroke" d="M 43.2142 74.5 L 43.3898 74 L 43.5654 74.5 L 43.3898 75 z"/>
+			</g>
+			<g class="note key-73 ont-43d571 offt-43d923">
+				<path vector-effect="non-scaling-stroke" d="M 43.5714 73.5 L 43.747 73 L 43.9226 73.5 L 43.747 74 z"/>
+			</g>
+			<g class="note key-75 ont-43d571 offt-43d923">
+				<path vector-effect="non-scaling-stroke" d="M 43.5714 75.5 L 43.747 75 L 43.9226 75.5 L 43.747 76 z"/>
+			</g>
+			<g class="note key-74 ont-43d929 offt-44d637">
+				<path vector-effect="non-scaling-stroke" d="M 43.9285 74.5 L 44.2827 74 L 44.6369 74.5 L 44.2827 75 z"/>
+			</g>
+			<g class="note key-76 ont-43d929 offt-44d637">
+				<path vector-effect="non-scaling-stroke" d="M 43.9285 76.5 L 44.2827 76 L 44.6369 76.5 L 44.2827 77 z"/>
+			</g>
+			<g class="note key-75 ont-44d643 offt-44d994">
+				<path vector-effect="non-scaling-stroke" d="M 44.6428 75.5 L 44.8184 75 L 44.994 75.5 L 44.8184 76 z"/>
+			</g>
+			<g class="note key-77 ont-44d643 offt-44d994 maxima">
+				<path vector-effect="non-scaling-stroke" d="M 44.6428 77.5 L 44.8184 77 L 44.994 77.5 L 44.8184 78 z"/>
+			</g>
+			<g class="note key-70 ont-45d357 offt-45d708">
+				<path vector-effect="non-scaling-stroke" d="M 45.3571 70.5 L 45.5327 70 L 45.7083 70.5 L 45.5327 71 z"/>
+			</g>
+			<g class="note key-69 ont-45d714 offt-46d065">
+				<path vector-effect="non-scaling-stroke" d="M 45.7142 69.5 L 45.8898 69 L 46.0654 69.5 L 45.8898 70 z"/>
+			</g>
+			<g class="note key-71 ont-45d714 offt-46d065">
+				<path vector-effect="non-scaling-stroke" d="M 45.7142 71.5 L 45.8898 71 L 46.0654 71.5 L 45.8898 72 z"/>
+			</g>
+			<g class="note key-70 ont-46d071 offt-46d780">
+				<path vector-effect="non-scaling-stroke" d="M 46.0714 70.5 L 46.4255 70 L 46.7797 70.5 L 46.4255 71 z"/>
+			</g>
+			<g class="note key-72 ont-46d071 offt-46d780">
+				<path vector-effect="non-scaling-stroke" d="M 46.0714 72.5 L 46.4255 72 L 46.7797 72.5 L 46.4255 73 z"/>
+			</g>
+			<g class="note key-71 ont-46d786 offt-47d137">
+				<path vector-effect="non-scaling-stroke" d="M 46.7857 71.5 L 46.9613 71 L 47.1369 71.5 L 46.9613 72 z"/>
+			</g>
+			<g class="note key-73 ont-46d786 offt-47d137">
+				<path vector-effect="non-scaling-stroke" d="M 46.7857 73.5 L 46.9613 73 L 47.1369 73.5 L 46.9613 74 z"/>
+			</g>
+			<g class="note key-66 ont-47d500 offt-47d851">
+				<path vector-effect="non-scaling-stroke" d="M 47.5 66.5 L 47.6755 66 L 47.8511 66.5 L 47.6755 67 z"/>
+			</g>
+			<g class="note key-67 ont-47d857 offt-48d208">
+				<path vector-effect="non-scaling-stroke" d="M 47.8571 67.5 L 48.0327 67 L 48.2083 67.5 L 48.0327 68 z"/>
+			</g>
+			<g class="note key-66 ont-48d214 offt-49d994">
+				<path vector-effect="non-scaling-stroke" d="M 48.2142 66.5 L 49.1041 66 L 49.994 66.5 L 49.1041 67 z"/>
+			</g>
+			<g class="note key-68 ont-48d214 offt-49d994">
+				<path vector-effect="non-scaling-stroke" d="M 48.2142 68.5 L 49.1041 68 L 49.994 68.5 L 49.1041 69 z"/>
+			</g>
+			<g class="note key-67 ont-50d000 offt-50d351">
+				<path vector-effect="non-scaling-stroke" d="M 50 67.5 L 50.1755 67 L 50.3511 67.5 L 50.1755 68 z"/>
+			</g>
+			<g class="note key-69 ont-50d000 offt-50d351">
+				<path vector-effect="non-scaling-stroke" d="M 50 69.5 L 50.1755 69 L 50.3511 69.5 L 50.1755 70 z"/>
+			</g>
+			<g class="note key-66 ont-51d786 offt-56d780">
+				<path vector-effect="non-scaling-stroke" d="M 51.7857 66.5 L 54.2827 66 L 56.7797 66.5 L 54.2827 67 z"/>
+			</g>
+			<g class="note key-68 ont-52d143 offt-52d494">
+				<path vector-effect="non-scaling-stroke" d="M 52.1428 68.5 L 52.3184 68 L 52.494 68.5 L 52.3184 69 z"/>
+			</g>
+			<g class="note key-67 ont-52d500 offt-52d851">
+				<path vector-effect="non-scaling-stroke" d="M 52.4999 67.5 L 52.6755 67 L 52.8511 67.5 L 52.6755 68 z"/>
+			</g>
+			<g class="note key-69 ont-52d857 offt-53d208">
+				<path vector-effect="non-scaling-stroke" d="M 52.8571 69.5 L 53.0327 69 L 53.2083 69.5 L 53.0327 70 z"/>
+			</g>
+			<g class="note key-68 ont-53d214 offt-56d780">
+				<path vector-effect="non-scaling-stroke" d="M 53.2142 68.5 L 54.997 68 L 56.7797 68.5 L 54.997 69 z"/>
+			</g>
+			<g class="note key-70 ont-53d571 offt-56d780">
+				<path vector-effect="non-scaling-stroke" d="M 53.5714 70.5 L 55.1755 70 L 56.7797 70.5 L 55.1755 71 z"/>
+			</g>
+			<g class="note key-66 ont-57d857 offt-63d565">
+				<path vector-effect="non-scaling-stroke" d="M 57.8571 66.5 L 60.7112 66 L 63.5654 66.5 L 60.7112 67 z"/>
+			</g>
+			<g class="note key-68 ont-58d571 offt-58d923">
+				<path vector-effect="non-scaling-stroke" d="M 58.5714 68.5 L 58.747 68 L 58.9226 68.5 L 58.747 69 z"/>
+			</g>
+			<g class="note key-67 ont-58d929 offt-59d280">
+				<path vector-effect="non-scaling-stroke" d="M 58.9285 67.5 L 59.1041 67 L 59.2797 67.5 L 59.1041 68 z"/>
+			</g>
+			<g class="note key-69 ont-59d286 offt-59d637">
+				<path vector-effect="non-scaling-stroke" d="M 59.2857 69.5 L 59.4613 69 L 59.6368 69.5 L 59.4613 70 z"/>
+			</g>
+			<g class="note key-68 ont-59d643 offt-63d923">
+				<path vector-effect="non-scaling-stroke" d="M 59.6428 68.5 L 61.7827 68 L 63.9226 68.5 L 61.7827 69 z"/>
+			</g>
+			<g class="note key-70 ont-60d000 offt-63d923">
+				<path vector-effect="non-scaling-stroke" d="M 59.9999 70.5 L 61.9612 70 L 63.9226 70.5 L 61.9612 71 z"/>
+			</g>
+			<g class="note key-66 ont-63d571 offt-69d637">
+				<path vector-effect="non-scaling-stroke" d="M 63.5714 66.5 L 66.6041 66 L 69.6368 66.5 L 66.6041 67 z"/>
+			</g>
+			<g class="note key-68 ont-64d286 offt-64d994">
+				<path vector-effect="non-scaling-stroke" d="M 64.2857 68.5 L 64.6398 68 L 64.994 68.5 L 64.6398 69 z"/>
+			</g>
+			<g class="note key-67 ont-65d000 offt-65d708">
+				<path vector-effect="non-scaling-stroke" d="M 64.9999 67.5 L 65.3541 67 L 65.7083 67.5 L 65.3541 68 z"/>
+			</g>
+			<g class="note key-69 ont-65d714 offt-66d423">
+				<path vector-effect="non-scaling-stroke" d="M 65.7142 69.5 L 66.0684 69 L 66.4226 69.5 L 66.0684 70 z"/>
+			</g>
+			<g class="note key-68 ont-66d429 offt-67d137">
+				<path vector-effect="non-scaling-stroke" d="M 66.4285 68.5 L 66.7827 68 L 67.1368 68.5 L 66.7827 69 z"/>
+			</g>
+			<g class="note key-70 ont-67d143 offt-67d851">
+				<path vector-effect="non-scaling-stroke" d="M 67.1428 70.5 L 67.497 70 L 67.8511 70.5 L 67.497 71 z"/>
+			</g>
+			<g class="note key-69 ont-67d857 offt-68d565">
+				<path vector-effect="non-scaling-stroke" d="M 67.8571 69.5 L 68.2112 69 L 68.5654 69.5 L 68.2112 70 z"/>
+			</g>
+			<g class="note key-71 ont-68d571 offt-71d423">
+				<path vector-effect="non-scaling-stroke" d="M 68.5714 71.5 L 69.997 71 L 71.4225 71.5 L 69.997 72 z"/>
+			</g>
+			<g class="note key-67 ont-69d643 offt-71d423">
+				<path vector-effect="non-scaling-stroke" d="M 69.6428 67.5 L 70.5327 67 L 71.4225 67.5 L 70.5327 68 z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+<?mid2svg
+	no132.mid --staff -l -r -S d,r --cl --gs --bw -c --double --dash -s 10 -a 3.5 -b 5
+?>
