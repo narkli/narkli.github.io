@@ -175,7 +175,7 @@ function processKeyCommand(event) {
 					helpelem.className   = "";
 					helpelem.style.display = "block";
 					helpelem.background = "red";
-					helpelem.innerHTML   = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <i>GraphMusic</i>";
+					helpelem.innerHTML   = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <i>iGraphMusic.com</i>";
 					helpelem.style.marginLeft = "150px";
 					// helpelem.style.color = "#634f29";
 					helpelem.style.color = "#888888";
