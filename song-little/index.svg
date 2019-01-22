@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 60 42.5481 10" viewBox="-200 -50 1809.18 200" width="1809.18" height="200">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewPort="0 60 42.5481 10" viewBox="-200 -50 1140.96 200" width="1140.96" height="200">
 <filter id="constantOpacity">
 	<feComponentTransfer>
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
 <rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
-<g transform="scale(35, -10) translate(0, -70)" >
+<g transform="scale(20, -10) translate(0, -70)" >
 	<g class="staff-lines" stroke-width="0.5" stroke="#555555">
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 64.5 L565.902 64.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 67.5 L565.902 67.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 71.5 L565.902 71.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 74.5 L565.902 74.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 77.5 L565.902 77.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 43.5 L565.902 43.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 47.5 L565.902 47.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 50.5 L565.902 50.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 53.5 L565.902 53.5" />
-		<path vector-effect="non-scaling-stroke" d="M-3.32143 57.5 L565.902 57.5" />
-		<path vector-effect="non-scaling-stroke" d="M565.544,43.5 L565.544,77.5"/>
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 64.5 L565.902 64.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 67.5 L565.902 67.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 71.5 L565.902 71.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 74.5 L565.902 74.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 77.5 L565.902 77.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 43.5 L565.902 43.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 47.5 L565.902 47.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 50.5 L565.902 50.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 53.5 L565.902 53.5" />
+		<path vector-effect="non-scaling-stroke" d="M-5.8125 57.5 L565.902 57.5" />
+		<path vector-effect="non-scaling-stroke" d="M565.277,43.5 L565.277,77.5"/>
 		<path vector-effect="non-scaling-stroke" d="M565.902,43.5 L565.902,77.5"/>
-		<path vector-effect="non-scaling-stroke" d="M-3.32143,43.5 L-3.32143,77.5 z"/>
+		<path vector-effect="non-scaling-stroke" d="M-5.8125,43.5 L-5.8125,77.5 z"/>
 	</g>
-<g transform="scale(0.714286, 1)">
+<g transform="scale(1.25, 1)">
 	<g vector-effect="non-scaling-stroke" class="treble-clef" stroke="#cdcdcd" stroke-width="3" fill="#cdcdcd" transform="translate(-17.25, 5.15) scale(0.06, 0.07)">
 		<path vector-effect="non-scaling-stroke" d="M250.026,1080.111c-2.375-5.813-4.501-12.037-5.616-19.656c-1.07-7.32-1.387-15.609-1.62-23.113
 			c-0.426-13.713,0.409-28.548,1.296-41.038c0.132-1.861,0.517-3.882,0.432-5.183c-0.118-1.794-1.622-3.834-2.484-5.401
@@ -72,7 +72,7 @@
 		</g>
 	</g>
 </g>
-<g transform="scale(0.714286, 1)">
+<g transform="scale(1.25, 1)">
 	<g class="brace" transform="rotate(0.2) translate(30.5,-324) scale(1,-1) scale(.0175)">
 		<path vector-effect="non-scaling-stroke" stroke="#cdcdcd" fill="#cdcdcd" stroke-width="3" stroke-linejoin="round" d="M-2031.812-22924.453
 			c-24.919,88.91-36.494,171.418-39.024,279.09c-2.379,101.156,9.877,207.264,16.991,305.533
@@ -392,5 +392,5 @@
 </g>
 </svg>
 <?mid2svg
-	Melody-LittleStarSlow3.mid --staff -l -r --rl --gs --dark --dash -s 10 -a 3.5 -b 5 -c --double
+	Melody-LittleStarSlow3.mid --staff -l -r --rl --gs --dark --dash -s 10 -a 2 -b 5 -c --double
 ?>
