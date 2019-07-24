@@ -6,7 +6,7 @@
 		<feFuncA type="table" tableValues="0 .5 .5" />
 	</feComponentTransfer>
 </filter>
-<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:black" />
+<rect class="background" x="-500%" y="-500%" width="1000%" height="1000%" style="fill:whwitesmoke" />
 <g transform="scale(35, -10) translate(0, -89)" >
 	<g class="staff-lines" stroke-width="0.5" stroke="#555555">
 		<path vector-effect="non-scaling-stroke" d="M-3.32143 64.5 L311.367 64.5" />
@@ -1421,7 +1421,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="131.35"	y="88"	width="5.9985"	height="1" />
 			</g>
 		</g>
-		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(180, 100%, 75%);" >
+		<g class="track-2" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(187, 100%, 75%);" >
 			<g class="note key-65 ont-17d955 offt-19d289">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="17.9554"	y="65"	width="1.33333"	height="1" />
 			</g>
@@ -1801,7 +1801,7 @@
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="129.851"	y="40"	width="10.4974"	height="1" />
 			</g>
 		</g>
-		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(0, 100%, 75%);" >
+		<g class="track-1" filter="url(#constantOpacity)" style="opacity:1; fill:hsl(246, 100%, 75%);" >
 			<g class="note key-80 ont-0d000 offt-1d636">
 				<rect vector-effect="non-scaling-stroke"	rx="1"	ry="1"	x="0"	y="80"	width="1.63607"	height="1" />
 			</g>
